@@ -20,19 +20,19 @@ public class UsersEntity extends BaseEntity {
         return findByCriteria("");
     }
     public User findById(int id) {
-        String criteria = " user_id = " +
-                String.valueOf(id);
+        String criteria = " id = " +
+                id;
         return findByCriteria(criteria).get(0);
     }
 
     public User findByName(String name) {
-        String criteria = " user_name = '" +
+        String criteria = " name = '" +
                 name + "'";
         return findByCriteria(criteria).get(0);
     }
 
     public List<User> findAllOrderedByName() {
-        String criteria = "true ORDER BY user_name";
+        String criteria = "true ORDER BY name";
         return findByCriteria(criteria);
     }
 
@@ -48,8 +48,8 @@ public class UsersEntity extends BaseEntity {
             if(resultSet == null) return null;
             while(resultSet.next()) {
                 users.add((new User())
-                        .setId(resultSet.getString("user_id"))
-                        .setName(resultSet.getString("user_name")));
+                        .setId(resultSet.getString("id"))
+                        .setName(resultSet.getString("name")));
             }
             return users;
         } catch (SQLException e) {
@@ -59,27 +59,24 @@ public class UsersEntity extends BaseEntity {
     }
 
     public boolean add(User user) {
-        String sql = "INSERT INTO users(user_id, user_name) " +
+        String sql = "INSERT INTO users(id, name) " +
                 "VALUES(" + user.getIdAsString() + ", " +
                 user.getNameAsValue() + ")";
         return change(sql);
     }
 
     public boolean delete(User user) {
-        String sql = "DELETE FROM users WHERE user_id = " + user.getIdAsString();
+        String sql = "DELETE FROM users WHERE id = " + user.getIdAsString();
         return change(sql);
     }
 
     public boolean delete(String name) {
-        return change("DELETE FROM users WHERE user_name = " +
+        return change("DELETE FROM users WHERE name = " +
                 "'" + name + "'");
     }
 
-    public boolean update(User user) {
-        String sql = "UPDATE users SET user_name = " + user.getNameAsValue() +
-                " WHERE user_id = " +  user.getIdAsString();
-        return change(sql);
-    }
+
+
 }
 
 
