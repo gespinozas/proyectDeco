@@ -72,8 +72,8 @@ public class MattersEntity extends BaseEntity{
     }
 
     public boolean update(Matter matter) {
-        String sql = "UPDATE matters SET name = " + matter.getName() +
-                " WHERE id = " + matter.getId();
+        String sql = "UPDATE matters SET name = " + matter.getNameAsString() +
+                " WHERE id = " + matter.getIdAsString();
         return change(sql);
     }
 
