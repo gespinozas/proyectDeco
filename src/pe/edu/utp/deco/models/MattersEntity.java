@@ -9,13 +9,13 @@ import java.util.List;
 /**
  * Created by Usuario on 29/06/2017.
  */
-public class MatterEntity extends BaseEntity{
+public class MattersEntity extends BaseEntity{
 
-    public MatterEntity(Connection connection) {
+    public MattersEntity(Connection connection) {
         super(connection, "matters");
     }
 
-    public MatterEntity (){
+    public MattersEntity(){
         super();
     }
 
