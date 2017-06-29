@@ -5,15 +5,15 @@ package pe.edu.utp.deco.models;
  */
 public class Question {
     private String id;
-    private String  topics_id;
+    private Topic topics;
     private String description;
 
     public Question() {
     }
 
-    public Question(String id, String topics_id, String description) {
+    public Question(String id, Topic topics, String description) {
         this.id = id;
-        this.topics_id = topics_id;
+        this.topics = topics;
         this.description = description;
     }
 
@@ -26,12 +26,12 @@ public class Question {
         return this;
     }
 
-    public String getTopics_id() {
-        return topics_id;
+    public Topic getTopics() {
+        return topics;
     }
 
-    public Question setTopics_id(String topics_id) {
-        this.topics_id = topics_id;
+    public Question setTopics(Topic topics) {
+        this.topics = topics;
         return this;
     }
 
