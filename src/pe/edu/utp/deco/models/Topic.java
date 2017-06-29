@@ -1,5 +1,8 @@
 package pe.edu.utp.deco.models;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  * Created by ASUS on 29/06/2017.
  */
@@ -7,15 +10,16 @@ public class Topic{
 
     private String id;
     private Matter matter;
-    private String description;
+    private String name;
+
 
     public Topic() {
     }
 
-    public Topic(String id, Matter matter, String description) {
+    public Topic(String id, Matter matter, String name) {
         this.id = id;
         this.matter = matter;
-        this.description = description;
+        this.name = name;
     }
 
     public String getId() {
@@ -36,12 +40,23 @@ public class Topic{
         return this;
     }
 
-    public String getDescription() {
-        return description;
+    public String getName() {
+        return name;
     }
 
-    public Topic setDescription(String description) {
-        this.description = description;
+    public Topic setName(String name) {
+        this.name = name;
         return this;
+    }
+    public static Topic build(ResultSet rs, MattersEntity mattersEntity) {
+        try {
+            return (new Topic())
+                    .setId(rs.getString("id"))
+                    .setName(rs.getString("name"))
+                    .setMatter(mattersEntity.findById(rs.getString("matter_id")));
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }
