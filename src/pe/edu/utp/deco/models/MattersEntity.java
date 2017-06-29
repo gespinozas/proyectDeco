@@ -59,7 +59,12 @@ public class MattersEntity extends BaseEntity{
         return null;
     }
 
-
+    public boolean add(Matter matter) {
+        String sql = "INSERT INTO matters(id,name) " +
+                "VALUES(" + matter.getId() + ", " +
+                matter.getNameAsValue() + ")";
+        return change(sql);
+    }
 
     public boolean delete(Matter matter) {
         String sql = "DELETE FROM matters WHERE id = " + matter.getId();
