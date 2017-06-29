@@ -21,6 +21,8 @@ public class Topic{
         this.matter = matter;
         this.name = name;
     }
+    public String getIdAsValue() { return "'" + getId() + "'";}
+    public String getNameAsValue() { return "'" + getName() + "'";}
 
     public String getId() {
         return id;
