@@ -9,74 +9,72 @@ import java.util.List;
 /**
  * Created by Usuario on 29/06/2017.
  */
+public class MatterEntity extends BaseEntity{
 
-    public class MatterEntity extends BaseEntity {
+    public MatterEntity(Connection connection) {
+        super(connection, "matters");
+    }
 
-        public MatterEntity(Connection connection) {
-            super(connection, "matters");
-        }
+    public MatterEntity (){
+        super();
+    }
 
-        public MatterEntity (){
-            super();
-        }
+    List<Matter> findAll() {
+        return findByCriteria("");
+    }
 
-        List<Matter> findAll() {
-            return findByCriteria("");
-        }
+    public Matter findById(String id) {
+        String criteria = " id = " + id + " ' " ;
+        return findByCriteria(criteria).get(0);
+    }
 
-        public Matter findById(String id) {
-            String criteria = " id = " + id + " ' " ;
-            return findByCriteria(criteria).get(0);
-        }
+    public Matter findByName(String name) {
+        String criteria = " region_name = '" +
+                name + "'";
+        return findByCriteria(criteria).get(0);
+    }
 
-        public Matter findByName(String name) {
-            String criteria = " region_name = '" +
-                    name + "'";
-            return findByCriteria(criteria).get(0);
-        }
-
-        public List<Matter> findAllOrderedByName() {
-            String criteria = "true ORDER BY region_name";
-            return findByCriteria(criteria);
-        }
+    public List<Matter> findAllOrderedByName() {
+        String criteria = "true ORDER BY region_name";
+        return findByCriteria(criteria);
+    }
 
 
-        public List<Matter> findByCriteria(String criteria) {
-            String sql = getDefaultQuery() +
-                    (criteria.equalsIgnoreCase("") ? "" : " WHERE " + criteria);
-            List<Matter> matters = new ArrayList<>();
-            try {
-                ResultSet resultSet = getConnection()
-                        .createStatement()
-                        .executeQuery(sql);
-                if(resultSet == null) return null;
-                while(resultSet.next()) {
-                    matters.add((new Matter())
-                            .setId(resultSet.getString("id"))
-                            .setName(resultSet.getString("name")));
-                }
-                return matters;
-            } catch (SQLException e) {
-                e.printStackTrace();
+    public List<Matter> findByCriteria(String criteria) {
+        String sql = getDefaultQuery() +
+                (criteria.equalsIgnoreCase("") ? "" : " WHERE " + criteria);
+        List<Matter> matters = new ArrayList<>();
+        try {
+             ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
+            if(resultSet == null) return null;
+            while(resultSet.next()) {
+                matters.add((new Matter())
+                        .setId(resultSet.getString("id"))
+                        .setName(resultSet.getString("name")));
             }
-            return null;
+            return matters;
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
+        return null;
+    }
 
 
 
-        public boolean delete(Matter matter) {
-            String sql = "DELETE FROM matters WHERE id = " + matter.getId();
-            return change(sql);
-        }
+    public boolean delete(Matter matter) {
+        String sql = "DELETE FROM matters WHERE id = " + matter.getId();
+        return change(sql);
+    }
 
-        public boolean delete(String name) {
-            return change("DELETE FROM matters WHERE name = " +
-                    "'" + name + "'");
-        }
+    public boolean delete(String name) {
+        return change("DELETE FROM matters WHERE name = " +
+                "'" + name + "'");
+    }
 
-        public boolean update(Matter matter) {
-            String sql = "UPDATE matters SET name = " + matter.getName() +
-                    " WHERE id = " + matter.getId();
-            return change(sql);
-        }
+    public boolean update(Matter matter) {
+        String sql = "UPDATE matters SET name = " + matter.getName() +
+                " WHERE id = " + matter.getId();
+        return change(sql);
+    }
+
 }
