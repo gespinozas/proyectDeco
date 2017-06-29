@@ -116,8 +116,8 @@ public class User {
     public static User build(ResultSet resultSet) {
         try {
             return (new User())
-                    .setId(resultSet.getString("user_id"))
-                    .setName(resultSet.getString("user_name"));
+                    .setId(resultSet.getString("id"))
+                    .setName(resultSet.getString("name"));
         } catch (SQLException e) {
             e.printStackTrace();
         }
