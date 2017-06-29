@@ -58,20 +58,20 @@ public class UsersEntity extends BaseEntity {
         return null;
     }
 
-    public boolean add(User region) {
+    public boolean add(User user) {
         String sql = "INSERT INTO users(user_id, user_name) " +
-                "VALUES(" + region.getIdAsString() + ", " +
-                region.getNameAsValue() + ")";
+                "VALUES(" + user.getIdAsString() + ", " +
+                user.getNameAsValue() + ")";
         return change(sql);
     }
 
-    public boolean delete(User region) {
-        String sql = "DELETE FROM regions WHERE region_id = " + region.getIdAsString();
+    public boolean delete(User user) {
+        String sql = "DELETE FROM users WHERE user_id = " + user.getIdAsString();
         return change(sql);
     }
 
     public boolean delete(String name) {
-        return change("DELETE FROM regions WHERE region_name = " +
+        return change("DELETE FROM users WHERE user_name = " +
                 "'" + name + "'");
     }
 
@@ -81,3 +81,5 @@ public class UsersEntity extends BaseEntity {
         return change(sql);
     }
 }
+
+
