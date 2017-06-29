@@ -15,6 +15,14 @@ public class Matter {
     public Matter() {
     }
 
+    public String getIdAsString() {
+        return String.valueOf(getId());
+    }
+
+    public String getNameAsString() {
+        return String.valueOf(getName());
+    }
+
 
     public String getId() {
         return id;
