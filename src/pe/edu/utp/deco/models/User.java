@@ -1,5 +1,8 @@
 package pe.edu.utp.deco.models;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  * Created by Administrador on 29/06/2017.
  */
@@ -30,6 +33,7 @@ public class User {
     public String getId() {
         return id;
     }
+    public String getIdAsString(){return String.valueOf(getId());}
 
     public User setId(String id) {
         this.id = id;
@@ -39,6 +43,7 @@ public class User {
     public String getType() {
         return type;
     }
+    public String getTypeAsValue(){return "'" + getType() + "'";}
 
     public User setType(String type) {
         this.type = type;
@@ -49,6 +54,9 @@ public class User {
         return name;
     }
 
+    public String getNameAsValue(){return "'" + getName() + "'";}
+
+
     public User setName(String name) {
         this.name = name;
         return this;
@@ -57,6 +65,7 @@ public class User {
     public String getLast_name() {
         return last_name;
     }
+    public  String getLast_nameaAsValue(){return "'" + getLast_name() +"'"; }
 
     public User setLast_name(String last_name) {
         this.last_name = last_name;
@@ -66,6 +75,7 @@ public class User {
     public String getPassword() {
         return password;
     }
+    public String getPasswordAsValue(){return "'" + getPassword() + "'";}
 
     public User setPassword(String password) {
         this.password = password;
@@ -76,6 +86,8 @@ public class User {
         return phone;
     }
 
+    public String getPhoneAsValue() {return  "'" + getPhone() + "'";}
+
     public User setPhone(String phone) {
         this.phone = phone;
         return  this;
@@ -85,6 +97,8 @@ public class User {
         return address;
     }
 
+    public  String getAddressAsValue() {return  "'" + getAddress() + "'";}
+
     public User setAddress(String address) {
         this.address = address;
         return this;
@@ -93,9 +107,22 @@ public class User {
     public String getAcademy() {
         return academy;
     }
+    public  String getAcademyAsValue() {return  "'" + getAcademy() + "'";}
 
     public User setAcademy(String academy) {
         this.academy = academy;
         return this;
     }
+    public static User build(ResultSet resultSet) {
+        try {
+            return (new User())
+                    .setId(resultSet.getString("user_id"))
+                    .setName(resultSet.getString("user_name"));
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
 }
