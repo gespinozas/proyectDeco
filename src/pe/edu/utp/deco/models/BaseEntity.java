@@ -6,7 +6,9 @@ import java.sql.SQLException;
 /**
  * Created by ASUS on 29/06/2017.
  */
-public class BaseEntity {private Connection connection;
+public class BaseEntity{
+
+    private Connection connection;
     private static String BASE_QUERY = "SELECT * FROM ";
     private String tableName;
 
