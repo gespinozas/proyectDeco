@@ -5,7 +5,7 @@ package pe.edu.utp.deco.models;
  */
 public class Alternative {
     private String id;
-    private String questions_id;
+    private Question question;
     private String description;
     private int isresult;
     private int order;
@@ -13,9 +13,9 @@ public class Alternative {
     public Alternative() {
     }
 
-    public Alternative(String id, String questions_id, String description, int isresult, int order) {
+    public Alternative(String id, Question question, String description, int isresult, int order) {
         this.id = id;
-        this.questions_id = questions_id;
+        this.question = question;
         this.description = description;
         this.isresult = isresult;
         this.order = order;
@@ -30,12 +30,12 @@ public class Alternative {
         return this;
     }
 
-    public String getQuestions_id() {
-        return questions_id;
+    public Question getQuestion() {
+        return question;
     }
 
-    public Alternative setQuestions_id(String questions_id) {
-        this.questions_id = questions_id;
+    public Alternative setQuestion(Question question) {
+        this.question = question;
         return this;
     }
 
