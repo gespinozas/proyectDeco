@@ -58,7 +58,7 @@ public class Questionnaire_result {
 
     public Questionnaire_result setDate(Date date) {
         this.date = date;
-    return this;
+        return this;
     }
 
 
