@@ -14,73 +14,63 @@ public class AlternativesEntity extends  BaseEntity{
         super(connection, "alternatives");
     }
 
-    public RegionsEntity() {
+    public AlternativesEntity() {
         super();
     }
 
-    List<Region> findAll() {
+    List<Alternative> findAll() {
         return findByCriteria("");
     }
 
-    public Region findById(int id) {
-        String criteria = " region_id = " +
+    public Alternative findById(int id) {
+        String criteria = " alternative_id = " +
                 String.valueOf(id);
         return findByCriteria(criteria).get(0);
     }
 
-    public Region findByName(String name) {
-        String criteria = " region_name = '" +
-                name + "'";
-        return findByCriteria(criteria).get(0);
-    }
 
-    public List<Region> findAllOrderedByName() {
-        String criteria = "true ORDER BY region_name";
+
+    public List<Alternative> findAllOrderedByQuestionsId() {
+        String criteria = "true ORDER BY questions_id";
         return findByCriteria(criteria);
     }
 
 
-    public List<Region> findByCriteria(String criteria) {
+    public List<Alternative> findByCriteria(String criteria) {
         String sql = getDefaultQuery() +
                 (criteria.equalsIgnoreCase("") ? "" : " WHERE " + criteria);
-        List<Region> regions = new ArrayList<>();
+        List<Alternative> alternatives = new ArrayList<>();
         try {
             ResultSet resultSet = getConnection()
                     .createStatement()
                     .executeQuery(sql);
             if(resultSet == null) return null;
             while(resultSet.next()) {
-                regions.add((new Region())
-                        .setId(resultSet.getInt("region_id"))
-                        .setName(resultSet.getString("region_name")));
+                alternatives.add((new Alternative())
+                        .setId(resultSet.getString("alternative_id")));
             }
-            return regions;
+            return alternatives;
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
     }
 
-    public boolean add(Region region) {
-        String sql = "INSERT INTO regions(region_id, region_name) " +
-                "VALUES(" + region.getIdAsString() + ", " +
-                region.getNameAsValue() + ")";
+    public boolean add(Alternative alternative) {
+        String sql = "INSERT INTO alternatives(id, description) " +
+                "VALUES(" + alternative.getId() + ", " +
+                alternative.getDescription() + ")";
         return change(sql);
     }
 
-    public boolean delete(Region region) {
-        String sql = "DELETE FROM regions WHERE region_id = " + region.getIdAsString();
+    public boolean delete(Alternative alternative) {
+        String sql = "DELETE FROM alternatives WHERE id = " + alternative.getId();
         return change(sql);
     }
 
-    public boolean delete(String name) {
-        return change("DELETE FROM regions WHERE region_name = " +
-                "'" + name + "'");
-    }
-
-    public boolean update(Region region) {
-        String sql = "UPDATE regions SET region_name = " + region.getNameAsValue() +
-                " WHERE region_id = " + region.getIdAsString();
+    public boolean update(Alternative alternative) {
+        String sql = "UPDATE alternatives SET description = " + alternative.getDescription() +
+                " WHERE id = " + alternative.getId();
         return change(sql);
     }
 
