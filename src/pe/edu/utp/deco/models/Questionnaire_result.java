@@ -10,24 +10,20 @@ public class Questionnaire_result {
 
     private String id;
     private Questionnaire questionnaire;
-    private Date date;
-    private Time hour;
+    private String percent;
+    private String result;
 
 
 
     public Questionnaire_result(String id, Questionnaire questionnaire, Date date, Time hour) {
         this.id = id;
         this.questionnaire = questionnaire;
-        this.date = date;
-        this.hour = hour;
+        this.percent = percent;
+        this.result = result;
 
     }
     public Questionnaire_result() {
     }
-
-
-
-
 
 
     public String getId() {
@@ -50,26 +46,21 @@ public class Questionnaire_result {
         return this;
     }
 
-    public Date getDate() {
-        return date;
+    public String getPercent() {
+        return percent;
     }
 
-
-
-    public Questionnaire_result setDate(Date date) {
-        this.date = date;
+    public Questionnaire_result setPercent(String percent) {
+        this.percent = percent;
         return this;
     }
 
-
-    public Time getHour() {
-        return hour;
+    public String getResult() {
+        return result;
     }
 
-
-
-    public Questionnaire_result setHour(Time hour) {
-        this.hour = hour;
+    public Questionnaire_result setResult(String result) {
+        this.result = result;
         return this;
     }
 }
