@@ -1,5 +1,8 @@
 package pe.edu.utp.deco.models;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  * Created by Usuario on 29/06/2017.
  */
@@ -42,5 +45,15 @@ public class Matter {
         this.name = name;
         return this;
 
+    }
+    public static Matter build(ResultSet resultSet) {
+        try {
+            return (new Matter())
+                    .setId(resultSet.getString("id"))
+                    .setName(resultSet.getString("name"));
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }

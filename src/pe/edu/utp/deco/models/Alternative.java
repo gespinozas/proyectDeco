@@ -76,11 +76,11 @@ public class Alternative {
             return (new Alternative())
                     .setId(resultSet.getString("location_id"))
                     .setQuestion(questionsEntity.findById(
-                            resultSet.getString("questions_id"), topicsEntity));
-                     .setCity(resultSet.getString("city"))
-                    .setStreetAddress(resultSet.getString("street_address"))
-                    .setPostalCode(resultSet.getString("postal_code"))
-                    .setStateProvince(resultSet.getString("state_province"));
+                            resultSet.getString("questions_id"), topicsEntity))
+                     .setDescription(resultSet.getString("descrition"))
+                    .setIsresult(resultSet.getString("is_result"))
+                    .setOrder(resultSet.getInt("order"))
+
 
         } catch (SQLException e) {
             e.printStackTrace();
