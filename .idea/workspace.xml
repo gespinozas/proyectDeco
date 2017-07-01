@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aae4f471-6f4e-4534-89a6-d8fea35c522b" name="Default" comment="Se ha actualizo la clase UsersEntity">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Alternative.java" afterPath="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Alternative.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Matter.java" afterPath="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Matter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pe/edu/utp/deco/models/QuestionsEntity.java" afterPath="$PROJECT_DIR$/src/pe/edu/utp/deco/models/QuestionsEntity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Matter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Matter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Matter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="69">
               <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -152,8 +152,8 @@
       <file leaf-file-name="MattersEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/MattersEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-747">
-              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="171">
+              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -182,8 +182,8 @@
       <file leaf-file-name="Alternative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Alternative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="77" column="52" lean-forward="true" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+            <state relative-caret-position="259">
+              <caret line="87" column="20" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,11 +191,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionsEntity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuestionsEntity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/QuestionsEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -239,8 +239,9 @@
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/UsersEntity.java" />
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/User.java" />
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/QuestionEntity.java" />
-        <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Alternative.java" />
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Matter.java" />
+        <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/QuestionsEntity.java" />
+        <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Alternative.java" />
       </list>
     </option>
   </component>
@@ -293,6 +294,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="proyectDeco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectDeco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectDeco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -947,7 +962,7 @@
       <workItem from="1498727202202" duration="4082000" />
       <workItem from="1498782848261" duration="2024000" />
       <workItem from="1498856026309" duration="654000" />
-      <workItem from="1498885364736" duration="8085000" />
+      <workItem from="1498885364736" duration="10028000" />
     </task>
     <task id="LOCAL-00001" summary="Se ha creado la Clase Topic">
       <created>1498721575124</created>
@@ -988,7 +1003,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21315000" />
+    <option name="totallyTimeSpent" value="23258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1354,14 +1369,6 @@
     <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/Topics.java" />
     <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/gdfgfdg.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/26f47fa9-8cdb-487c-b581-139d51044f5a/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/1751a8c3/26f47fa9-8cdb-487c-b581-139d51044f5a/deco.users" />
     <entry file="dbDummy://dbtable:/c8b7d472/26f47fa9-8cdb-487c-b581-139d51044f5a/deco.topics">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1419,26 +1426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/QuestionsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/TopicsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-727">
           <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/MattersEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-747">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1469,25 +1460,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Alternative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="77" column="52" lean-forward="true" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Matter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="69">
           <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#454#455#0" expanded="true" />
             <element signature="e#496#497#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/MattersEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Alternative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="87" column="20" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/QuestionsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

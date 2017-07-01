@@ -71,15 +71,15 @@ public class Alternative {
 
     public static Alternative build(ResultSet resultSet,
                                  QuestionsEntity questionsEntity,
-                                 TopicsEntity topicsEntity) {
+                                 TopicsEntity topicsEntity,
+                                  MattersEntity mattersEntity) {
         try {
             return (new Alternative())
                     .setId(resultSet.getString("location_id"))
-                    .setQuestion(questionsEntity.findById(
-                            resultSet.getString("questions_id"), topicsEntity))
-                     .setDescription(resultSet.getString("descrition"))
-                    .setIsresult(resultSet.getString("is_result"))
-                    .setOrder(resultSet.getInt("order"))
+                    .setQuestion(questionsEntity.findById(resultSet.getString("questions_id"),topicsEntity,mattersEntity))
+                    .setDescription(resultSet.getString("descrition"))
+                    .setIsresult(resultSet.getInt("is_result"))
+                    .setOrder(resultSet.getInt("order"));
 
 
         } catch (SQLException e) {
