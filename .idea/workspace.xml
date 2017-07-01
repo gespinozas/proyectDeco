@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aae4f471-6f4e-4534-89a6-d8fea35c522b" name="Default" comment="Se ha actualizo la clase UsersEntity">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/26f47fa9-8cdb-487c-b581-139d51044f5a.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/26f47fa9-8cdb-487c-b581-139d51044f5a.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pe/edu/utp/deco/models/User.java" afterPath="$PROJECT_DIR$/src/pe/edu/utp/deco/models/User.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +52,30 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="956">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="276">
+              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Questionnaire_result.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionnaire_result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-183">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <marker date="1498885388398" expanded="true" signature="1352:1380" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Question.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -92,9 +115,9 @@
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionarie_answer.java" />
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionarie_result.java" />
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionaire_result.java" />
-        <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/User.java" />
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionnaire_result.java" />
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/UsersEntity.java" />
+        <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/User.java" />
       </list>
     </option>
   </component>
@@ -194,8 +217,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/pe/edu/utp/deco/models/AlternativesEntity.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionnaire_result.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/pe/edu/utp/deco/models/Question.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -203,9 +225,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionaire_answer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionnaire_execution.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionnaire_question.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/pe/edu/utp/deco/models/QuestionsEntity.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -804,7 +824,7 @@
       <workItem from="1498727202202" duration="4082000" />
       <workItem from="1498782848261" duration="2024000" />
       <workItem from="1498856026309" duration="654000" />
-      <workItem from="1498885364736" duration="2140000" />
+      <workItem from="1498885364736" duration="3330000" />
     </task>
     <task id="LOCAL-00001" summary="Se ha creado la Clase Topic">
       <created>1498721575124</created>
@@ -845,7 +865,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15370000" />
+    <option name="totallyTimeSpent" value="16560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -920,7 +940,6 @@
         <state relative-caret-position="1275">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <marker date="1498885388398" expanded="true" signature="1352:1380" ph="{...}" />
           </folding>
         </state>
@@ -1030,7 +1049,6 @@
         <state relative-caret-position="1275">
           <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <marker date="1498885388398" expanded="true" signature="1352:1380" ph="{...}" />
           </folding>
         </state>
@@ -1152,7 +1170,6 @@
         <state relative-caret-position="765">
           <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
             <marker date="1498885388398" expanded="true" signature="1352:1380" ph="{...}" />
           </folding>
         </state>
@@ -1245,17 +1262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionnaire_result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1498885388398" expanded="true" signature="1352:1380" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/UsersEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
@@ -1315,42 +1321,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Question.java">
+    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/TopicsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        <state relative-caret-position="357">
+          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="-424">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionnaire_result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#585#586#0" expanded="false" />
-            <element signature="e#704#705#0" expanded="false" />
-            <element signature="e#733#734#0" expanded="false" />
-            <element signature="e#866#867#0" expanded="false" />
-            <element signature="e#893#894#0" expanded="false" />
+            <marker date="1498885388398" expanded="true" signature="1352:1380" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/TopicsEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="51" />
+        <state relative-caret-position="140">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="956">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="276">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
       </provider>
