@@ -105,7 +105,7 @@ alternatives_id</ColNames>
       <ColNames>questions_id
 questionnaires_id</ColNames>
     </index>
-    <key id="36" parent="10" name="PRIMARY">
+    <key id="39" parent="13" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
