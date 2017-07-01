@@ -1,5 +1,8 @@
 package pe.edu.utp.deco.models;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  * Created by jherson on 29/06/2017.
  */
@@ -42,5 +45,18 @@ public class Question {
     public Question setDescription(String description) {
         this.description = description;
         return this;
+    }
+
+    public static Question build(ResultSet rs, TopicsEntity topicsEntity, MattersEntity mattersEntity) {
+        try {
+            return (new Question())
+                    .setId(rs.getString("id"))
+                    .setDescription(rs.getString("description"))
+                    .setTopics(topicsEntity.findById(rs.getString("id"), mattersEntity));
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
     }
 }
