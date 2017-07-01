@@ -19,7 +19,7 @@ public class UsersEntity extends BaseEntity {
     List<User> findAll(){
         return findByCriteria("");
     }
-    public User findById(int id) {
+    public User findById(String id) {
         String criteria = "id = " + "'" + id + "'";
         return findByCriteria(criteria).get(0);
     }
