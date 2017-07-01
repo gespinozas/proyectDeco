@@ -71,16 +71,16 @@ public class Alternative {
 
     public static Alternative build(ResultSet resultSet,
                                  QuestionsEntity questionsEntity,
-                                 MattersEntity mattersEntity) {
+                                 TopicsEntity topicsEntity) {
         try {
             return (new Alternative())
                     .setId(resultSet.getString("location_id"))
                     .setQuestion(questionsEntity.findById(
-                            resultSet.getString("questions_id"), mattersEntity));
+                            resultSet.getString("questions_id"), topicsEntity));
                      .setCity(resultSet.getString("city"))
                     .setStreetAddress(resultSet.getString("street_address"))
                     .setPostalCode(resultSet.getString("postal_code"))
-                    .setStateProvince(resultSet.getString("state_province"))
+                    .setStateProvince(resultSet.getString("state_province"));
 
         } catch (SQLException e) {
             e.printStackTrace();
