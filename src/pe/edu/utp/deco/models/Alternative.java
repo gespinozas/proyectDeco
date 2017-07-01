@@ -1,5 +1,8 @@
 package pe.edu.utp.deco.models;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  * Created by jherson on 29/06/2017.
  */
@@ -64,5 +67,24 @@ public class Alternative {
     public Alternative setOrder(int order) {
         this.order = order;
         return this;
+    }
+
+    public static Alternative build(ResultSet resultSet,
+                                 QuestionsEntity questionsEntity,
+                                 MattersEntity mattersEntity) {
+        try {
+            return (new Alternative())
+                    .setId(resultSet.getString("location_id"))
+                    .setQuestion(questionsEntity.findById(
+                            resultSet.getString("questions_id"), mattersEntity));
+                     .setCity(resultSet.getString("city"))
+                    .setStreetAddress(resultSet.getString("street_address"))
+                    .setPostalCode(resultSet.getString("postal_code"))
+                    .setStateProvince(resultSet.getString("state_province"))
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }

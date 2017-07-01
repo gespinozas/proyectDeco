@@ -45,7 +45,7 @@ public class QuestionEntity extends BaseEntity {
         return findByCriteria("", topicsEntity, mattersEntity);
     }
 
-    public Question findById(int id, TopicsEntity topicsEntity, MattersEntity mattersEntity) {
+    public Question findById(String id, TopicsEntity topicsEntity, MattersEntity mattersEntity) {
         try {
             String sql = "id = " + String.valueOf(id);
             return findByCriteria(sql, topicsEntity, mattersEntity).get(0);
