@@ -19,9 +19,8 @@ public class UsersEntity extends BaseEntity {
     List<User> findAll(){
         return findByCriteria("");
     }
-    public User findById(int id) {
-        String criteria = " id = " +
-                id;
+    public User findById(String id) {
+        String criteria = "id = " + "'" + id + "'";
         return findByCriteria(criteria).get(0);
     }
 
@@ -75,8 +74,22 @@ public class UsersEntity extends BaseEntity {
                 "'" + name + "'");
     }
 
-
-
+    public boolean update(User user) {
+        String sql = "UPDATE users SET name = " + user.getNameAsValue() +
+                " WHERE id = " +  user.getIdAsString();
+        return change(sql);
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
