@@ -11,6 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <p><a href="listMatters.jsp">List Matters</a></p>
+  <p><a href="listTopics.jsp">List Topics</a></p>
+  <p><a href="listTopicsByName.jspp">List Topics By Name</a></p>
   </body>
 </html>

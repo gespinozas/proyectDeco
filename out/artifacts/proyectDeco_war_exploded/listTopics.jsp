@@ -17,12 +17,8 @@
 <body>
 <jsp:useBean id="service" class="pe.edu.utp.deco.services.DecoService"/>
 <c:forEach var="topic" items="${service.topics}">
-<<<<<<< Updated upstream
-    <p><c:out value="${topic.name}"/>
-    </p>
-=======
     <p><c:out value="${topic.name}"/> <c:out value="${topic.matter.name}"/></p>
->>>>>>> Stashed changes
+
 </c:forEach>
 </body>
 </html>
