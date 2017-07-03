@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-=======
->>>>>>> Stashed changes
 <%--
   Created by IntelliJ IDEA.
   User: otros
@@ -12,17 +9,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>List Topics</title>
+    <title>List Matters</title>
 </head>
 <body>
 <jsp:useBean id="service" class="pe.edu.utp.deco.services.DecoService"/>
-<c:forEach var="topic" items="${service.topics}">
-<<<<<<< Updated upstream
-    <p><c:out value="${topic.name}"/>
-    </p>
-=======
-    <p><c:out value="${topic.name}"/> <c:out value="${topic.matter.name}"/></p>
->>>>>>> Stashed changes
+<c:forEach var="matter" items="${service.matters}">
+    <p><c:out value="${matter.name}"/>
+        <c:out value="${service.getTopicsCountForMatter(matter)}"/></p>
 </c:forEach>
 </body>
 </html>
