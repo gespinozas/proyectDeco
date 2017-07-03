@@ -6,16 +6,16 @@ import java.util.Date;
 /**
  * Created by jherson on 30/06/2017.
  */
-public class Questionnaire_execution {
+public class QuestionnaireExecution {
     private String id;
     private Questionnaire questionnaire;
     private Date date;
     private Time time;
 
-    public Questionnaire_execution() {
+    public QuestionnaireExecution() {
     }
 
-    public Questionnaire_execution(String id, Questionnaire questionnaire, Date date, Time time) {
+    public QuestionnaireExecution(String id, Questionnaire questionnaire, Date date, Time time) {
         this.id = id;
         this.questionnaire = questionnaire;
         this.date = date;
@@ -26,7 +26,7 @@ public class Questionnaire_execution {
         return id;
     }
 
-    public Questionnaire_execution setId(String id) {
+    public QuestionnaireExecution setId(String id) {
         this.id = id;
         return this;
     }
@@ -35,7 +35,7 @@ public class Questionnaire_execution {
         return questionnaire;
     }
 
-    public Questionnaire_execution setQuestionnaire(Questionnaire questionnaire) {
+    public QuestionnaireExecution setQuestionnaire(Questionnaire questionnaire) {
         this.questionnaire = questionnaire;
         return this;
     }
@@ -44,7 +44,7 @@ public class Questionnaire_execution {
         return date;
     }
 
-    public Questionnaire_execution setDate(Date date) {
+    public QuestionnaireExecution setDate(Date date) {
         this.date = date;
         return this;
     }
@@ -53,7 +53,7 @@ public class Questionnaire_execution {
         return time;
     }
 
-    public Questionnaire_execution setTime(Time time) {
+    public QuestionnaireExecution setTime(Time time) {
         this.time = time;
         return this;
     }
