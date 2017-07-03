@@ -6,7 +6,7 @@ import java.util.Date;
 /**
  * Created by Administrador on 29/06/2017.
  */
-public class Questionnaire_result {
+public class QuestionnaireResult {
 
     private String id;
     private Questionnaire questionnaire;
@@ -15,14 +15,14 @@ public class Questionnaire_result {
 
 
 
-    public Questionnaire_result(String id, Questionnaire questionnaire, Date date, Time hour) {
+    public QuestionnaireResult(String id, Questionnaire questionnaire, Date date, Time hour) {
         this.id = id;
         this.questionnaire = questionnaire;
         this.percent = percent;
         this.result = result;
 
     }
-    public Questionnaire_result() {
+    public QuestionnaireResult() {
     }
 
 
@@ -32,7 +32,7 @@ public class Questionnaire_result {
 
     public  String getIdAsValue() {return "'" + getId() +"'";}
 
-    public Questionnaire_result setId(String id) {
+    public QuestionnaireResult setId(String id) {
         this.id = id;
         return this;
     }
@@ -41,7 +41,7 @@ public class Questionnaire_result {
         return questionnaire;
     }
 
-    public Questionnaire_result setQuestionnaire(Questionnaire questionnaire) {
+    public QuestionnaireResult setQuestionnaire(Questionnaire questionnaire) {
         this.questionnaire = questionnaire;
         return this;
     }
@@ -50,7 +50,7 @@ public class Questionnaire_result {
         return percent;
     }
 
-    public Questionnaire_result setPercent(String percent) {
+    public QuestionnaireResult setPercent(String percent) {
         this.percent = percent;
         return this;
     }
@@ -59,7 +59,7 @@ public class Questionnaire_result {
         return result;
     }
 
-    public Questionnaire_result setResult(String result) {
+    public QuestionnaireResult setResult(String result) {
         this.result = result;
         return this;
     }
