@@ -54,8 +54,9 @@ public class Topic{
         try {
             return (new Topic())
                     .setId(rs.getString("id"))
-                    .setName(rs.getString("name"))
-                    .setMatter(mattersEntity.findById(rs.getString("matter_id")));
+                    .setMatter(mattersEntity.findById(rs.getString("matter_id")))
+                    .setName(rs.getString("name"));
+
         } catch (SQLException e) {
             e.printStackTrace();
         }

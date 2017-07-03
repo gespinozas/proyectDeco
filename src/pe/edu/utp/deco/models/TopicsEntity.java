@@ -19,6 +19,7 @@ public class TopicsEntity extends BaseEntity {
         super();
     }
 
+
     public List<Topic> findAll(MattersEntity mattersEntity) {
         return findByCriteria("", mattersEntity);
     }
@@ -43,7 +44,7 @@ public class TopicsEntity extends BaseEntity {
     }
 
     public List<Topic> findByMatter(Matter matter, MattersEntity mattersEntity) {
-        String criteria = "matter_id = " + matter.getId();
+        String criteria = "matters_id = " + matter.getId();
         return findByCriteria(criteria, mattersEntity);
     }
 
@@ -55,15 +56,15 @@ public class TopicsEntity extends BaseEntity {
     public boolean add(Topic topic) {
         String sql = "INSERT INTO topics(id,matters_id,name) VALUES(" +
                 topic.getIdAsValue() + ", " +
-                topic.getNameAsValue() + ", " +
-                topic.getMatter().getId() + ")";
+                topic.getMatter().getId() + ", " +
+                topic.getNameAsValue() + ")";
         return change(sql);
     }
 
     public boolean update(Topic topic) {
         String sql = "UPDATE topics SET " +
                 "name = " + topic.getNameAsValue() + ", " +
-                "region_id = " + topic.getMatter().getId() +
+                "matters_id = " + topic.getMatter().getId() +
                 " WHERE matters_id = " + topic.getIdAsValue();
         return change(sql);
     }
