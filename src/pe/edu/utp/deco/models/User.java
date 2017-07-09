@@ -33,7 +33,6 @@ public class User {
     public String getId() {
         return id;
     }
-    public String getIdAsString(){return String.valueOf(getId());}
 
     public User setId(String id) {
         this.id = id;
@@ -53,7 +52,6 @@ public class User {
     public String getName() {
         return name;
     }
-    public String getNameAsValue(){return String.valueOf(getName());}
 
 
 
@@ -117,7 +115,9 @@ public class User {
         try {
             return (new User())
                     .setId(resultSet.getString("id"))
+
                     .setName(resultSet.getString("name"));
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
