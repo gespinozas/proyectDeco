@@ -2,7 +2,6 @@ package pe.edu.utp.deco.models;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
 /**
  * Created by Administrador on 29/06/2017.
  */

@@ -59,13 +59,20 @@ public class UsersEntity extends BaseEntity {
 
     public boolean add(User user) {
         String sql = "INSERT INTO users(id, name) " +
-                "VALUES(" + user.getIdAsString() + ", " +
-                user.getNameAsValue() + ")";
+                "VALUES(" + user.getId() + ", " +
+                user.getType() + ", " +
+                user.getName() +
+                user.getLast_name() + ", " +
+                user.getPassword() + ", " +
+                user.getPhone() + ", " +
+                user.getAddress() + ", " +
+                user.getAcademy() + ", " +
+                ")";
         return change(sql);
     }
 
     public boolean delete(User user) {
-        String sql = "DELETE FROM users WHERE id = " + user.getIdAsString();
+        String sql = "DELETE FROM users WHERE id = " + user.getId();
         return change(sql);
     }
 
@@ -75,8 +82,8 @@ public class UsersEntity extends BaseEntity {
     }
 
     public boolean update(User user) {
-        String sql = "UPDATE users SET name = " + user.getNameAsValue() +
-                " WHERE id = " +  user.getIdAsString();
+        String sql = "UPDATE users SET name = " + user.getName() +
+                " WHERE id = " +  user.getId();
         return change(sql);
     }
 }
