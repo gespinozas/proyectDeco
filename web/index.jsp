@@ -111,7 +111,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <section>
           <div class="modal-body">
-            <img src="images/banner.jpg" alt=" " class="img-responsive" />
+            <img src="Images/banner.jpg" alt=" " class="img-responsive" />
             <p>Aprende de manera facil, repida e interactiva con  "InteractionStudy"
               InteractionStudy te ofrece una gran cantidad de cursos y temas para elegir
               en cuales reforzar, ya que cuenta con una serie de preguntas por cada tema.
@@ -133,7 +133,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           ingresantes a la universidad por medio de nuestro software.</span>
       </div>
       <div class="col-md-4 w3l_banner_bottom_right">
-        <img src="images/1.jpg" alt=" " class="img-responsive" />
+        <img src="Images/1.jpg" alt=" " class="img-responsive" />
       </div>
       <div class="clearfix"></div>
     </div>
@@ -142,7 +142,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <!-- two-grids -->
   <div class="two-grids">
     <div class="col-md-6 w3_two_grid_left">
-      <img src="images/2.jpg" alt=" " class="img-responsive" />
+      <img src="Images/2.jpg" alt=" " class="img-responsive" />
     </div>
     <div class="col-md-6 w3_two_grid_right">
       <h3>Aprende de manera divertida</h3>
