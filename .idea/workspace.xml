@@ -4,21 +4,69 @@
     <bookmark url="file://$PROJECT_DIR$/web/listTopics.jsp" description="&lt;jsp:useBean id=&quot;service&quot; class=&quot;pe.edu.utp.deco.s..." line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aae4f471-6f4e-4534-89a6-d8fea35c522b" name="Default" comment="Se creo fonts, css, js de proyecto">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/plugins/flot/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/plugins/flot/flot-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/plugins/flot/jquery.flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/plugins/flot/jquery.flot.pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/plugins/flot/jquery.flot.resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/plugins/flot/jquery.flot.tooltip.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/plugins/morris/morris-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/plugins/morris/morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/plugins/morris/morris.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/plugins/morris/raphael.min.js" />
+    <list default="true" id="aae4f471-6f4e-4534-89a6-d8fea35c522b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/blank-page.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Alternative.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Alternative.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/DecoDataStore.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/DecoDataStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Matter.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Matter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Question.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Question.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Topic.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Topic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/TopicsEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/TopicsEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/User.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/UsersEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/UsersEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Alternative.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Alternative.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/DecoDataStore.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/DecoDataStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Matter.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Matter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Question.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Question.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Topic.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Topic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/TopicsEntity.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/TopicsEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/User.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/UsersEntity.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/UsersEntity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/bordered-pulled.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/larger.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/rotated-flipped.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/spinning.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/stacked.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_spinning.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/bootstrap.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/jquery.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/flot-data.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/flot-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.pie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.resize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.tooltip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris-data.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.min.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/raphael.min.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/raphael.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,83 +108,64 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="deco@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="deco" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="matters" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Topic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Topic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="57" column="50" lean-forward="false" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#560#561#0" expanded="false" />
-                <element signature="e#585#586#0" expanded="false" />
-                <element signature="e#704#705#0" expanded="false" />
-                <element signature="e#733#734#0" expanded="false" />
-                <element signature="e#866#867#0" expanded="false" />
-                <element signature="e#893#894#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <marker date="1499666717941" expanded="true" signature="2296:2401" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersEntity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsersEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/UsersEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding>
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="155" column="86" lean-forward="false" selection-start-line="155" selection-start-column="86" selection-end-line="155" selection-end-column="86" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicsEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/TopicsEntity.java">
+      <file leaf-file-name="charts.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/charts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#307#308#0" expanded="false" />
-                <element signature="e#350#351#0" expanded="false" />
-                <element signature="e#379#380#0" expanded="false" />
-                <element signature="e#402#403#0" expanded="false" />
-                <element signature="e#466#467#0" expanded="false" />
-                <element signature="e#522#523#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="269">
+              <caret line="161" column="88" lean-forward="false" selection-start-line="161" selection-start-column="88" selection-end-line="161" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deco.matters" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/74655499/26f47fa9-8cdb-487c-b581-139d51044f5a/deco.matters">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matters.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/matters.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="161" column="84" lean-forward="false" selection-start-line="161" selection-start-column="84" selection-end-line="161" selection-end-column="84" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,10 +210,13 @@
         <option value="$PROJECT_DIR$/web/listMatters.jsp" />
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/TopicsEntity.java" />
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/Topic.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/listTopics.jsp" />
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/User.java" />
         <option value="$PROJECT_DIR$/src/pe/edu/utp/deco/models/UsersEntity.java" />
+        <option value="$PROJECT_DIR$/web/tables.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/charts.jsp" />
+        <option value="$PROJECT_DIR$/web/matters.jsp" />
       </list>
     </option>
   </component>
@@ -204,7 +236,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -223,6 +255,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,29 +293,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectDeco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyectDeco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,6 +307,217 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/listMatters.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/index.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/listMatters.jsp</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/ALGEBRAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/ARITMETICAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/AVportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/BIOLOGIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/ECONOMIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/FILOSOFIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/FISICAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/GEOGRAFIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/GEOMETRIAportadas.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/HPERUportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/HUNIVERSALportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/LENGUAJEportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/LITERATURAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/PSICOLOGIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/QUIMICAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/RMportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/Rvportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/Images/Matters/TRIGONOMETRIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/css/bootstrap-rtl.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/css/bootstrap-rtl.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/css/bootstrap.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/css/plugins/morris.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/css/sb-admin-rtl.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/css/sb-admin.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/css/font-awesome.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/css/font-awesome.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/fonts/FontAwesome.otf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/fonts/fontawesome-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/fonts/fontawesome-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/fonts/fontawesome-webfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/fonts/fontawesome-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/bordered-pulled.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/core.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/fixed-width.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/font-awesome.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/icons.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/larger.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/list.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/mixins.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/path.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/rotated-flipped.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/spinning.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/stacked.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/variables.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_bordered-pulled.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_core.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_fixed-width.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_icons.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_larger.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_list.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_mixins.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_path.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_rotated-flipped.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_spinning.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_stacked.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_variables.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/font-awesome.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/fonts/glyphicons-halflings-regular.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/fonts/glyphicons-halflings-regular.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/fonts/glyphicons-halflings-regular.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/fonts/glyphicons-halflings-regular.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/fonts/glyphicons-halflings-regular.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/excanvas.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/flot-data.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.pie.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.resize.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.tooltip.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris-data.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/raphael.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/ALGEBRAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/ARITMETICAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/AVportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/BIOLOGIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/ECONOMIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/FILOSOFIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/FISICAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/GEOGRAFIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/GEOMETRIAportadas.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/HPERUportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/HUNIVERSALportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/LENGUAJEportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/LITERATURAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/Lenguajeportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/PSICOLOGIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/QUIMICAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/RMportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/Rvportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/Matters/TRIGONOMETRIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Images/banner.jpg</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -808,7 +1033,9 @@
       <workItem from="1499564177241" duration="7019000" />
       <workItem from="1499622923374" duration="3866000" />
       <workItem from="1499629322190" duration="193000" />
-      <workItem from="1499666721482" duration="649000" />
+      <workItem from="1499666721482" duration="826000" />
+      <workItem from="1499710868149" duration="820000" />
+      <workItem from="1499749907322" duration="2735000" />
     </task>
     <task id="LOCAL-00001" summary="Se ha creado la Clase Topic">
       <created>1498721575124</created>
@@ -929,14 +1156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1499667287022</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Se creo fonts, css, js de proyecto">
+      <created>1499667405031</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1499667405031</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42541000" />
+    <option name="totallyTimeSpent" value="46273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -946,20 +1180,21 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21083455" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16299559" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31861198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20189275" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28706625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19309838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -970,7 +1205,6 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1042,97 +1276,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionnaire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/DecoDataStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="66" column="70" lean-forward="false" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Topic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="67" lean-forward="false" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/MattersEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/TopicsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#328#329#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#626#627#0" expanded="false" />
-            <element signature="e#789#790#0" expanded="false" />
-            <element signature="e#821#822#0" expanded="false" />
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1029#1030#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Matter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Questionnaire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/DecoDataStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="66" column="70" lean-forward="false" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/1751a8c3/26f47fa9-8cdb-487c-b581-139d51044f5a/deco.users" />
-    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Topic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="67" lean-forward="false" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/TopicsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
@@ -1370,13 +1513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -1399,6 +1535,22 @@
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#808#809#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#949#950#0" expanded="false" />
+            <element signature="e#976#977#0" expanded="false" />
+            <element signature="e#1101#1102#0" expanded="false" />
+            <element signature="e#1128#1129#0" expanded="false" />
+            <element signature="e#1259#1260#0" expanded="false" />
+            <element signature="e#1291#1292#0" expanded="false" />
+            <element signature="e#1440#1441#0" expanded="false" />
+            <element signature="e#1471#1472#0" expanded="false" />
+            <element signature="e#1613#1614#0" expanded="false" />
+            <element signature="e#1641#1642#0" expanded="false" />
+            <element signature="e#1775#1776#0" expanded="false" />
+            <element signature="e#1805#1806#0" expanded="false" />
+            <element signature="e#1946#1947#0" expanded="false" />
+            <element signature="e#1976#1977#0" expanded="false" />
             <marker date="1499666717941" expanded="true" signature="2296:2401" ph="{...}" />
           </folding>
         </state>
@@ -1420,10 +1572,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/Images/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Images/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Images/banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Images/Matters/ALGEBRAportada.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Images/Matters/ARITMETICAportada.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Images/Matters/AVportada.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Images/Matters/BIOLOGIAportada.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Images/Matters/ECONOMIAportada.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/blank-page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/UsersEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/74655499/26f47fa9-8cdb-487c-b581-139d51044f5a/deco.matters">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="155" column="86" lean-forward="false" selection-start-line="155" selection-start-column="86" selection-end-line="155" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/charts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="161" column="88" lean-forward="false" selection-start-line="161" selection-start-column="88" selection-end-line="161" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/matters.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="161" column="84" lean-forward="false" selection-start-line="161" selection-start-column="84" selection-end-line="161" selection-end-column="84" />
           <folding />
         </state>
       </provider>
