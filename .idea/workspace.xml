@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aae4f471-6f4e-4534-89a6-d8fea35c522b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/blank-page.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Alternative.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Alternative.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/DecoDataStore.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/DecoDataStore.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Matter.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Matter.class" />
@@ -66,7 +65,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.min.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/raphael.min.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/raphael.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,7 +123,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
@@ -160,7 +158,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matters.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="matters.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/matters.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="181">
@@ -1035,7 +1033,7 @@
       <workItem from="1499629322190" duration="193000" />
       <workItem from="1499666721482" duration="826000" />
       <workItem from="1499710868149" duration="820000" />
-      <workItem from="1499749907322" duration="2735000" />
+      <workItem from="1499749907322" duration="2808000" />
     </task>
     <task id="LOCAL-00001" summary="Se ha creado la Clase Topic">
       <created>1498721575124</created>
@@ -1163,11 +1161,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499667405031</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Se creo fonts, css, js de proyecto">
+      <created>1499752710528</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1499752710528</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46273000" />
+    <option name="totallyTimeSpent" value="46346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -1644,14 +1649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="155" column="86" lean-forward="false" selection-start-line="155" selection-start-column="86" selection-end-line="155" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/charts.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -1664,6 +1661,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="161" column="84" lean-forward="false" selection-start-line="161" selection-start-column="84" selection-end-line="161" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="155" column="86" lean-forward="false" selection-start-line="155" selection-start-column="86" selection-end-line="155" selection-end-column="86" />
           <folding />
         </state>
       </provider>
