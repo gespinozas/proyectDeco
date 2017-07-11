@@ -4,16 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/web/listTopics.jsp" description="&lt;jsp:useBean id=&quot;service&quot; class=&quot;pe.edu.utp.deco.s..." line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aae4f471-6f4e-4534-89a6-d8fea35c522b" name="Default" comment="Se creo fonts, css, js de proyecto">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/charts.jsp" afterPath="$PROJECT_DIR$/web/newUser.jsp" />
+    <list default="true" id="aae4f471-6f4e-4534-89a6-d8fea35c522b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/blank-page.jsp" afterPath="$PROJECT_DIR$/web/blank-page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap-elements.jsp" afterPath="$PROJECT_DIR$/web/bootstrap-elements.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap-grid.jsp" afterPath="$PROJECT_DIR$/web/bootstrap-grid.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/forms.jsp" afterPath="$PROJECT_DIR$/web/forms.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/matters.jsp" afterPath="$PROJECT_DIR$/web/matters.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -836,7 +828,7 @@
       <workItem from="1499666721482" duration="826000" />
       <workItem from="1499710868149" duration="820000" />
       <workItem from="1499749907322" duration="2889000" />
-      <workItem from="1499799489890" duration="2767000" />
+      <workItem from="1499799489890" duration="2845000" />
     </task>
     <task id="LOCAL-00001" summary="Se ha creado la Clase Topic">
       <created>1498721575124</created>
@@ -978,11 +970,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499752744376</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Actualizacion de las vistas">
+      <created>1499802654446</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1499802654446</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49194000" />
+    <option name="totallyTimeSpent" value="49272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1081,7 +1080,8 @@
     <MESSAGE value="Se agrega la vistas Jsp" />
     <MESSAGE value="Se creo plantilla del proyecto" />
     <MESSAGE value="Se creo fonts, css, js de proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se creo fonts, css, js de proyecto" />
+    <MESSAGE value="Actualizacion de las vistas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de las vistas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
