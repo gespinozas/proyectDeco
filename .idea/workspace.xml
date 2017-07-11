@@ -4,67 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/web/listTopics.jsp" description="&lt;jsp:useBean id=&quot;service&quot; class=&quot;pe.edu.utp.deco.s..." line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aae4f471-6f4e-4534-89a6-d8fea35c522b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Alternative.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Alternative.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/DecoDataStore.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/DecoDataStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Matter.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Matter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Question.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Topic.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Topic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/TopicsEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/TopicsEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/User.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/UsersEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/UsersEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Alternative.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Alternative.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/DecoDataStore.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/DecoDataStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Matter.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Matter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Question.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Topic.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Topic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/TopicsEntity.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/TopicsEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/User.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/UsersEntity.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/UsersEntity.class" />
+    <list default="true" id="aae4f471-6f4e-4534-89a6-d8fea35c522b" name="Default" comment="Se creo fonts, css, js de proyecto">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-elements.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap-grid.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/charts.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/forms.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/matters.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/bordered-pulled.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/core.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/fixed-width.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/font-awesome.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/icons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/larger.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/path.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/rotated-flipped.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/spinning.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/stacked.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_fixed-width.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_icons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_larger.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_path.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_spinning.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_stacked.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/font-awesome/scss/font-awesome.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/bootstrap.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/jquery.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/flot-data.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/flot-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.pie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.resize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/flot/jquery.flot.tooltip.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris-data.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.min.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/morris.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/raphael.min.js" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/js/plugins/morris/raphael.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,8 +72,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="155" column="86" lean-forward="false" selection-start-line="155" selection-start-column="86" selection-end-line="155" selection-end-column="86" />
+            <state relative-caret-position="195">
+              <caret line="163" column="24" lean-forward="true" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1033,7 +979,7 @@
       <workItem from="1499629322190" duration="193000" />
       <workItem from="1499666721482" duration="826000" />
       <workItem from="1499710868149" duration="820000" />
-      <workItem from="1499749907322" duration="2808000" />
+      <workItem from="1499749907322" duration="2889000" />
     </task>
     <task id="LOCAL-00001" summary="Se ha creado la Clase Topic">
       <created>1498721575124</created>
@@ -1168,11 +1114,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499752710528</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Se creo fonts, css, js de proyecto">
+      <created>1499752744376</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1499752744376</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46346000" />
+    <option name="totallyTimeSpent" value="46427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -1667,8 +1620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="155" column="86" lean-forward="false" selection-start-line="155" selection-start-column="86" selection-end-line="155" selection-end-column="86" />
+        <state relative-caret-position="195">
+          <caret line="163" column="24" lean-forward="true" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
           <folding />
         </state>
       </provider>
