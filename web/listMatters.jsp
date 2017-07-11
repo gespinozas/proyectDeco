@@ -16,6 +16,7 @@
 <c:forEach var="matter" items="${service.matters}">
     <p><c:out value="${matter.name}"/>
         <c:out value="${service.getTopicsCountForMatter(matter)}"/></p>
+          <img src="Images/Matters/<c:out value="${matter.name}"/>portada.jpg"/></p>
 </c:forEach>
 </body>
 </html>
