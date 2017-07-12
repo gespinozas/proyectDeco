@@ -207,7 +207,7 @@
             <!-- /.row -->
 
                     <footer class="clearfix">
-                        <p><span class="info">?</span><a href="about.jsp">Crear cuenta</a></p>
+                        <p><span class="info">?</span><a href="newUser.jsp">Crear cuenta</a></p>
                     </footer>
                
             <!-- /.row -->
