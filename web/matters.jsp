@@ -153,19 +153,19 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
                 <li class="active">
-                    <a href="index.jsp"><i class="fa fa-fw fa-dashboard"></i>LOGIN</a>
+                    <a href="index.jsp"><i class="fa fa-fw fa-dashboard"></i>INICIO</a>
                 </li>
                 <li>
-                    <a href="newUser.jsp"><i class="fa fa-fw fa-bar-chart-o"></i> NUEVO USUARIO</a>
+                    <a href="about.jsp"><i class="fa fa-fw fa-bar-chart-o"></i>NOSOTROS</a>
                 </li>
                 <li>
-                    <a href="matters.jsp"><i class="fa fa-fw fa-table"></i> MATERIAS</a>
+                    <a href="login.jsp"><i class="fa fa-fw fa-table"></i>LOGIN</a>
                 </li>
                 <li>
-                    <a href="forms.jsp"><i class="fa fa-fw fa-edit"></i> Forms</a>
+                    <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>NUEVO USUARIO</a>
                 </li>
                 <li>
-                    <a href="bootstrap-elements.jsp"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
+                    <a href="matters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
                 </li>
                 <li>
                     <a href="bootstrap-grid.jsp"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
@@ -197,9 +197,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                       Materias
+                        Materias
                     </h1>
-                   </div>
+                </div>
             </div>
 
             <!-- /.row -->

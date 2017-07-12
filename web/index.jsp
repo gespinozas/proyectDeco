@@ -153,19 +153,19 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="active">
-                        <a href="index.jsp"><i class="fa fa-fw fa-dashboard"></i>LOGIN</a>
+                        <a href="index.jsp"><i class="fa fa-fw fa-dashboard"></i>INICIO</a>
                     </li>
                     <li>
-                        <a href="newUser.jsp"><i class="fa fa-fw fa-bar-chart-o"></i> NUEVO USUARIO</a>
+                        <a href="about.jsp"><i class="fa fa-fw fa-bar-chart-o"></i> NOSOTROS</a>
                     </li>
                     <li>
-                        <a href="matters.jsp"><i class="fa fa-fw fa-table"></i>MATERIAS</a>
+                        <a href="newUser.jsp"><i class="fa fa-fw fa-table"></i>LOGIN</a>
                     </li>
                     <li>
-                        <a href="forms.jsp"><i class="fa fa-fw fa-edit"></i> Forms</a>
+                        <a href="login.jsp"><i class="fa fa-fw fa-edit"></i>NUEVO USUASRIO</a>
                     </li>
                     <li>
-                        <a href="bootstrap-elements.jsp"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
+                        <a href="matters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
                     </li>
                     <li>
                         <a href="bootstrap-grid.jsp"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
@@ -195,35 +195,22 @@
 
                 <!-- Page Heading -->
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">
-                            LOGIN
-                        </h1>
 
-                    </div>
-                </div>
-                <!-- /.row -->
+                        <h1>INICIO</h1>
+                        <h3>Desarrollado por Innovation sac.</h3>
 
-                <!-- /.row -->
-                <div id="login-form">
-                    <h1>Formulario de acceso</h1>
-                    <fieldset style="margin-bottom: 120px;">
-                        <s:if test="hasActionErrors()">
-                            <div class="errors">
-                                <s:actionerror/>
-                            </div>
-                        </s:if>
-                        <s:form action="validateUser">
-                            <s:textfield placeholder="Usuario" value="" name="username" label="Usuario" cssClass="txt"/>
-                            <s:password placeholder="Contraseña" value="" name="password" label="Contraseña" cssClass="txt"/>
-                            <s:submit value="Iniciar Sesión" cssClass="btn btn-default"/>
-                        </s:form>
-                        <footer class="clearfix">
-                            <p><span class="info">?</span><a href="newUser.jsp">Crear cuenta</a></p>
-                        </footer>
-                    </fieldset>
+                     <p>Este producto servira para dinamizar el proceso de aprendizaje de los estudiantes que aspiran ingresar a la universidad por medio de sus multiples preguntas, basadas por temas y cursos</p>
+
+
+                <h3>Caracteristicas</h3>
+                    <p>- Pagina facilmente gestionable</p>
+                    <p>- Adaptable a cualquier dispositivo</p>
+                    <p>- Carga rapida (Debe de visualizarse en el navegador rapidamente, si la pagina esta alojada en un servidor compartido con cientos o miles de paginas web adicional tipicos, esta nunca cargara rapido)</p>
+                    <p>- Intuitivo (Hacer facil e interactiva la navegacion, para evitar que los usuarios abandonen la página)</p>
+                <p>- Estadisticas  (de las notas y el avance del postulante y de las personas con el mejor promedio)</p>
+                <p>- Las preguntas serán para marcar</p>
+
                 </div>
-                <!-- /.row -->
 
             </div>
             <!-- /.container-fluid -->

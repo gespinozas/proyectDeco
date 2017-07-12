@@ -156,16 +156,16 @@
                         <a href="index.jsp"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="newUser.jsp"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+                        <a href="about.jsp"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
                     </li>
                     <li>
-                        <a href="matters.jsp"><i class="fa fa-fw fa-table"></i> Tables</a>
+                        <a href="newUser.jsp"><i class="fa fa-fw fa-table"></i> Tables</a>
                     </li>
                     <li>
-                        <a href="forms.jsp"><i class="fa fa-fw fa-edit"></i> Forms</a>
+                        <a href="login.jsp"><i class="fa fa-fw fa-edit"></i> Forms</a>
                     </li>
                     <li>
-                        <a href="bootstrap-elements.jsp"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
+                        <a href="matters.jsp"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
                     </li>
                     <li>
                         <a href="bootstrap-grid.jsp"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
