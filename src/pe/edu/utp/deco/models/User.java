@@ -2,10 +2,23 @@ package pe.edu.utp.deco.models;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
 /**
  * Created by Administrador on 29/06/2017.
  */
 public class User {
+    public User(String id, String type, String name, String last_name, String user, String password, String phone, String address, String academy) {
+        this.id = id;
+        this.type = type;
+        this.name = name;
+        this.last_name = last_name;
+        this.user = user;
+        this.password = password;
+        this.phone = phone;
+        this.address = address;
+        this.academy = academy;
+    }
+
     public User() {
     }
 
@@ -13,21 +26,13 @@ public class User {
     private String type;
     private String name;
     private String last_name;
+    private String user;
     private String password;
     private String phone;
     private String address;
     private String academy;
 
-    public User(String id, String type, String name, String last_name, String password, String phone, String address, String academy) {
-        this.id = id;
-        this.type = type;
-        this.name = name;
-        this.last_name = last_name;
-        this.password = password;
-        this.phone = phone;
-        this.address = address;
-        this.academy = academy;
-    }
+
 
     public String getId() {
         return id;
@@ -110,18 +115,29 @@ public class User {
         this.academy = academy;
         return this;
     }
+
+    public String getUser() {
+        return user;
+    }
+    public User setUser(String user) {
+        this.user = user;
+        return this;
+    }
     public static User build(ResultSet resultSet) {
         try {
             return (new User())
                     .setId(resultSet.getString("id"))
+                    .setName(resultSet.getString("name"))
+                    .setUser(resultSet.getString("user"))
+                    .setPassword(resultSet.getString("password"));
 
-                    .setName(resultSet.getString("name"));
+
+
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
     }
-
-
 }
+
