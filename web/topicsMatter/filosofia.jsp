@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: jherson
+  Date: 13/07/2017
+  Time: 01:22 AM
+  To change this template use File | Settings | File Templates.
+--%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,19 +16,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Bootstrap Admin Template</title>
+    <title>Aritmetica</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="../css/sb-admin.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="css/plugins/morris.css" rel="stylesheet">
+    <link href="../css/plugins/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,7 +53,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.jsp">Interaction Study</a>
+            <a class="navbar-brand" href="../index.jsp">Interaction Study</a>
         </div>
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
@@ -153,22 +160,22 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
                 <li class="active">
-                    <a href="index.jsp"><i class="fa fa-fw fa-dashboard"></i>INICIO</a>
+                    <a href="../index.jsp"><i class="fa fa-fw fa-dashboard"></i>INICIO</a>
                 </li>
                 <li>
-                    <a href="about.jsp"><i class="fa fa-fw fa-bar-chart-o"></i>NOSOTROS</a>
+                    <a href="../about.jsp"><i class="fa fa-fw fa-bar-chart-o"></i>NOSOTROS</a>
                 </li>
                 <li>
-                    <a href="login.jsp"><i class="fa fa-fw fa-table"></i>LOGIN</a>
+                    <a href="../login.jsp"><i class="fa fa-fw fa-table"></i>LOGIN</a>
                 </li>
                 <li>
-                    <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>NUEVO USUARIO</a>
+                    <a href="../newUser.jsp"><i class="fa fa-fw fa-edit"></i>NUEVO USUARIO</a>
                 </li>
                 <li>
-                    <a href="matters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
+                    <a href="../matters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
                 </li>
                 <li>
-                    <a href="bootstrap-grid.jsp"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+                    <a href="../bootstrap-grid.jsp"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
                 </li>
                 <li>
                     <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
@@ -182,7 +189,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="blank-page.jsp"><i class="fa fa-fw fa-file"></i> Blank Page</a>
+                    <a href="../blank-page.jsp"><i class="fa fa-fw fa-file"></i> Blank Page</a>
                 </li>
             </ul>
         </div>
@@ -197,7 +204,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                        Materias
+                        Filosofia
                     </h1>
                 </div>
             </div>
@@ -213,13 +220,13 @@
                                     <i class="fa fa-comments fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>ARITMETICA</div>
+                                    <div>FILOSOFIA ANTIGUA</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="topicsMatter/aritmetica.jsp">
+                        <a href="#">
                             <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
+                                <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -234,13 +241,13 @@
                                     <i class="fa fa-tasks fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>RAZONAMIENTO MATEMATICO</div>
+                                    <div>FILOSOFIA MEDIEVAL</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="topicsMatter/rm.jsp">
+                        <a href="#">
                             <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
+                                <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -255,13 +262,13 @@
                                     <i class="fa fa-shopping-cart fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>GEOMETRIA</div>
+                                    <div>FILOSOFIA MODERNA I</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="topicsMatter/geometria.jsp">
+                        <a href="#">
                             <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
+                                <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -276,13 +283,13 @@
                                     <i class="fa fa-support fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>TRIGONOMETRIA</div>
+                                    <div>FILOSOFIA MODERNA II</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="topicsMatter/trigonometria.jsp">
+                        <a href="#">
                             <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
+                                <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -300,13 +307,13 @@
                                     <i class="fa fa-comments fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>ALGEBRA</div>
+                                    <div>FILOSOFIA CONTEMPORANEA I</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="topicsMatter/algebra.jsp">
+                        <a href="#">
                             <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
+                                <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -321,55 +328,13 @@
                                     <i class="fa fa-tasks fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>APTITUD VERBAL</div>
+                                    <div>FILOSOFIA CONTEMPORANEA II</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="topicsMatter/av.jsp">
+                        <a href="#">
                             <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-yellow">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-shopping-cart fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div>LENGUAJE</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="topicsMatter/lenguaje.jsp">
-                            <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-support fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div>LITERATURA</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="topicsMatter/literatura.jsp">
-                            <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
+                                <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -377,199 +342,24 @@
                     </div>
                 </div>
             </div>
+            <!-- /.container-fluid -->
 
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-comments fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div>BIOLOGIA</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="topicsMatter/biologia.jsp">
-                            <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-green">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div>QUIMICA</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="topicsMatter/quimica.jsp">
-                            <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-yellow">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-shopping-cart fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div>FISICA</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="topicsMatter/fisica.jsp">
-                            <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-support fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div>PSICOLOGIA</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="topicsMatter/psicologia.jsp">
-                            <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-comments fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div>FILOSOFIA</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="topicsMatter/filosofia.jsp">
-                            <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-green">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div>GEOGRAFIA</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="topicsMatter/geografia.jsp">
-                            <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-yellow">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-shopping-cart fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div>HISTORIA UNIVERSAL</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="topicsMatter/hu.jsp">
-                            <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-support fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div>HISTORIA DEL PERU</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="topicsMatter/hp.jsp">
-                            <div class="panel-footer">
-                                <span class="pull-left">Ver temas</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
-        <!-- /.container-fluid -->
+        <!-- /#page-wrapper -->
 
     </div>
-    <!-- /#page-wrapper -->
+    <!-- /#wrapper -->
 
-</div>
-<!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
 
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-
-<!-- Morris Charts JavaScript -->
-<script src="js/plugins/morris/raphael.min.js"></script>
-<script src="js/plugins/morris/morris.min.js"></script>
-<script src="js/plugins/morris/morris-data.js"></script>
+    <!-- Morris Charts JavaScript -->
+    <script src="../js/plugins/morris/raphael.min.js"></script>
+    <script src="../js/plugins/morris/morris.min.js"></script>
+    <script src="../js/plugins/morris/morris-data.js"></script>
 
 </body>
 
