@@ -29,6 +29,11 @@ public class UsersEntity extends BaseEntity {
                 name + "'";
         return findByCriteria(criteria).get(0);
     }
+    public User findByUser(String name) {
+        String criteria = " user = '" +
+                name + "'";
+        return findByCriteria(criteria).get(0);
+    }
 
     public List<User> findAllOrderedByName() {
         String criteria = "true ORDER BY name";
@@ -48,7 +53,8 @@ public class UsersEntity extends BaseEntity {
             while(resultSet.next()) {
                 users.add((new User())
                         .setId(resultSet.getString("id"))
-                        .setName(resultSet.getString("name")));
+                        .setName(resultSet.getString("name"))
+                        .setUser(resultSet.getString("user")));
             }
             return users;
         } catch (SQLException e) {
@@ -63,6 +69,7 @@ public class UsersEntity extends BaseEntity {
                 user.getType() + ", " +
                 user.getName() +
                 user.getLast_name() + ", " +
+                user.getUser() + ", " +
                 user.getPassword() + ", " +
                 user.getPhone() + ", " +
                 user.getAddress() + ", " +
@@ -87,16 +94,5 @@ public class UsersEntity extends BaseEntity {
         return change(sql);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 

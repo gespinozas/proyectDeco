@@ -28,6 +28,10 @@ public class DecoService {
             e.printStackTrace();
         }
     }
+    public boolean validateUser(String userName, String password) {
+        return (userName.equalsIgnoreCase("admin") &&
+                password.equalsIgnoreCase("password"));
+    }
 
     public DecoService() {
         try {

@@ -5,4 +5,14 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+    <package name="default" extends="struts-default">
+
+    <action name="login">
+        <result>login.jsp</result>
+    </action>
+    <action name="validate" class="pe.edu.utp.deco.actions.LoginAction" method="validate">
+        <result name="success">index.jsp</result>
+        <result name="error">indexError.jsp</result>
+    </action>
+    </package>
 </struts>
