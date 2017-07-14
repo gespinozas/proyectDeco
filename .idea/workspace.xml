@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843c3aa0-4fcf-474f-b358-57ebabe943b4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/blank-page.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bootstrap-grid.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Alternative.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Alternative.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/DecoDataStore.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/DecoDataStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Matter.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Matter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Question.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Topic.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Topic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/TopicsEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/TopicsEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Alternative.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Alternative.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/DecoDataStore.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/DecoDataStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Matter.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Matter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Question.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Topic.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Topic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/TopicsEntity.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/TopicsEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/26f47fa9-8cdb-487c-b581-139d51044f5a.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/26f47fa9-8cdb-487c-b581-139d51044f5a.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/login1.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/about.jsp" afterPath="$PROJECT_DIR$/web/about.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/matters.jsp" afterPath="$PROJECT_DIR$/web/matters.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/newUser.jsp" afterPath="$PROJECT_DIR$/web/newUser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/algebra.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/algebra.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/aritmetica.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/aritmetica.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/av.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/av.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/biologia.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/biologia.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/filosofia.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/filosofia.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/fisica.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/fisica.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/geografia.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/geografia.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/geometria.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/geometria.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/hp.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/hp.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/hu.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/hu.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/lenguaje.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/lenguaje.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/literatura.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/literatura.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/psicologia.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/psicologia.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/quimica.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/quimica.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/rm.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/rm.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/trigonometria.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/trigonometria.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,124 +45,109 @@
         <option name="myItemId" value="deco" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="users" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="deco@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="deco" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="geometria.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/topicsMatter/geometria.jsp">
+      <file leaf-file-name="matters.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/matters.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="168">
+              <caret line="543" column="52" lean-forward="false" selection-start-line="543" selection-start-column="52" selection-end-line="543" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hp.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/topicsMatter/hp.jsp">
+      <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/actions/LoginAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hu.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/topicsMatter/hu.jsp">
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexError.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/indexError.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lenguaje.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/topicsMatter/lenguaje.jsp">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="498">
+              <caret line="232" column="14" lean-forward="false" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="literatura.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/topicsMatter/literatura.jsp">
+      <file leaf-file-name="login1.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/login1.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="344">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="psicologia.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/topicsMatter/psicologia.jsp">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="286">
+              <caret line="165" column="25" lean-forward="true" selection-start-line="165" selection-start-column="25" selection-end-line="165" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quimica.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/topicsMatter/quimica.jsp">
+      <file leaf-file-name="DecoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/services/DecoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="391">
+              <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rm.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/topicsMatter/rm.jsp">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="464">
+              <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trigonometria.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/topicsMatter/trigonometria.jsp">
+      <file leaf-file-name="UsersEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/UsersEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/about.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+            <state relative-caret-position="478">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -210,6 +159,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="struts_2_3" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -224,27 +174,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/web/newUser.jsp" />
         <option value="$PROJECT_DIR$/web/matters.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/algebra.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/aritmetica.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/av.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/biologia.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/filosofia.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/fisica.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/geografia.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/geometria.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/hp.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/hu.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/lenguaje.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/literatura.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/psicologia.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/quimica.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/rm.jsp" />
-        <option value="$PROJECT_DIR$/web/topicsMatter/trigonometria.jsp" />
-        <option value="$PROJECT_DIR$/web/about.jsp" />
+        <option value="$PROJECT_DIR$/web/login1.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -263,8 +196,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1369" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -283,7 +215,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -321,16 +252,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectDeco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectDeco" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="topicsMatter" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectDeco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectDeco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectDeco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyectDeco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,7 +334,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Hito Final/SportConnexus" />
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -356,14 +349,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/User.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/UsersEntity.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/services/DecoService.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/User.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/UsersEntity.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/services/DecoService.class</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -371,6 +356,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/web.xml</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -378,17 +364,47 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/blank-page.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/bootstrap-elements.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/bootstrap-grid.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/forms.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/index.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/listMatters.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/listTopics.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/listTopicsByName.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/matters.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/newUser.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/web.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/web.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/ALGEBRAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/ARITMETICAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/AVportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/BIOLOGIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/ECONOMIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/FILOSOFIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/FISICAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/GEOGRAFIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/GEOMETRIAportadas.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/HPERUportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/HUNIVERSALportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/LITERATURAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/Lenguajeportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/PSICOLOGIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/QUIMICAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/RMportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/Rvportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/Matters/TRIGONOMETRIAportada.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/Images/banner.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/WEB-INF/web.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/fonts/glyphicons-halflings-regular.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/fonts/glyphicons-halflings-regular.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/fonts/glyphicons-halflings-regular.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/fonts/glyphicons-halflings-regular.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/fonts/glyphicons-halflings-regular.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/plugins/flot/excanvas.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/plugins/flot/flot-data.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/plugins/flot/jquery.flot.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/plugins/flot/jquery.flot.pie.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/plugins/flot/jquery.flot.resize.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/plugins/flot/jquery.flot.tooltip.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/plugins/morris/morris-data.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/plugins/morris/morris.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/plugins/morris/morris.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/js/plugins/morris/raphael.min.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -985,10 +1001,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10909000" />
+    <option name="totallyTimeSpent" value="8194000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="0" width="1369" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -999,23 +1015,21 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12005857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18740849" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06309148" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20031546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14641288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17590539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1108,10 +1122,144 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/QuestionsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pe/edu/utp/deco/models/QuestionnaireExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/listMatters.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/blank-page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/listMatters.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/blank-page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/listMatters.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,6 +1291,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
@@ -1193,6 +1342,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
@@ -1259,6 +1409,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,6 +1425,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
@@ -1291,6 +1443,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,6 +1459,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/newUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1334,196 +1495,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/74655499/26f47fa9-8cdb-487c-b581-139d51044f5a/deco.topics">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/74655499/26f47fa9-8cdb-487c-b581-139d51044f5a/deco.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/about.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="-210">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="82" column="21" lean-forward="false" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/newUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="82" column="21" lean-forward="false" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/matters.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="82" column="21" lean-forward="false" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        <state relative-caret-position="168">
+          <caret line="543" column="52" lean-forward="false" selection-start-line="543" selection-start-column="52" selection-end-line="543" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/algebra.jsp">
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        <state relative-caret-position="498">
+          <caret line="232" column="14" lean-forward="false" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/aritmetica.jsp">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        <state relative-caret-position="286">
+          <caret line="165" column="25" lean-forward="true" selection-start-line="165" selection-start-column="25" selection-end-line="165" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/av.jsp">
+    <entry file="file://$PROJECT_DIR$/web/login1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="90" column="12" lean-forward="false" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/biologia.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/filosofia.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/fisica.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/geografia.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/geometria.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/hp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/hu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/lenguaje.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/literatura.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/psicologia.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/quimica.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/rm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/trigonometria.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/about.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        <state relative-caret-position="344">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding />
         </state>
       </provider>
