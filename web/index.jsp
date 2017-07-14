@@ -107,7 +107,7 @@
                     <p>- Intuitivo (Hacer facil e interactiva la navegacion, para evitar que los usuarios abandonen la pagina)
                     <p>- Estadisticas  (de las notas y el avance del postulante y de las personas con el mejor promedio)
                     <p>- Las preguntas seran para marcar</p>
-       
+
                 </div>
 
             </div>
