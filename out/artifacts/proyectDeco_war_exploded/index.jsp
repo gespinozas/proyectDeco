@@ -73,10 +73,10 @@
                         <a href="about.jsp"><i class="fa fa-fw fa-bar-chart-o"></i> NOSOTROS</a>
                     </li>
                     <li>
-                        <a href="login1.jsp"><i class="fa fa-fw fa-table"></i>LOGIN</a>
+                        <a href="login.jsp"><i class="fa fa-fw fa-table"></i>LOGIN</a>
                     </li>
                     <li>
-                        <a href="login1.jsp"><i class="fa fa-fw fa-edit"></i>NUEVO USUASRIO</a>
+                        <a href="login.jsp"><i class="fa fa-fw fa-edit"></i>NUEVO USUASRIO</a>
                     </li>
                     <li>
                         <a href="matters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
@@ -101,13 +101,13 @@
                     <h3> <i> <p align="center">Este producto servira para dinamizar el proceso de aprendizaje de los estudiantes que aspiran ingresar a la universidad por medio de sus multiples preguntas, basadas por temas y cursos</p>
                     </i></h3></font>
                 <h3>Caracteristicas</h3>
-             <font face="small fonts"  >  <p>- Pagina facilmente gestionable
+              <p>- Pagina facilmente gestionable
                     <p>- Adaptable a cualquier dispositivo
                     <p>- Carga rapida (Debe de visualizarse en el navegador rapidamente, si la pagina esta alojada en un servidor compartido con cientos o miles de paginas web adicional tipicos, esta nunca cargara rapido)
                     <p>- Intuitivo (Hacer facil e interactiva la navegacion, para evitar que los usuarios abandonen la pagina)
                     <p>- Estadisticas  (de las notas y el avance del postulante y de las personas con el mejor promedio)
                     <p>- Las preguntas seran para marcar</p>
-                 </font>
+
                 </div>
 
             </div>
