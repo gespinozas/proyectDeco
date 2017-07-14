@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Interaction Study</title>
+    <title>Inicio</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -94,20 +94,20 @@
                 <!-- Page Heading -->
                 <div class="row">
 
-                        <h1>INICIO</h1>
-                        <h3>Desarrollado por Innovation sac.</h3>
-
-                     <p>Este producto servira para dinamizar el proceso de aprendizaje de los estudiantes que aspiran ingresar a la universidad por medio de sus multiples preguntas, basadas por temas y cursos</p>
-
-
+                    <li>
+                        <img src="Images/general/banner.jpg" style="max-width: 100%; height: auto;" width=1100 height=300/ >
+                        </div>
+                    </li> <font color="#585858">
+                    <h3> <i> <p align="center">Este producto servira para dinamizar el proceso de aprendizaje de los estudiantes que aspiran ingresar a la universidad por medio de sus multiples preguntas, basadas por temas y cursos</p>
+                    </i></h3></font>
                 <h3>Caracteristicas</h3>
-                    <p>- Pagina facilmente gestionable</p>
-                    <p>- Adaptable a cualquier dispositivo</p>
-                    <p>- Carga rapida (Debe de visualizarse en el navegador rapidamente, si la pagina esta alojada en un servidor compartido con cientos o miles de paginas web adicional tipicos, esta nunca cargara rapido)</p>
-                    <p>- Intuitivo (Hacer facil e interactiva la navegacion, para evitar que los usuarios abandonen la pagina)</p>
-                <p>- Estadisticas  (de las notas y el avance del postulante y de las personas con el mejor promedio)</p>
-                <p>- Las preguntas seran para marcar</p>
-
+             <font face="small fonts"  >  <p>- Pagina facilmente gestionable
+                    <p>- Adaptable a cualquier dispositivo
+                    <p>- Carga rapida (Debe de visualizarse en el navegador rapidamente, si la pagina esta alojada en un servidor compartido con cientos o miles de paginas web adicional tipicos, esta nunca cargara rapido)
+                    <p>- Intuitivo (Hacer facil e interactiva la navegacion, para evitar que los usuarios abandonen la pagina)
+                    <p>- Estadisticas  (de las notas y el avance del postulante y de las personas con el mejor promedio)
+                    <p>- Las preguntas seran para marcar</p>
+                 </font>
                 </div>
 
             </div>
