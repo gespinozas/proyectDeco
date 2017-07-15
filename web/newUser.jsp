@@ -97,21 +97,21 @@
             </div>
             <!-- /.row -->
 
-            <h3>Datos a llenar</h3>
+            <h3>Datos a completar</h3>
             <fieldset style="margin-bottom: 120px;">
                 <s:form action="register">
 
-                    <P>Usuario:</P> <s:textfield placeholder="Usuario" name="username" label="UserName"/>
-                    <P>Contrasena:</P>  <s:textfield placeholder="Password" name="password" label="Password"/>
-                    <P>Telefono Celular:</P> <s:textfield placeholder="Phone" name="phone" label="Phone"/>
-                    <P>Direccion:</P><s:textfield placeholder="Address" name="address" label="Address"/>
-                    <P>Nombre de academia:</P><s:textfield placeholder="Academy" name="academy" label="Academy"/>
-                    <s:submit value="Crear usuario" cssClass="btn btn-default"/>
-
+                    <br> Usuario:             <input type="UserName" name="username" id="UserName">
+                    <br> Contrasena:          <input type="Password" name="password" id="Password">
+                    <br>Telefono Celular:     <input type="Phone" name="phone" id="Phone">
+                    <br>Direccion:            <input type="Address" name="address" id="Address">
+                    <br> Nombre de Academia:  <input type="Academy" name="academy" id="Academy">
+                    <br><s:submit value="Crear usuario" cssClass="btn btn-default"/>
+                    <br><a href="welcomeUser.jsp"><button>Registrar </button></a>
                 </s:form>
 
                 <footer class="clearfix">
-                    <a href="welcomeUser.jsp"></a>
+
                 </footer>
             <!-- end log
             <!-- /.row -->

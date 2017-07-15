@@ -21,14 +21,6 @@ public class UserAction extends ActionSupport{
     private String address;
     private String academy;
 
-    public UserAction(String username, String password, String lastName, int phone, String address, String academy) {
-        this.username = username;
-        this.password = password;
-        this.lastName = lastName;
-        this.phone = phone;
-        this.address = address;
-        this.academy = academy;
-    }
 
     public String getUsername() {
         return username;

@@ -102,7 +102,7 @@
             </div>
             <!-- /.row -->
 
-                <h1>Formulario de acceso</h1>
+                <h2>Formulario de acceso</h2>
                 <fieldset style="margin-bottom: 120px;">
                     <s:if test="hasActionErrors()">
                         <div class="errors">
@@ -118,7 +118,8 @@
                     </s:form>
 
                     <footer class="clearfix">
-                        <p><span class="info">?</span><a href="Register_User.jsp">Crear cuenta</a></p>
+
+                        <p><a href="newUser.jsp">Crear cuenta</a></p>
                     </footer>
                 </fieldset>
             <!-- end log
