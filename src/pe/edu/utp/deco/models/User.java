@@ -2,37 +2,40 @@ package pe.edu.utp.deco.models;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Date;
 
 /**
  * Created by Administrador on 29/06/2017.
  */
 public class User {
-    public User(String id, String type, String name, String last_name, String user, String password, String phone, String address, String academy) {
-        this.id = id;
-        this.type = type;
-        this.name = name;
-        this.last_name = last_name;
-        this.user = user;
-        this.password = password;
-        this.phone = phone;
-        this.address = address;
-        this.academy = academy;
-    }
 
-    public User() {
-    }
 
     private String id;
-    private String type;
     private String name;
-    private String last_name;
+    private String lastName;
     private String user;
     private String password;
     private String phone;
     private String address;
     private String academy;
+    private Date registry;
+    private Boolean status;
 
+    public User(String id, String name, String lastName, String user, String password, String phone, String address, String academy, Date registry, Boolean status) {
+        this.id = id;
+        this.name = name;
+        this.lastName = lastName;
+        this.user = user;
+        this.password = password;
+        this.phone = phone;
+        this.address = address;
+        this.academy = academy;
+        this.registry = registry;
+        this.status = status;
+    }
 
+    public User() {
+    }
 
     public String getId() {
         return id;
@@ -40,16 +43,6 @@ public class User {
 
     public User setId(String id) {
         this.id = id;
-        return this;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-
-    public User setType(String type) {
-        this.type = type;
         return this;
     }
 
@@ -64,13 +57,13 @@ public class User {
         return this;
     }
 
-    public String getLast_name() {
-        return last_name;
+    public String getLastName() {
+        return lastName;
     }
 
 
-    public User setLast_name(String last_name) {
-        this.last_name = last_name;
+    public User setLastName(String lastName) {
+        this.lastName = lastName;
         return this;
     }
 
@@ -116,6 +109,15 @@ public class User {
         return this;
     }
 
+    public Date getRegistry() {
+        return registry;
+    }
+
+    public User setRegistry(Date registry) {
+        this.registry = registry;
+        return this;
+    }
+
     public String getUser() {
         return user;
     }
@@ -123,13 +125,29 @@ public class User {
         this.user = user;
         return this;
     }
+
+    public Boolean getStatus() {
+        return status;
+    }
+
+    public User setStatus(Boolean status) {
+        this.status = status;
+        return this;
+    }
+
     public static User build(ResultSet resultSet) {
         try {
             return (new User())
                     .setId(resultSet.getString("id"))
                     .setName(resultSet.getString("name"))
+                    .setLastName(resultSet.getString("last_name"))
                     .setUser(resultSet.getString("user"))
-                    .setPassword(resultSet.getString("password"));
+                    .setPassword(resultSet.getString("password"))
+                    .setPhone(resultSet.getString("phone"))
+                    .setAddress(resultSet.getString("address"))
+                    .setAcademy(resultSet.getString("academy"))
+                    .setRegistry(resultSet.getDate("register_date"))
+                    .setStatus(resultSet.getBoolean("status"));
 
 
 
