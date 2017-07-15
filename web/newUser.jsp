@@ -51,14 +51,34 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Creacion usuario <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        <a href="#"><i class="fa fa-fw fa-user"></i> Nombre </a>
                     </li>
                     <li class="divider"></li>
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Apellidos </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Nombre de usuario </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Ingrese contraseña </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Numero celular </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Direccion </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Nombre de academia </a>
                     </li>
                 </ul>
             </li>
@@ -94,13 +114,35 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                       NUEVO USUARIO
+                        LOGIN
                     </h1>
 
                 </div>
             </div>
             <!-- /.row -->
 
+            <fieldset style="margin-bottom: 120px;">
+                <s:if test="hasActionErrors()">
+                    <div class="errors">
+                        <s:actionerror/>
+                    </div>
+                </s:if>
+                <s:form action="registrer">
+
+                    <s:textfield placeholder="Usuario" name="username" label="UserName"/>
+                    <s:textfield placeholder="Password" name="password" label="Password"/>
+                    <s:textfield placeholder="Phone" name="phone" label="phone"/>
+                    <s:textfield placeholder="Address" name="address" label="address"/>
+                    <s:textfield placeholder="Academy" name="academy" label="academy" />
+                    <s:submit value="Registrar" cssClass="btn btn-default"/>
+
+                </s:form>
+
+                <footer class="clearfix">
+                    <p><span class="info"></span><a href="Register_User.jsp">Crear cuenta</a></p>
+                </footer>
+            </fieldset>
+            <!-- end log
             <!-- /.row -->
 
         </div>
