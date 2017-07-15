@@ -54,31 +54,7 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Creacion usuario <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Nombre </a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Apellidos </a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Nombre de usuario </a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Ingrese contraseña </a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Numero celular </a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Direccion </a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Nombre de academia </a>
+                        <a href="#"><i class="fa fa-fw fa-user"></i> REDIRECIONAR </a>
                     </li>
                 </ul>
             </li>
@@ -114,34 +90,29 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                        LOGIN
+                        CREACION DE NUEVO USUARIO
                     </h1>
 
                 </div>
             </div>
             <!-- /.row -->
 
+            <h3>Datos a llenar</h3>
             <fieldset style="margin-bottom: 120px;">
-                <s:if test="hasActionErrors()">
-                    <div class="errors">
-                        <s:actionerror/>
-                    </div>
-                </s:if>
-                <s:form action="registrer">
+                <s:form action="register">
 
-                    <s:textfield placeholder="Usuario" name="username" label="UserName"/>
-                    <s:textfield placeholder="Password" name="password" label="Password"/>
-                    <s:textfield placeholder="Phone" name="phone" label="phone"/>
-                    <s:textfield placeholder="Address" name="address" label="address"/>
-                    <s:textfield placeholder="Academy" name="academy" label="academy" />
-                    <s:submit value="Registrar" cssClass="btn btn-default"/>
+                    <P>Usuario</P> <s:textfield placeholder="Usuario" name="username" label="UserName"/>
+                    <P>Contrasena</P>  <s:textfield placeholder="Password" name="password" label="Password"/>
+                    <P>Telefono Celular</P> <s:textfield placeholder="Phone" name="phone" label="Phone"/>
+                    <P>Direccion</P><s:textfield placeholder="Address" name="address" label="Address"/>
+                    <P>Nombre de academia</P><s:textfield placeholder="Academy" name="academy" label="Academy"/>
+                    <s:submit value="Crear usuario" cssClass="btn btn-default"/>
 
                 </s:form>
 
                 <footer class="clearfix">
-                    <p><span class="info"></span><a href="Register_User.jsp">Crear cuenta</a></p>
+                    <a href="welcomeUser.jsp"></a>
                 </footer>
-            </fieldset>
             <!-- end log
             <!-- /.row -->
 

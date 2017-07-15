@@ -1,9 +1,12 @@
 package pe.edu.utp.deco.actions;
 
 import com.opensymphony.xwork2.ActionSupport;
+import org.apache.commons.io.FileUtils;
 import org.apache.struts2.dispatcher.SessionMap;
 import org.apache.struts2.interceptor.SessionAware;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Map;
 
 /**
@@ -13,6 +16,19 @@ public class UserAction extends ActionSupport{
 
     private String username;
     private String password;
+    private String lastName;
+    private int phone;
+    private String address;
+    private String academy;
+
+    public UserAction(String username, String password, String lastName, int phone, String address, String academy) {
+        this.username = username;
+        this.password = password;
+        this.lastName = lastName;
+        this.phone = phone;
+        this.address = address;
+        this.academy = academy;
+    }
 
     public String getUsername() {
         return username;
@@ -32,6 +48,38 @@ public class UserAction extends ActionSupport{
 
     public String execute() {
         return SUCCESS;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public int getPhone() {
+        return phone;
+    }
+
+    public void setPhone(int phone) {
+        this.phone = phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getAcademy() {
+        return academy;
+    }
+
+    public void setAcademy(String academy) {
+        this.academy = academy;
     }
 
     /*
