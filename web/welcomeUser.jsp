@@ -8,9 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Bienvenido</title>
+   <center><title>Bienvenido</title></center>
 </head>
 <body>
-<p>Bienvenido <s:property value="userName"/>. Ingrese a sus cursos dando click aqui <a href="matters.jsp"></a> </p>
+<h1> <center>Bienvenido   <s:property value="UserName"/>  , </center> </h1>
+<h2><center> Ingrese a sus cursos dando <p><a href="matters.jsp"><s:url action="log" /> Click aqui</a></p> </center> </h2>
+<center><img src="Images/general/books.jpg" style="max-width: 100%; height: auto;" width=500 height=400/ ></center>
 </body>
 </html>
