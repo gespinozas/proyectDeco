@@ -51,14 +51,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Creacion usuario <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="#"><i class="fa fa-fw fa-user"></i> REDIRECIONAR </a>
                     </li>
                 </ul>
             </li>
@@ -94,13 +90,30 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                       NUEVO USUARIO
+                        CREACION DE NUEVO USUARIO
                     </h1>
 
                 </div>
             </div>
             <!-- /.row -->
 
+            <h3>Datos a llenar</h3>
+            <fieldset style="margin-bottom: 120px;">
+                <s:form action="register">
+
+                    <P>Usuario:</P> <s:textfield placeholder="Usuario" name="username" label="UserName"/>
+                    <P>Contrasena:</P>  <s:textfield placeholder="Password" name="password" label="Password"/>
+                    <P>Telefono Celular:</P> <s:textfield placeholder="Phone" name="phone" label="Phone"/>
+                    <P>Direccion:</P><s:textfield placeholder="Address" name="address" label="Address"/>
+                    <P>Nombre de academia:</P><s:textfield placeholder="Academy" name="academy" label="Academy"/>
+                    <s:submit value="Crear usuario" cssClass="btn btn-default"/>
+
+                </s:form>
+
+                <footer class="clearfix">
+                    <a href="welcomeUser.jsp"></a>
+                </footer>
+            <!-- end log
             <!-- /.row -->
 
         </div>
