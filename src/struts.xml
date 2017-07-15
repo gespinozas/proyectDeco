@@ -7,9 +7,13 @@
 <struts>
     <package name="default" extends="struts-default">
 
-        <action name="login" class="pe.edu.utp.deco.actions.UserAction">
-            <result name="success">matters.jsp</result>
+        <action name="validateUser" class="pe.edu.utp.deco.actions.UserAction">
+            <result name="welcome">matters.jsp</result>
             <result name="input">index.jsp</result>
+            <result name="error">login.jsp</result>
+        </action>
+        <action name="logout" class="pe.edu.utp.deco.actions.UserAction" method="logout">
+            <result name="success" type="redirect">login.jsp</result>
         </action>
     </package>
 </struts>
