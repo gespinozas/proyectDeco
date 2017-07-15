@@ -118,7 +118,6 @@
                     </s:form>
 
                     <footer class="clearfix">
-
                         <p><a href="newUser.jsp">Crear cuenta</a></p>
                     </footer>
                 </fieldset>

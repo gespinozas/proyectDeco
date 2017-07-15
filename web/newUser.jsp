@@ -107,7 +107,7 @@
                     <br>Direccion:            <input type="Address" name="address" id="Address">
                     <br> Nombre de Academia:  <input type="Academy" name="academy" id="Academy">
                     <br><s:submit value="Crear usuario" cssClass="btn btn-default"/>
-                    <br><a href="welcomeUser.jsp"><button>Registrar </button></a>
+                    <br><a href="login.jsp"><button>Registrar </button></a>
                 </s:form>
 
                 <footer class="clearfix">

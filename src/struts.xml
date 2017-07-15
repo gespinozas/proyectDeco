@@ -8,7 +8,7 @@
     <package name="default" extends="struts-default">
 
         <action name="login" class="pe.edu.utp.deco.actions.UserAction">
-            <result name="success">matters.jsp</result>
+            <result name="success">welcomeUser.jsp</result>
             <result name="input">index.jsp</result>
         </action>
     </package>
