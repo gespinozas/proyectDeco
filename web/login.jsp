@@ -109,9 +109,9 @@
                             <s:actionerror/>
                         </div>
                     </s:if>
-                    <s:form action="login">
+                    <s:form action="validateUser">
 
-                        <s:textfield placeholder="Usuario" name="username" label="UserName"/>
+                        <s:textfield placeholder="Usuario" name="user" label="UserName"/>
                         <s:textfield placeholder="Password" name="password" label="Password"/>
                         <s:submit value="Iniciar Sesion" cssClass="btn btn-default"/>
 

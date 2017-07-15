@@ -45,11 +45,9 @@ public class UserService extends DecoService {
         }
         String result = "";
         if (exist) {
-            if (userAll.size() == 1) {
-                result="success";
-                }
 
-            else { result = "choose"; }
+            result="welcome";
+
         } else {
             result = "error";
         }
