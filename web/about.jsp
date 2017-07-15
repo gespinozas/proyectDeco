@@ -98,7 +98,7 @@
                             <div class="about-topgrids">
                                 <div class="about-topgrid1">
                                     <h3 class="heading">Quienes Somos?</h3>
-                                    <img src="images/general/logo_web.png" title="name">
+                                    <center><IMG SRC="Images/general/InnovationSac.PNG" WIDTH=447 HEIGHT=200 ><p/></center>
                                     </div>
                             </div>
                             <p>Somos una empresa de desarrollo de tecnologia la cual se le presenta un proyecto de una plataforma web de simulacion de examenes de admision, se recopilo informacion de los jovenes en etapa de preparacion para conocer mas, acerca de las complicaciones que pueden tener en esta etapa, y se obtuvo los siguientes datos:
@@ -136,30 +136,30 @@
                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="images/general/img.png" WIDTH=250 HEIGHT=130 ><p/>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div class="section group">
                                     <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><a href="#"><img src="Images/Members/jherson.png" WIDTH=178 HEIGHT=200></a></div>
-                                        <h4><a href="#">Jherson Aquino Luna</a> </h4>
-                                        <h6>Ing de Software</h6>
+                                        <div class="image"><a href="#"><center><img src="Images/Members/jherson.png" WIDTH=178 HEIGHT=200></center></a></div>
+                                        <h4><center><a href="#">Jherson Aquino Luna</a></center> </h4>
+                                        <h6><center>Ing de Software</center></h6>
                                         <p> </p>
                                     </div>
                                     <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><a href="#"><img src="Images/Members/gustavo.png" WIDTH=178 HEIGHT=200></a></div>
-                                        <h4><a href="#">Gustavo Espinoza Solano</a> </h4>
-                                        <h6>Ing.de Software</h6>
+                                        <div class="image"><a href="#"><center><img src="Images/Members/gustavo.png" WIDTH=178 HEIGHT=200></center></a></div>
+                                        <h4><center><a href="#">Gustavo Espinoza Solano</a></center> </h4>
+                                        <h6><center>Ing.de Software</center></h6>
                                         <p></p>
                                     </div>
                                     <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><a href="#"><img src="Images/Members/ronald.png" WIDTH=178 HEIGHT=200></a></div>
-                                        <h4><a href="#">Ronald Estela Quintana</a> </h4>
-                                        <h6>Ing.de Software</h6>
+                                        <div class="image"><center><a href="#"><img src="Images/Members/ronald.png" WIDTH=178 HEIGHT=200></a></center></div>
+                                        <h4><center><a href="#">Ronald Estela Quintana</a></center> </h4>
+                                        <h6><center>Ing.de Software</center></h6>
                                         <p></p>
                                     </div>
                                     <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><a href="#"><img src="Images/Members/walter.png" WIDTH=178 HEIGHT=200></a></div>
-                                        <h4><a href="#">Walter Vega Guevara </a> </h4>
-                                        <h6>Ing. de Sistemas</h6>
+                                        <div class="image"><center><a href="#"><img src="Images/Members/walter.png" WIDTH=178 HEIGHT=200></a></center></div>
+                                        <h4><center><a href="#">Walter Vega Guevara </a></center> </h4>
+                                        <h6><center>Ing. de Sistemas</center></h6>
                                         <p></p>
                                     </div>
 
