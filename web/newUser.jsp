@@ -101,11 +101,11 @@
             <fieldset style="margin-bottom: 120px;">
                 <s:form action="register">
 
-                    <P>Usuario</P> <s:textfield placeholder="Usuario" name="username" label="UserName"/>
-                    <P>Contrasena</P>  <s:textfield placeholder="Password" name="password" label="Password"/>
-                    <P>Telefono Celular</P> <s:textfield placeholder="Phone" name="phone" label="Phone"/>
-                    <P>Direccion</P><s:textfield placeholder="Address" name="address" label="Address"/>
-                    <P>Nombre de academia</P><s:textfield placeholder="Academy" name="academy" label="Academy"/>
+                    <P>Usuario:</P> <s:textfield placeholder="Usuario" name="username" label="UserName"/>
+                    <P>Contrasena:</P>  <s:textfield placeholder="Password" name="password" label="Password"/>
+                    <P>Telefono Celular:</P> <s:textfield placeholder="Phone" name="phone" label="Phone"/>
+                    <P>Direccion:</P><s:textfield placeholder="Address" name="address" label="Address"/>
+                    <P>Nombre de academia:</P><s:textfield placeholder="Academy" name="academy" label="Academy"/>
                     <s:submit value="Crear usuario" cssClass="btn btn-default"/>
 
                 </s:form>
