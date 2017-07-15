@@ -139,25 +139,25 @@
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="images/general/img.png" WIDTH=250 HEIGHT=130 ><p/>
                                 <div class="section group">
                                     <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><a href="#"><img src="images/general/prs1.jpg" WIDTH=178 HEIGHT=200></a></div>
+                                        <div class="image"><a href="#"><img src="Images/Members/jherson.png" WIDTH=178 HEIGHT=200></a></div>
                                         <h4><a href="#">Jherson Aquino Luna</a> </h4>
                                         <h6>Ing de Software</h6>
                                         <p> </p>
                                     </div>
                                     <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><a href="#"><img src="images/general/prs2.jpg" WIDTH=178 HEIGHT=200></a></div>
+                                        <div class="image"><a href="#"><img src="Images/Members/gustavo.png" WIDTH=178 HEIGHT=200></a></div>
                                         <h4><a href="#">Gustavo Espinoza Solano</a> </h4>
                                         <h6>Ing.de Software</h6>
                                         <p></p>
                                     </div>
                                     <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><a href="#"><img src="images/general/prs4.jpg" WIDTH=178 HEIGHT=200></a></div>
+                                        <div class="image"><a href="#"><img src="Images/Members/ronald.png" WIDTH=178 HEIGHT=200></a></div>
                                         <h4><a href="#">Ronald Estela Quintana</a> </h4>
                                         <h6>Ing.de Software</h6>
                                         <p></p>
                                     </div>
                                     <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><a href="#"><img src="images/general/prs3.jpg" WIDTH=178 HEIGHT=200></a></div>
+                                        <div class="image"><a href="#"><img src="Images/Members/walter.png" WIDTH=178 HEIGHT=200></a></div>
                                         <h4><a href="#">Walter Vega Guevara </a> </h4>
                                         <h6>Ing. de Sistemas</h6>
                                         <p></p>
