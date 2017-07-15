@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843c3aa0-4fcf-474f-b358-57ebabe943b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pe/edu/utp/deco/util/Cast.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/BaseEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/BaseEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/User.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/UsersEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/UsersEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/services/DecoService.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/services/DecoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/BaseEntity.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/BaseEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/User.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/UsersEntity.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/UsersEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/services/DecoService.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/services/DecoService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pe/edu/utp/deco/actions/UserAction.java" afterPath="$PROJECT_DIR$/src/pe/edu/utp/deco/actions/UserAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pe/edu/utp/deco/services/UserService.java" afterPath="$PROJECT_DIR$/src/pe/edu/utp/deco/services/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +84,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1454">
               <caret line="106" column="51" lean-forward="true" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
-              <folding />
+              <folding>
+                <marker date="1500142182015" expanded="true" signature="4611:4643" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,38 +111,40 @@
               <caret line="108" column="20" lean-forward="false" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
-                <element signature="e#1092#1093#0" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
-                <element signature="e#1159#1160#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1257#1258#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-                <element signature="e#1345#1346#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
-                <element signature="e#1481#1482#0" expanded="true" />
-                <element signature="e#1515#1516#0" expanded="true" />
-                <element signature="e#1545#1546#0" expanded="true" />
-                <element signature="e#1591#1592#0" expanded="true" />
-                <element signature="e#1629#1630#0" expanded="true" />
-                <element signature="e#1663#1664#0" expanded="true" />
-                <element signature="e#1693#1694#0" expanded="true" />
-                <element signature="e#1739#1740#0" expanded="true" />
-                <element signature="e#1777#1778#0" expanded="true" />
-                <element signature="e#1811#1812#0" expanded="true" />
-                <element signature="e#1840#1841#0" expanded="true" />
-                <element signature="e#1885#1886#0" expanded="true" />
-                <element signature="e#1921#1922#0" expanded="true" />
+                <marker date="1500142204558" expanded="true" signature="874:885" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="902:908" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="941:952" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="968:974" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1020:1031" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1056:1062" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1091:1102" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1114:1120" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1158:1169" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1186:1192" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1225:1236" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1252:1258" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1304:1315" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1340:1346" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1376:1387" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1400:1406" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1446:1457" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1476:1482" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1514:1525" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1540:1546" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1590:1601" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1624:1630" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1662:1673" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1688:1694" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1738:1749" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1772:1778" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1810:1821" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1835:1841" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="1884:1895" ph=" { " />
+                <marker date="1500142204558" expanded="true" signature="1916:1922" ph=" }" />
+                <marker date="1500142204558" expanded="false" signature="1973:1984" ph=" { " />
+                <marker date="1500142204558" expanded="false" signature="2011:2017" ph=" }" />
+                <marker date="1500142204558" expanded="true" signature="2052:2500" ph="{...}" />
+                <marker date="1500142204558" expanded="true" signature="2528:2592" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -992,7 +982,7 @@
       <workItem from="1499840242703" duration="887000" />
       <workItem from="1499841400132" duration="301000" />
       <workItem from="1499986005392" duration="3577000" />
-      <workItem from="1500096647581" duration="27509000" />
+      <workItem from="1500096647581" duration="27614000" />
     </task>
     <task id="LOCAL-00001" summary="Se actualizaron vistas">
       <created>1499840909767</created>
@@ -1071,11 +1061,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500137958169</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Se agrego la clase Cast">
+      <created>1500142173566</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1500142173566</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41678000" />
+    <option name="totallyTimeSpent" value="41783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1108,10 +1105,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3059867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3059867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13230951" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13230951" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1175,7 +1172,8 @@
     <MESSAGE value="Se agrego la clase UserService con sus metodos" />
     <MESSAGE value="Se agrega la cyptionMD5" />
     <MESSAGE value="Actualizo cambios en el proyect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizo cambios en el proyect" />
+    <MESSAGE value="Se agrego la clase Cast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrego la clase Cast" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1208,7 +1206,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1500142182015" expanded="true" signature="4611:4643" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,7 +1250,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1500142182015" expanded="true" signature="4611:4643" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1422,7 +1424,7 @@
         <state relative-caret-position="559">
           <caret line="178" column="30" lean-forward="false" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
           <folding>
-            <marker date="1500137752048" expanded="true" signature="3265:3290" ph="..." />
+            <marker date="1500142181992" expanded="true" signature="3265:3290" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1511,38 +1513,40 @@
           <caret line="108" column="20" lean-forward="false" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#1629#1630#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1739#1740#0" expanded="true" />
-            <element signature="e#1777#1778#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1885#1886#0" expanded="true" />
-            <element signature="e#1921#1922#0" expanded="true" />
+            <marker date="1500142204558" expanded="true" signature="874:885" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="902:908" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="941:952" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="968:974" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1020:1031" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1056:1062" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1091:1102" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1114:1120" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1158:1169" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1186:1192" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1225:1236" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1252:1258" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1304:1315" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1340:1346" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1376:1387" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1400:1406" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1446:1457" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1476:1482" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1514:1525" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1540:1546" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1590:1601" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1624:1630" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1662:1673" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1688:1694" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1738:1749" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1772:1778" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1810:1821" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1835:1841" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="1884:1895" ph=" { " />
+            <marker date="1500142204558" expanded="true" signature="1916:1922" ph=" }" />
+            <marker date="1500142204558" expanded="false" signature="1973:1984" ph=" { " />
+            <marker date="1500142204558" expanded="false" signature="2011:2017" ph=" }" />
+            <marker date="1500142204558" expanded="true" signature="2052:2500" ph="{...}" />
+            <marker date="1500142204558" expanded="true" signature="2528:2592" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1562,7 +1566,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1454">
           <caret line="106" column="51" lean-forward="true" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
-          <folding />
+          <folding>
+            <marker date="1500142182015" expanded="true" signature="4611:4643" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
