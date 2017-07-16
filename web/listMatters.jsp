@@ -13,10 +13,31 @@
 </head>
 <body>
 <jsp:useBean id="service" class="pe.edu.utp.deco.services.DecoService"/>
-<c:forEach var="matter" items="${service.matters}">
+
+<div class="col-lg-3 col-md-6">
+    <div class="panel panel-red">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-xs-3">
+                    <i class="fa fa-tasks fa-5x"></i>
+                </div>
+                <div class="col-xs-9 text-right">
+                    <div><c:forEach var="matter" items="${service.matters}"></div>
+                </div>
+            </div>
+        </div>
+        <a href="<c:forEach var="matter" items="${service.matters}">">
+            <div class="panel-footer">
+                <span class="pull-left">Ver temas</span>
+                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                <div class="clearfix"></div>
+            </div>
+        </a>
+    </div>
     <p><c:out value="${matter.name}"/>
-        <c:out value="${service.getTopicsCountForMatter(matter)}"/></p>
-          <img src="Images/Matters/<c:out value="${matter.name}"/>portada.jpg"/></p>
+
+    <%--<c:out value="${service.getTopicsCountForMatter(matter)}"/></p>--%>
+          <%--<img src="Images/Matters/<c:out value="${matter.name}"/>portada.jpg"/></p>--%>
 </c:forEach>
 </body>
 </html>
