@@ -51,14 +51,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Creacion usuario <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="#"><i class="fa fa-fw fa-user"></i> REDIRECIONAR </a>
                     </li>
                 </ul>
             </li>
@@ -94,13 +90,30 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                       NUEVO USUARIO
+                        CREACION DE NUEVO USUARIO
                     </h1>
 
                 </div>
             </div>
             <!-- /.row -->
 
+            <h3>Datos a completar</h3>
+            <fieldset style="margin-bottom: 120px;">
+                <s:form action="register">
+
+                    <br> Usuario:             <input type="UserName" name="username" id="UserName">
+                    <br> Contrasena:          <input type="Password" name="password" id="Password">
+                    <br>Telefono Celular:     <input type="Phone" name="phone" id="Phone">
+                    <br>Direccion:            <input type="Address" name="address" id="Address">
+                    <br> Nombre de Academia:  <input type="Academy" name="academy" id="Academy">
+                    <br><s:submit value="Crear usuario" cssClass="btn btn-default"/>
+                    <br><a href="login.jsp"><button>Registrar </button></a>
+                </s:form>
+
+                <footer class="clearfix">
+
+                </footer>
+            <!-- end log
             <!-- /.row -->
 
         </div>

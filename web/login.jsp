@@ -80,8 +80,8 @@
                     <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>NUEVO USUARIO</a>
                 </li>
                 <li>
-                    <a href="matters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
-                </li>
+                <a href="matters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
+            </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -102,23 +102,23 @@
             </div>
             <!-- /.row -->
 
-                <h1>Formulario de acceso</h1>
+                <h2>Formulario de acceso</h2>
                 <fieldset style="margin-bottom: 120px;">
                     <s:if test="hasActionErrors()">
                         <div class="errors">
                             <s:actionerror/>
                         </div>
                     </s:if>
-                    <s:form action="login">
+                    <s:form action="validateUser">
 
-                        <s:textfield placeholder="Usuario" name="username" label="UserName"/>
+                        <s:textfield placeholder="Usuario" name="user" label="UserName"/>
                         <s:textfield placeholder="Password" name="password" label="Password"/>
                         <s:submit value="Iniciar Sesion" cssClass="btn btn-default"/>
 
                     </s:form>
 
                     <footer class="clearfix">
-                        <p><span class="info">?</span><a href="Register_User.jsp">Crear cuenta</a></p>
+                        <p><a href="newUser.jsp">Crear cuenta</a></p>
                     </footer>
                 </fieldset>
             <!-- end log

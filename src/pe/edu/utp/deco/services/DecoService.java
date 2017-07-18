@@ -28,10 +28,7 @@ public class DecoService {
             e.printStackTrace();
         }
     }
-    public boolean validateUser(String userName, String password) {
-        return (userName.equalsIgnoreCase("admin") &&
-                password.equalsIgnoreCase("password"));
-    }
+
 
     public DecoService() {
         try {
@@ -45,7 +42,7 @@ public class DecoService {
         }
 
     }
-    private Connection getConnection() {
+    public Connection getConnection() {
         return connection;
     }
 
