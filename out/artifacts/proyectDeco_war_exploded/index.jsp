@@ -72,6 +72,7 @@
                     <li>
                         <a href="about.jsp"><i class="fa fa-fw fa-bar-chart-o"></i> NOSOTROS</a>
                     </li>
+
                     <li>
                         <a href="login.jsp"><i class="fa fa-fw fa-table"></i>LOGIN</a>
                     </li>
@@ -79,7 +80,7 @@
                         <a href="login.jsp"><i class="fa fa-fw fa-edit"></i>NUEVO USUASRIO</a>
                     </li>
                     <li>
-                        <a href="matters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
+                        <a href="listMatters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
                     </li>
 
                 </ul>
