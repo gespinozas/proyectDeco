@@ -79,7 +79,7 @@
                         <a href="login.jsp"><i class="fa fa-fw fa-edit"></i>NUEVO USUASRIO</a>
                     </li>
                     <li>
-                        <a href="matters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
+                        <a href="listMatters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
                     </li>
 
                 </ul>
