@@ -11,6 +11,10 @@
 
     <title>Inicio</title>
 
+    <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -46,7 +50,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.jsp">Interaction Study</a>
+                <a class="navbar-brand" href="index.jsp">INTERACION STUDY</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -93,23 +97,46 @@
 
                 <!-- Page Heading -->
                 <div class="row">
-
-                    <li>
-                        <img src="Images/general/banner.jpg" style="max-width: 100%; height: auto;" width=1100 height=300/ >
+                        <img src="Images/banner.jpg" alt="..." class="img-thumbnail" width="1100" height="350"/>
                         </div>
-                    </li>
-                    <h3> <b><font color="black"><i> <p align="center">Este producto servira para dinamizar el proceso de aprendizaje de los estudiantes que aspiran ingresar a la universidad por medio de sus multiples preguntas, basadas por temas y cursos</p>
-                    </i></font></b></h3>
-                <h3><b><u><font color ="black">Caracteristicas:</font></u></b></h3>
 
-                    <p><font color ="black">- Pagina facilmente gestionable</font>
-                    <p><font color ="black">- Adaptable a cualquier dispositivo</font>
-                    <p><font color ="black">- Carga rapida (Debe de visualizarse en el navegador rapidamente, si la pagina esta alojada en un servidor</font>
-                <p><font color ="white">'</font><font color ="black">    compartido con cientos o miles de paginas web adicional tipicos, esta nunca cargara rapido)</font>
-                    <p><font color ="black">- Intuitivo (Hacer facil e interactiva la navegacion, para evitar que los usuarios abandonen la pagina)</font>
-                    <p><font color ="black">- Estadisticas  (de las notas y el avance del postulante y de las personas con el mejor promedio)</font>
-                    <p><font color ="black">- Las preguntas seran para marcar</font></p>
 
+                <div class="alert alert-warning" role="alert"><h4 align="center">Este producto servira para dinamizar el proceso de aprendizaje de los estudiantes que aspiran ingresar a la universidad por medio de sus multiples preguntas, basadas por temas y cursos
+                </h4></div>
+
+
+
+
+                </div>
+
+                <div class="panel panel-warning" align="center">
+                    <div class="panel-body">
+                        <h3 class="panel-title"><i class="fa fa-fw fa-comment"></i>CARACTERISTICAS</h3>
+                    </div>
+
+                    <div class="panel-footer">
+                        <i class="fa fa-fw fa-check"></i>Adaptable a cualquier dispositivo
+                    </div>
+
+                    <div class="panel-footer">
+                            <i class="fa fa-fw fa-check"></i>Pagina facilmente gestionable
+                    </div>
+
+                    <div class="panel-footer">
+                        <i class="fa fa-fw fa-check"></i>Carga rapida (Debe de visualizarse en el navegador rapidamente, si la pagina esta alojada en un servidor
+                    </div>
+
+                    <div class="panel-footer">
+                        <i class="fa fa-fw fa-check"></i>Intuitivo (Hacer facil e interactiva la navegacion, para evitar que los usuarios abandonen la pagina)
+                    </div>
+
+                    <div class="panel-footer">
+                        <i class="fa fa-fw fa-check"></i>Estadisticas de las notas y el avance del postulante
+                    </div>
+
+                    <div class="panel-footer">
+                        <i class="fa fa-fw fa-check"></i>Preguntas para marcar
+                    </div>
                 </div>
 
             </div>

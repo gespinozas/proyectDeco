@@ -11,6 +11,10 @@
 
     <title>Nosotros</title>
 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -96,78 +100,162 @@
                     <div class="wrap">
                         <div class="about-bottom">
                             <div class="about-topgrids">
-                                <div class="about-topgrid1">
-                                    <h3 class="heading">Quienes Somos?</h3>
-                                    <center><IMG SRC="Images/general/InnovationSac.PNG" WIDTH=447 HEIGHT=200 ><p/></center>
-                                    </div>
-                            </div>
-                            <p>Somos una empresa de desarrollo de tecnologia la cual se le presenta un proyecto de una plataforma web de simulacion de examenes de admision, se recopilo informacion de los jovenes en etapa de preparacion para conocer mas, acerca de las complicaciones que pueden tener en esta etapa, y se obtuvo los siguientes datos:
-                            <p>
-                            <p> *Falta aplicaciones interactivas para poner en practica lo aprendido. </p>
-                            <p>	*Reducidos bancos de preguntas DECO en la web </p>
-                            <p></p>
-                            <p>Para ello el plan de trabajo que emplearemos sera, desarrollar una plataforma web para academias preuniversitarias que se encargara de brindar esta aplicacion a sus alumnos de manera gratuita, obteniendo mejor preparacion.</p>
-                            </p>
+                                <div class="jumbotron">
 
-                              <div class="clear"> </div>
-                            </div>
-                            <div class="about-services">
-                                <h3 class="heading" ></h3>
-                                <div class="questions">
-                                    <h3>Objetivos</h3>
-                                    <p>Hacer mas dinamica la preparacion del estudiante. </p>
-                                    <p></p>
-                                     <p>   Lograr incrementar el numero de ingresantes a la universidad por medio de nuestro software.</p>
 
-                                    <h3>Alcance</h3>
-                                    <p></p>
-                                    <p>Adquirir un mercado mas amplio, ya que nuestros clientes no solo serian personas que se estan preparando en academia sino que tambien abarcaria personas que se preparan por su propia cuenta , ya que contamos con espacios interactivos para todos.</p>
+                                    <section id="services">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12 text-center">
+                                                        <h2 class="section-heading">&#191;Quienes somos?</h2>
+                                                    <br>
+                                                    <h4 class="section-subheading text-muted">Somos una empresa de desarrollo de tecnologia la cual se le presenta un proyecto de una plataforma web de simulacion de examenes de admision, se recopilo informacion de los jovenes en etapa de preparacion para conocer mas, acerca de las complicaciones que pueden tener en esta etapa, y se obtuvo los siguientes datos:
+                                                        <p class="text-justify"><li>Falta aplicaciones interactivas para poner en practica lo aprendido. </li></p>
+                                                        <p class="text-justify"><li>Reducidos bancos de preguntas DECO en la web</li> </p>
+                                                        Para ello el plan de trabajo que emplearemos sera, desarrollar una plataforma web para academia preuniversitarias que se encargar de brindar esta aplicacion a sus alumnos de manera gratuita, obteniendo mejor preparacion.
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="row text-center">
+                                                <div class="col-md-4">
+                   <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-book fa-stack-1x fa-inverse"></i>
+                    </span>
+                                                    <h4 class="service-heading">Objetivos</h4>
+                                                    <p class="text-muted"><p> <h5>Hace mas dinamica la prepraracion del estudiante</h5></p>
+                                                    <p><h5>Lograr incrementar el numero de ingresantes a la universidad por medio de nuestro software</h5></p></p>
+                                                </div>
+                                                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                                                    <h4 class="service-heading">Alcance</h4>
+                                                    <p class="text-muted"><h5>Adquirir un mercado mas amplio, ya que nuestros clientes no solo serian personas que se estan preparando en academia sino que tambien abarcaria personas que se preparan por su propia cuenta, ya que contamos con espacios interactivos para todos.</h5></p>
+                                                </div>
+
+
+                                                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-eye fa-stack-1x fa-inverse"></i>
+                    </span>
+                                                    <h4 class="service-heading">Vision</h4>
+                                                    <p class="text-muted"><h5>Ser la aplicacion educativa peruana referente en excelencia académica formando personas con sólidos conocimientos.</h5></p>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </section>
+
+
                                 </div>
                             </div>
-                            <div class="clear"></div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+
+
+
                 <div class="wrap">
                     <div class="about">
                         <div class="about-top">
-                            <div class="col span_1_of_about">
-                                <h3 class="heading">Desarrollado por Innovation sac.</h3>
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <div class="section group">
-                                    <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><a href="#"><center><img src="Images/Members/jherson.png" WIDTH=178 HEIGHT=200></center></a></div>
-                                        <h4><center><a href="#">Jherson Aquino Luna</a></center> </h4>
-                                        <h6><center>Ing de Software</center></h6>
-                                        <p> </p>
-                                    </div>
-                                    <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><a href="#"><center><img src="Images/Members/gustavo.png" WIDTH=178 HEIGHT=200></center></a></div>
-                                        <h4><center><a href="#">Gustavo Espinoza Solano</a></center> </h4>
-                                        <h6><center>Ing.de Software</center></h6>
-                                        <p></p>
-                                    </div>
-                                    <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><center><a href="#"><img src="Images/Members/ronald.png" WIDTH=178 HEIGHT=200></a></center></div>
-                                        <h4><center><a href="#">Ronald Estela Quintana</a></center> </h4>
-                                        <h6><center>Ing.de Software</center></h6>
-                                        <p></p>
-                                    </div>
-                                    <div class="grid_1_of_4 images_1_of_4">
-                                        <div class="image"><center><a href="#"><img src="Images/Members/walter.png" WIDTH=178 HEIGHT=200></a></center></div>
-                                        <h4><center><a href="#">Walter Vega Guevara </a></center> </h4>
-                                        <h6><center>Ing. de Sistemas</center></h6>
-                                        <p></p>
-                                    </div>
 
-                                    <div class="clear"> </div>
-                                </div>
+                    <section id="team" class="bg-light-gray">
+                        <div class="container" align="center">
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <h2 class="section-heading">Equipo de Desarrollo</h2>
+                                 </div>
                             </div>
+                            <div class="row" align="center">
+                                <div class="col-sm-4">
+                                    <div class="team-member">
+                                        <img src="Images/Members/jherson.png" class="img-responsive img-circle" alt="">
+                                        <h4>Jherson Aquino</h4>
+                                        <p class="text-muted">Ingenieria de Software</p>
+                                        <ul class="list-inline social-buttons">
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4" >
+                                    <div class="team-member">
+                                        <img src="Images/Members/walter.png" class="img-responsive img-circle" alt="" >
+                                        <h4>Walter Vega</h4>
+                                        <p class="text-muted">Ingenieria de Sitemas</p>
+                                        <ul class="list-inline social-buttons">
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-sm-4">
+                                    <div class="team-member">
+                                        <img src="Images/Members/gustavo.png" class="img-responsive img-circle" alt="">
+                                        <h4>Gustavo Espinoza</h4>
+                                        <p class="text-muted">Ingenieria de Software</p>
+                                        <ul class="list-inline social-buttons">
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <div class="team-member">
+                                        <img src="Images/Members/ronald.png" class="img-responsive img-circle" alt="">
+                                        <h4>Ronald Estela</h4>
+                                        <p class="text-muted">Ingenieria de Software</p>
+                                        <ul class="list-inline social-buttons">
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </section>
+
+
+
+
+
 
                 </div>
+
                 <!-- /.row -->
             </div>
             <!-- /.container-fluid -->
