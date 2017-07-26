@@ -50,7 +50,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.jsp">Interaction Study</a>
+                <a class="navbar-brand" href="index.jsp">INTERACTION STUDY</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -71,19 +71,19 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="index.jsp"><i class="fa fa-fw fa-dashboard"></i>INICIO</a>
+                        <a href="index.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                     </li>
                     <li class="active">
-                        <a href="about.jsp"><i class="fa fa-fw fa-bar-chart-o"></i>NOSOTROS</a>
+                        <a href="about.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                     </li>
                     <li>
-                        <a href="login.jsp"><i class="fa fa-fw fa-table"></i>LOGIN</a>
+                        <a href="login.jsp"><i class="fa fa-fw fa-user"></i>Login</a>
                     </li>
                     <li>
-                        <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>NUEVO USUARIO</a>
+                        <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
                     </li>
                     <li>
-                        <a href="matters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
+                        <a href="matters.jsp"><i class="fa fa-fw fa-book"></i>Materias</a>
                     </li>
 
                 </ul>
