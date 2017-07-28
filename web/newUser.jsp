@@ -74,8 +74,58 @@
                 <li class="active">
                     <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
                 </li>
-                <li>
-                    <a href="matters.jsp"><i class="fa fa-fw fa-book"></i>Materias</a>
+                <li >
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="demo" class="collapse">
+                        <li>
+                            <a href="ARITMETICA.jsp">Aritmetica</a>
+                        </li>
+                        <li>
+                            <a href="topicsMatter/RM">Razonamiento Matematico</a>
+                        </li>
+                        <li>
+                            <a href="GEOMETRIA.jsp">Geometr&#237a</a>
+                        </li>
+                        <li>
+                            <a href="TRIGONOMETRIA.jsp">Trigonometr&#237a</a>
+                        </li>
+                        <li>
+                            <a href="ALGEBRA.jsp">Algebra</a>
+                        </li>
+                        <li>
+                            <a href="AV.jsp">Aptitud Verbal</a>
+                        </li>
+                        <li>
+                            <a href="LENGUAJE.jsp">Lenguaje</a>
+                        </li>
+                        <li>
+                            <a href="LITERATURA.jsp">Literatura</a>
+                        </li>
+                        <li>
+                            <a href="BIOLOGIA.jsp">Biolog&#237;a</a>
+                        </li>
+                        <li>
+                            <a href="QUIMICA.jsp">Qu&#237;mica</a>
+                        </li>
+                        <li>
+                            <a href="FISICA.jsp">F&#237;sica</a>
+                        </li>
+                        <li>
+                            <a href="PSICOLOGIA.jsp">Psicolog&#237;a</a>
+                        </li>
+                        <li>
+                            <a href="FILOSOFIA.jsp">Filosof&#237;a</a>
+                        </li>
+                        <li>
+                            <a href="GEOGRAFIA.jsp">Geograf&#237;a</a>
+                        </li>
+                        <li>
+                            <a href="HU.jsp">Historia Universal</a>
+                        </li>
+                        <li>
+                            <a href="topicsMatter/HP">Historia del Per&#250;</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>

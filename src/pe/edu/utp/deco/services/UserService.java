@@ -3,12 +3,15 @@ package pe.edu.utp.deco.services;
 import pe.edu.utp.deco.models.User;
 import pe.edu.utp.deco.models.UsersEntity;
 import pe.edu.utp.deco.util.EncryptionMD5;
+
+import java.sql.Connection;
 import java.util.List;
 
 /**
  * Created by ASUS on 15/07/2017.
  */
 public class UserService extends DecoService {
+    Connection connection;
     private UsersEntity usersEntity;
 
     protected UsersEntity getUsersEntity(){

@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: jherson
   Date: 13/07/2017
-  Time: 01:13 AM
+  Time: 01:20 AM
   To change this template use File | Settings | File Templates.
 --%>
 <!DOCTYPE html>
@@ -16,19 +16,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Biologia</title>
+    <title>Psicologia</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../css/sb-admin.css" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="../css/plugins/morris.css" rel="stylesheet">
+    <link href="css/plugins/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,7 +53,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="../index.jsp">Interaction Study</a>
+            <a class="navbar-brand" href="index.jsp">INTERACTION STUDY</a>
         </div>
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
@@ -73,20 +73,70 @@
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
-                <li class="active">
-                    <a href="../index.jsp"><i class="fa fa-fw fa-dashboard"></i>INICIO</a>
+                <li>
+                    <a href="index.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
                 <li>
-                    <a href="../about.jsp"><i class="fa fa-fw fa-bar-chart-o"></i>NOSOTROS</a>
+                    <a href="about.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
                 <li>
-                    <a href="../login.jsp"><i class="fa fa-fw fa-table"></i>LOGIN</a>
+                    <a href="login.jsp"><i class="fa fa-fw fa-user"></i>Login</a>
                 </li>
                 <li>
-                    <a href="../newUser.jsp"><i class="fa fa-fw fa-edit"></i>NUEVO USUARIO</a>
+                    <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
                 </li>
-                <li>
-                    <a href="../matters.jsp"><i class="fa fa-fw fa-desktop"></i>MATERIAS</a>
+                <li >
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="demo" class="collapse">
+                        <li>
+                            <a href="ARITMETICA.jsp">Aritmetica</a>
+                        </li>
+                        <li>
+                            <a href="RM.jsp">Razonamiento Matematico</a>
+                        </li>
+                        <li>
+                            <a href="GEOMETRIA.jsp">Geometr&#237a</a>
+                        </li>
+                        <li>
+                            <a href="TRIGONOMETRIA.jsp">Trigonometr&#237a</a>
+                        </li>
+                        <li>
+                            <a href="ALGEBRA.jsp">Algebra</a>
+                        </li>
+                        <li>
+                            <a href="AV.jsp">Aptitud Verbal</a>
+                        </li>
+                        <li>
+                            <a href="LENGUAJE.jsp">Lenguaje</a>
+                        </li>
+                        <li>
+                            <a href="LITERATURA.jsp">Literatura</a>
+                        </li>
+                        <li>
+                            <a href="BIOLOGIA.jsp">Biolog&#237;a</a>
+                        </li>
+                        <li>
+                            <a href="QUIMICA.jsp">Qu&#237;mica</a>
+                        </li>
+                        <li>
+                            <a href="FISICA.jsp">F&#237;sica</a>
+                        </li>
+                        <li>
+                            <a href="PSICOLOGIA.jsp">Psicolog&#237;a</a>
+                        </li>
+                        <li>
+                            <a href="FILOSOFIA.jsp">Filosof&#237;a</a>
+                        </li>
+                        <li>
+                            <a href="GEOGRAFIA.jsp">Geograf&#237;a</a>
+                        </li>
+                        <li>
+                            <a href="HU.jsp">Historia Universal</a>
+                        </li>
+                        <li>
+                            <a href="HP.jsp">Historia del Per&#250;</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>
@@ -101,7 +151,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                       Biologia
+                        Psicologia
                     </h1>
                 </div>
             </div>
@@ -116,7 +166,7 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>GENETICA I</div>
+                                    <div>LA MEMORIA</div>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +186,7 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>GENETICA II</div>
+                                    <div>EL PENSAMIENTO</div>
                                 </div>
                             </div>
                         </div>
@@ -156,7 +206,7 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>TAXONOMIA</div>
+                                    <div>INTELIGENCIA I</div>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +226,7 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>ORIGEN DE LA VIDA</div>
+                                    <div>INTELIGENCIA II</div>
                                 </div>
                             </div>
                         </div>
@@ -199,7 +249,7 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>BOTANICA I</div>
+                                    <div>EL APRENDIZAJE I</div>
                                 </div>
                             </div>
                         </div>
@@ -219,7 +269,7 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>BOTANICA II</div>
+                                    <div>EL APRENDIZAJE II</div>
                                 </div>
                             </div>
                         </div>
@@ -242,15 +292,15 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="../js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Morris Charts JavaScript -->
-    <script src="../js/plugins/morris/raphael.min.js"></script>
-    <script src="../js/plugins/morris/morris.min.js"></script>
-    <script src="../js/plugins/morris/morris-data.js"></script>
+    <script src="js/plugins/morris/raphael.min.js"></script>
+    <script src="js/plugins/morris/morris.min.js"></script>
+    <script src="js/plugins/morris/morris-data.js"></script>
 
 </body>
 

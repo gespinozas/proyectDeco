@@ -83,7 +83,57 @@
                         <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
                     </li>
                     <li>
-                        <a href="matters.jsp"><i class="fa fa-fw fa-book"></i>Materias</a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="ARITMETICA.jsp">Aritmetica</a>
+                            </li>
+                            <li>
+                                <a href="topicsMatter/RM">Razonamiento Matematico</a>
+                            </li>
+                            <li>
+                                <a href="GEOMETRIA.jsp">Geometr&#237a</a>
+                            </li>
+                            <li>
+                                <a href="TRIGONOMETRIA.jsp">Trigonometr&#237a</a>
+                            </li>
+                            <li>
+                                <a href="ALGEBRA.jsp">Algebra</a>
+                            </li>
+                            <li>
+                                <a href="AV.jsp">Aptitud Verbal</a>
+                            </li>
+                            <li>
+                                <a href="LENGUAJE.jsp">Lenguaje</a>
+                            </li>
+                            <li>
+                                <a href="LITERATURA.jsp">Literatura</a>
+                            </li>
+                            <li>
+                                <a href="BIOLOGIA.jsp">Biolog&#237;a</a>
+                            </li>
+                            <li>
+                                <a href="QUIMICA.jsp">Qu&#237;mica</a>
+                            </li>
+                            <li>
+                                <a href="FISICA.jsp">F&#237;sica</a>
+                            </li>
+                            <li>
+                                <a href="PSICOLOGIA.jsp">Psicolog&#237;a</a>
+                            </li>
+                            <li>
+                                <a href="FILOSOFIA.jsp">Filosof&#237;a</a>
+                            </li>
+                            <li>
+                                <a href="GEOGRAFIA.jsp">Geograf&#237;a</a>
+                            </li>
+                            <li>
+                                <a href="HU.jsp">Historia Universal</a>
+                            </li>
+                            <li>
+                                <a href="topicsMatter/HP">Historia del Per&#250;</a>
+                            </li>
+                        </ul>
                     </li>
 
                 </ul>
@@ -109,10 +159,10 @@
                                                 <div class="col-lg-12 text-center">
                                                         <h2 class="section-heading">&#191;Quienes somos?</h2>
                                                     <br>
-                                                    <h4 class="section-subheading text-muted">Somos una empresa de desarrollo de tecnologia la cual se le presenta un proyecto de una plataforma web de simulacion de examenes de admision, se recopilo informacion de los jovenes en etapa de preparacion para conocer mas, acerca de las complicaciones que pueden tener en esta etapa, y se obtuvo los siguientes datos:
-                                                        <p class="text-justify"><li>Falta aplicaciones interactivas para poner en practica lo aprendido. </li></p>
+                                                    <h4 class="section-subheading text-muted">Somos una empresa de desarrollo de tecnolog&#237;a la cual se le presenta un proyecto de una plataforma web de simulaci&#243;n de examenes de admisi&#243;n, se recopil&#243; informaci&#243;n de los jovenes en etapa de preparaci&#243;n para conocer m&#225;s, acerca de las complicaciones que pueden tener en esta etapa, y se obtuvo los siguientes datos:
+                                                        <p class="text-justify"><li>Falta aplicaciones interactivas para poner en pr&#225;ctica lo aprendido. </li></p>
                                                         <p class="text-justify"><li>Reducidos bancos de preguntas DECO en la web</li> </p>
-                                                        Para ello el plan de trabajo que emplearemos sera, desarrollar una plataforma web para academia preuniversitarias que se encargar de brindar esta aplicacion a sus alumnos de manera gratuita, obteniendo mejor preparacion.
+                                                        Para ello el plan de trabajo que emplearemos sera, desarrollar una plataforma web para academias preuniversitarias que se encargar&#225;n de brindar esta aplicaci&#243;n a sus alumnos de manera gratuita, obteniendo mejor preparaci&#243;n.
                                                     </h4>
                                                 </div>
                                             </div>
@@ -123,8 +173,8 @@
                         <i class="fa fa-book fa-stack-1x fa-inverse"></i>
                     </span>
                                                     <h4 class="service-heading">Objetivos</h4>
-                                                    <p class="text-muted"><p> <h5>Hace mas dinamica la prepraracion del estudiante</h5></p>
-                                                    <p><h5>Lograr incrementar el numero de ingresantes a la universidad por medio de nuestro software</h5></p></p>
+                                                    <p class="text-muted"><p> <h5>Hacer m&#225;s din&#225;mica la prepraraci&#243;n del estudiante</h5></p>
+                                                    <p><h5>Lograr incrementar el n&#250;mero de ingresantes a la universidad por medio de nuestro software</h5></p></p>
                                                 </div>
                                                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -132,7 +182,7 @@
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
                                                     <h4 class="service-heading">Alcance</h4>
-                                                    <p class="text-muted"><h5>Adquirir un mercado mas amplio, ya que nuestros clientes no solo serian personas que se estan preparando en academia sino que tambien abarcaria personas que se preparan por su propia cuenta, ya que contamos con espacios interactivos para todos.</h5></p>
+                                                    <p class="text-muted"><h5>Adquirir un mercado m&#225;s amplio, ya que nuestros clientes no solo ser&#237;an personas que se est&#225;n preparando en academia sino que tambien abarcar&#237;a personas que se preparan por su propia cuenta, ya que contamos con espacios interactivos para todos.</h5></p>
                                                 </div>
 
 
@@ -141,8 +191,8 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-eye fa-stack-1x fa-inverse"></i>
                     </span>
-                                                    <h4 class="service-heading">Vision</h4>
-                                                    <p class="text-muted"><h5>Ser la aplicacion educativa peruana referente en excelencia académica formando personas con sólidos conocimientos.</h5></p>
+                                                    <h4 class="service-heading">Visi&#243;n</h4>
+                                                    <p class="text-muted"><h5>Ser la aplicaci&#243;n educativa peruana referente en excelencia acad&#233;mica formando personas con s&#243;lidos conocimientos.</h5></p>
                                                 </div>
 
 

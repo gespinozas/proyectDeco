@@ -83,7 +83,57 @@
                         <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
                     </li>
                     <li>
-                        <a href="matters.jsp"><i class="fa fa-fw fa-book"></i>Materias</a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="ARITMETICA.jsp">Aritmetica</a>
+                            </li>
+                            <li>
+                                <a href="RM.jsp">Razonamiento Matematico</a>
+                            </li>
+                            <li>
+                                <a href="GEOMETRIA.jsp">Geometr&#237a</a>
+                            </li>
+                            <li>
+                                <a href="TRIGONOMETRIA.jsp">Trigonometr&#237a</a>
+                            </li>
+                            <li>
+                                <a href="ALGEBRA.jsp">Algebra</a>
+                            </li>
+                            <li>
+                                <a href="AV.jsp">Aptitud Verbal</a>
+                            </li>
+                            <li>
+                                <a href="LENGUAJE.jsp">Lenguaje</a>
+                            </li>
+                            <li>
+                                <a href="LITERATURA.jsp">Literatura</a>
+                            </li>
+                            <li>
+                                <a href="BIOLOGIA.jsp">Biolog&#237;a</a>
+                            </li>
+                            <li>
+                                <a href="QUIMICA.jsp">Qu&#237;mica</a>
+                            </li>
+                            <li>
+                                <a href="FISICA.jsp">F&#237;sica</a>
+                            </li>
+                            <li>
+                                <a href="PSICOLOGIA.jsp">Psicolog&#237;a</a>
+                            </li>
+                            <li>
+                                <a href="FILOSOFIA.jsp">Filosof&#237;a</a>
+                            </li>
+                            <li>
+                                <a href="GEOGRAFIA.jsp">Geograf&#237;a</a>
+                            </li>
+                            <li>
+                                <a href="HU.jsp">Historia Universal</a>
+                            </li>
+                            <li>
+                                <a href="HP.jsp">Historia del Per&#250;</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -100,7 +150,7 @@
                         </div>
 
 
-                <div class="alert alert-warning" role="alert"><h4 align="center">Este producto servira para dinamizar el proceso de aprendizaje de los estudiantes que aspiran ingresar a la universidad por medio de sus multiples preguntas, basadas por temas y cursos
+                <div class="alert alert-warning" role="alert"><h4 align="center">Este producto servir&#225; para dinamizar el proceso de aprendizaje de los estudiantes que aspiran ingresar a la universidad por medio de sus multiples preguntas, basadas por temas y cursos
                 </h4></div>
 
 
@@ -110,7 +160,7 @@
 
                 <div class="panel panel-warning" align="center">
                     <div class="panel-body">
-                        <h3 class="panel-title"><i class="fa fa-fw fa-comment"></i>CARACTERISTICAS</h3>
+                        <h3 class="panel-title"><i class="fa fa-fw fa-comment"></i>CARACTER&#205;STICAS</h3>
                     </div>
 
                     <div class="panel-footer">
@@ -118,19 +168,19 @@
                     </div>
 
                     <div class="panel-footer">
-                            <i class="fa fa-fw fa-check"></i>Pagina facilmente gestionable
+                            <i class="fa fa-fw fa-check"></i>P&#225;gina f&#225;cilmente gestionable
                     </div>
 
                     <div class="panel-footer">
-                        <i class="fa fa-fw fa-check"></i>Carga rapida (Debe de visualizarse en el navegador rapidamente, si la pagina esta alojada en un servidor
+                        <i class="fa fa-fw fa-check"></i>Carga r&#225;pida (Debe de visualizarse en el navegador r&#225;pidamente, si la p&#225;gina esta alojada en un servidor
                     </div>
 
                     <div class="panel-footer">
-                        <i class="fa fa-fw fa-check"></i>Intuitivo (Hacer facil e interactiva la navegacion, para evitar que los usuarios abandonen la pagina)
+                        <i class="fa fa-fw fa-check"></i>Intuitivo (Hacer f&#225;cil e interactiva la navegaci&#243;n, para evitar que los usuarios abandonen la p&#225;gina)
                     </div>
 
                     <div class="panel-footer">
-                        <i class="fa fa-fw fa-check"></i>Estadisticas de las notas y el avance del postulante
+                        <i class="fa fa-fw fa-check"></i>Estad&#237;sticas de las notas y el avance del postulante
                     </div>
 
                     <div class="panel-footer">
