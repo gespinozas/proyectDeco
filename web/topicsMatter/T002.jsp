@@ -151,28 +151,102 @@
 
         <div class="panel panel-warning">
 
-            <p>Regla de Interes</p>
-            <p>1.- Pregunta 1?</p>
-            <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/> a) respuesta correcta</p>
-            <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) respuesta </p>
-            <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) respuesta </p>
-            <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) respuesta </p>
-
-            <p>1.- Pregunta 2?</p>
-            <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) respuesta </p>
-            <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) respuesta </p>
-            <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) respuesta correcta</p>
-            <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) respuesta </p>
-
-            <p>1.- Pregunta 3?</p>
-            <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) respuesta </p>
-            <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) respuesta correcta</p>
-            <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) respuesta </p>
-            <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) respuesta </p>
+            <h3 align="center">Regla de Inter&#233;s</h3>
 
 
-            <input type="button" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
 
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>1.- Hallar el monto producido por un capital de s/3600 que se coloca al 12% anual durante 4 bimestres</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 3888 </p>
+                    <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) 4176 </p>
+                    <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 3720 </p>
+                    <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 3744 </p>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>2.- &#191;Que inter&#233;s produce un capital de s/12000 en 2 meses y 10 d&#237;as a un 16% cuatrimestral?</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 1420 </p>
+                    <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 1240 </p>
+                    <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 1120 </p>
+                    <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 1480 </p>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>3.- Hallar el capital que depositado al 5% trimestral produce un inter&#233;s anual de s/720</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 1800 </p>
+                    <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) 4800 </p>
+                    <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) 3600 </p>
+                    <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) 6400 </p>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>4.- &#191;A qu&#233; tasa de inter&#233;s estuvo depositado un capital de s/2000, sabiendo que en un a&#241;o y medio se convirti&#243; en s/2780</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) 26% </p>
+                    <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) 24% </p>
+                    <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) 36% </p>
+                    <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) 18% </p>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>5.- &#191;A cuanto asciende un capital sabiendo que colocado al 15% de inter&#233;s se convirti&#243; en s/1584 luego de 2 a&#241;os?</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 3600 </p>
+                    <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) 1200 </p>
+                    <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) 1800 </p>
+                    <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 4800 </p>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>6.- &#191;Cuantos a&#241;os debe estar depositado un capital al 5% trimestral para que se triplique?</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 15 </p>
+                    <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) 10 </p>
+                    <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) 20 </p>
+                    <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) 12 </p>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    7.- &#191;A qu&#233; tasa de inter&#233;s anual debe estar depositado un capital durante 5 a&#241;os para que produzca un inter&#233;s igual a los 3/5 del monto?
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 20% </p>
+                    <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 10% </p>
+                    <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 30% </p>
+                    <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) 50% </p>
+                </div>
+            </div>
+
+
+<div align="center">
+            <input type="button" class="btn btn-primary" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
+</div>
 
 
 

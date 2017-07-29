@@ -151,55 +151,101 @@
 
         <div class="panel panel-warning">
 
-            <p>Tanto Por Ciento</p>
-            <p>1.- Se vendi&#243; un art&#237;culo que cost&#243; s/360 con una ganancia del 20%  &#191;Por cuantos soles se vendi&#243; dicho producto?</p>
-            <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 462</p>
-            <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) 422</p>
-            <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 432 </p>
-            <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 452 </p>
-
-            <p>2.- Una persona vende una mercader&#237;a en 4200 soles, ganando el 19% del precio de costo, m&#225;s 15% del precio de venta &#191;Cuanto cost&#243; la mercader&#237;a?</p>
-            <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 3700 </p>
-            <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 3500 </p>
-            <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 3000</p>
-            <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 320 </p>
-
-            <p>3.- Dos computadoras se han vendido en $2970 cada una. Si en la primera se gan&#243; el 10% y en la segunda se perdi&#243; el 10% entonces:</p>
-            <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Perdi&#243; s/20 </p>
-            <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Perdi&#243; s/60</p>
-            <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Gan&#243; s/20 </p>
-            <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) Gan&#243; s/60 </p>
-
-            <p>4.- Pregunta 4?</p>
-            <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) respuesta correcta </p>
-            <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) respuesta </p>
-            <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) respuesta </p>
-            <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) respuesta </p>
-
-            <p>5.- Pregunta 5?</p>
-            <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) respuesta </p>
-            <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) respuesta </p>
-            <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) respuesta correcta</p>
-            <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) respuesta </p>
-
-            <p>6.- Pregunta 6?</p>
-            <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) respuesta </p>
-            <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) respuesta correcta</p>
-            <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) respuesta </p>
-            <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) respuesta </p>
-
-            <p>7.- Pregunta 7?</p>
-            <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) respuesta correcta </p>
-            <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) respuesta </p>
-            <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) respuesta </p>
-            <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) respuesta </p>
+            <h3 align="center">Tanto Por Ciento</h3>
 
 
-            <input type="button" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>1.- Se vendi&#243; un art&#237;culo que cost&#243; s/360 con una ganancia del 20%  &#191;Por cuantos soles se vendi&#243; dicho producto?</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 462</p>
+                    <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) 422</p>
+                    <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 432 </p>
+                    <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 452 </p>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>2.- Una persona vende una mercader&#237;a en 4200 soles, ganando el 19% del precio de costo, m&#225;s 15% del precio de venta &#191;Cuanto cost&#243; la mercader&#237;a?</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 3700 </p>
+                    <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 3500 </p>
+                    <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 3000</p>
+                    <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 320 </p>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>3.- Dos computadoras se han vendido en $2970 cada una. Si en la primera se gan&#243; el 10% y en la segunda se perdi&#243; el 10% entonces:</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Perdi&#243; s/20 </p>
+                    <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Perdi&#243; s/60</p>
+                    <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Gan&#243; s/20 </p>
+                    <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) Gan&#243; s/60 </p>
+                </div>
+            </div>
 
 
 
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>4.- &#191;Que precio de lista debe fijar un comerciante para un art&#237;culo, tal que al rebajarle 20%, obtenga una utilidad del 30% de su costo que fue de 5000 soles? </p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a)8125 </p>
+                    <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) 5500  </p>
+                    <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) 7880 </p>
+                    <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) 8650 </p>
+                </div>
+            </div>
 
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>5.- Un comerciante dice haber obtenido un 20% de ganancia sobre el precio de venta. Calcular el procentaje de ganancia con respecto al coso</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) respuesta </p>
+                    <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) respuesta </p>
+                    <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) respuesta correcta</p>
+                    <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) respuesta </p>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>6.- Se fija el precio de venta de un cierto articulo en s/200 m&#225;s que su precio de compra, pero al venderlo con un descuento del 20% se perdi&#243; s/100 en la venta &#191;Cual fue finalmente el precio en soles del art&#237;culo?</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 1300 </p>
+                    <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) 1200</p>
+                    <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) 1400 </p>
+                    <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) 1500 </p>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>7.- Una articulo se vendi&#243; a s/72 ganando 20% del precio de costo &#191;A cuanto se debi&#243; vender para ganar 20% del precio de venta?</p>
+                </div>
+                <div class="panel-body">
+                    <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 72 </p>
+                    <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 70 </p>
+                    <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 75 </p>
+                    <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) 80 </p>
+                </div>
+            </div>
+
+<div align="center">
+            <input type="button" class="btn btn-primary" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
+</div>
         </div>
         <div class="panel panel-default">
             <div class="panel-footer">

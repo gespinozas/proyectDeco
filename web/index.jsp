@@ -143,22 +143,51 @@
         <div id="page-wrapper">
 
             <div class="container-fluid">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
 
-                <!-- Page Heading -->
-                <div class="row">
-                        <img src="Images/banner.jpg" alt="..." class="img-thumbnail" width="1100" height="350"/>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="Images/banner1.jpg" alt="...">
+                            <div class="carousel-caption">
+                            </div>
                         </div>
-
-
+                        <div class="item">
+                            <img src="Images/banner2.jpg" alt="...">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Images/banner3.jpg" alt="...">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <br>
                 <div class="alert alert-warning" role="alert"><h4 align="center">Este producto servir&#225; para dinamizar el proceso de aprendizaje de los estudiantes que aspiran ingresar a la universidad por medio de sus multiples preguntas, basadas por temas y cursos
                 </h4></div>
 
-
-
-
                 </div>
 
-                <div class="panel panel-warning" align="center">
+
+
+               <div align="center" class="panel panel-warning">
                     <div class="panel-body">
                         <h3 class="panel-title"><i class="fa fa-fw fa-comment"></i>CARACTER&#205;STICAS</h3>
                     </div>
@@ -190,11 +219,57 @@
 
 
 
+            <h3 align="center">Instituciones Relacionadas</h3>
+
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><i class="fa fa-book fa-fw"></i> Pamer</h3>
+                        </div>
+
+                        <div class="panel-body">
+
+                            <img src="Images/pamer.jpg" alt="500" class="img-thumbnail">
 
 
+                            <div class="text-right">
+                                <a href="http://www.pamer.edu.pe/corporacion/" target="_blank">Sitio web <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><i class="fa fa-book fa-fw"></i>Trilce</h3>
+                        </div>
+                        <div class="panel-body">
+                            <img src="Images/trilce.jpg" height="600" width="400" class="img-thumbnail">
 
+                            <div class="text-right">
+                                <a href="http://www.trilce.edu.pe/academias/" target="_blank">Sitio web <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><i class="fa fa-book fa-fw"></i>Pitagoras</h3>
+                        </div>
 
+                        <div class="panel-body">
+                            <img src="Images/pitagoras.jpg" height="600" width="400" class="img-thumbnail">
 
+                            <div class="text-right">
+                                <a href="http://www.grupopitagoras.com/academia.html" target="_blank">Sitio web <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="panel panel-default">
                 <div class="panel-footer">
                     <div class="container">

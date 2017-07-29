@@ -12,7 +12,7 @@ res[2]= "c";
 res[3]= "b";
 res[4]= "a";
 res[5]= "d";
-res[6]= "e";
+res[6]= "b";
 res[7]= "c";
 
 explicares[1] ="Incorrecto, la respuesta correcta es a";
@@ -20,7 +20,7 @@ explicares[2] ="Incorrecto, la respuesta correcta es c";
 explicares[3] ="Incorrecto, la respuesta correcta es b";
 explicares[4] ="Incorrecto, la respuesta correcta es a";
 explicares[5] ="Incorrecto, la respuesta correcta es d";
-explicares[6] ="Incorrecto, la respuesta correcta es e";
+explicares[6] ="Incorrecto, la respuesta correcta es b";
 explicares[7] ="Incorrecto, la respuesta correcta es c";
 
 function Engine(question,answer) {
@@ -39,8 +39,8 @@ function Score() {
             calif++;
         }
     }
-    answertext = answertext+"\nCalificaci&#243;n: "+calif;
-    answertext = answertext+"\nDiagnostico: ";
+    answertext = answertext+"\nCALIFICACION: "+calif + " de 7";
+    answertext = answertext+"\nDIAGNOSTICO: ";
     if(calif>=0 && calif<=2){
         answertext = answertext + " MALO";
     }
