@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Walter
+  Date: 28/7/2017
+  Time: 12:45
+  To change this template use File | Settings | File Templates.
+--%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Tanto Por Ciento</title>
+    <title>Teor&#237;a de conjuntos</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -33,9 +40,9 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<script src="script.js">
+    <script src="script.js">
 
-</script>
+    </script>
 
 </head>
 
@@ -147,55 +154,88 @@
 
 
 
-            <!-- Page Heading -->
+        <!-- Page Heading -->
 
-        <div class="panel panel-warning">
-
-            <p>Tanto Por Ciento</p>
-            <p>1.- Se vendi&#243; un art&#237;culo que cost&#243; s/360 con una ganancia del 20%  &#191;Por cuantos soles se vendi&#243; dicho producto?</p>
-            <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 462</p>
-            <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) 422</p>
-            <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 432 </p>
-            <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 452 </p>
-
-            <p>2.- Una persona vende una mercader&#237;a en 4200 soles, ganando el 19% del precio de costo, m&#225;s 15% del precio de venta &#191;Cuanto cost&#243; la mercader&#237;a?</p>
-            <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 3700 </p>
-            <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 3500 </p>
-            <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 3000</p>
-            <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 320 </p>
-
-            <p>3.- Dos computadoras se han vendido en $2970 cada una. Si en la primera se gan&#243; el 10% y en la segunda se perdi&#243; el 10% entonces:</p>
-            <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Perdi&#243; s/20 </p>
-            <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Perdi&#243; s/60</p>
-            <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Gan&#243; s/20 </p>
-            <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) Gan&#243; s/60 </p>
-
-            <p>4.- Pregunta 4?</p>
-            <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) respuesta correcta </p>
-            <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) respuesta </p>
-            <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) respuesta </p>
-            <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) respuesta </p>
-
-            <p>5.- Pregunta 5?</p>
-            <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) respuesta </p>
-            <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) respuesta </p>
-            <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) respuesta correcta</p>
-            <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) respuesta </p>
-
-            <p>6.- Pregunta 6?</p>
-            <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) respuesta </p>
-            <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) respuesta correcta</p>
-            <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) respuesta </p>
-            <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) respuesta </p>
-
-            <p>7.- Pregunta 7?</p>
-            <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) respuesta correcta </p>
-            <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) respuesta </p>
-            <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) respuesta </p>
-            <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) respuesta </p>
-
-
-            <input type="button" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+            <p>Teor&#237;a de conjuntos</p>
+            <p>1.- Sea M= {r ,s ,t} . D&#237;gase cu&#225;l de las afirmaciones siguientes es la correcta</p>
+            </div>
+                <div class="panel-body">
+            <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) a pertenece M</p>
+            <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) r esta incluido M</p>
+            <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) {r} pertenece M </p>
+            <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) {r} esta incluido M </p>
+            </div>
+        </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+            <p>2.- Sea N={0,1,2,...,n,...} y A={0,1,2,3,4} denotamos por r : N - A la funcion que satisface:</p>
+                    </div>
+                        <div class="panel-body">
+            <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) r(m) = m </p>
+            <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) r(m) = m +5N </p>
+            <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) r(m) = r(m+N)</p>
+            <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) r(m) = 2m </p>
+                    </div>
+                </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+            <p>3.- Un numero es igual a 15 veces su complemento aritmetico y el producto de los dos tienen 72 divisores, hallar cuantos divisores tiene dicho complemento</p>
+                            </div>
+                            <div class="panel-body">
+            <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 14 </p>
+            <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) 28</p>
+            <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) 18 </p>
+            <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) 15 </p>
+                            </div>
+                        </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+            <p>4.- Una maquina  produce helados de vainilla, fresa, chocolate con leche pura. Si para el helado de vainilla utiliza 0,2 del recipiente y se le completa con agua; para el helado de fresa se utiliza 0,333.. de la mezcla y se le completa con agua y en el helado de chocolate se utiliza el 0,8333333.. de la nueva mezcla, entonces que cantidad de leche pura se utilizo en la fabricacion de los helados de chocolate</p>
+                                    </div>
+                                        <div class="panel-body">
+            <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) 5/9 </p>
+            <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) 1/3 </p>
+            <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) 4/15 </p>
+            <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) 8/15 </p>
+                                    </div>
+                                </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+            <p>5.- Cual es el residuo que se obtiene al dividir: 423423423... (230 cifras) entre 8, si esta escrito en base 9</p>
+                                            </div>
+                                                <div class="panel-body">
+            <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 1 </p>
+            <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) 2 </p>
+            <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) 3</p>
+            <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 4 </p>
+                                            </div>
+                                        </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">
+            <p>6.- Cual sera la utlima cifra del exponente de 11, en la secomposicon canonica de 11 elevado a la 37</p>
+                                                    </div>
+                                                        <div class="panel-body">
+            <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 7 </p>
+            <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) 5</p>
+            <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) 4 </p>
+            <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A.</p>
+                                                    </div>
+                                                </div>
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading">
+            <p>7.- Cuantas fracciones propias irreductibles cuyo denominador tiene 4 divisores y que generen un decimal de la forma 0,34343434... existen</p>
+                                                            </div>
+                                                                <div class="panel-body">
+            <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 10 </p>
+            <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 8 </p>
+            <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 11 </p>
+            <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) 15 </p>
+                                                            </div>
+                                                        </div>
+<div align="center">
+            <input type="button" class="btn btn-primary" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
 
 
 
@@ -239,6 +279,7 @@
 
 </div>
 <!-- /#page-wrapper -->
+
 
 
 

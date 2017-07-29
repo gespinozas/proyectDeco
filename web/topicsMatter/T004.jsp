@@ -1,3 +1,11 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Walter
+  Date: 28/7/2017
+  Time: 20:34
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Tanto Por Ciento</title>
+    <title>Numeraci&#243;n</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -33,9 +41,9 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<script src="script.js">
+    <script src="script.js">
 
-</script>
+    </script>
 
 </head>
 
@@ -147,55 +155,92 @@
 
 
 
-            <!-- Page Heading -->
+        <!-- Page Heading -->
 
-        <div class="panel panel-warning">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+            <p>Numeraci&#243;n</p>
+            <p>1.- Si el n&#250;mero: 20041111100000010012(n), se representa en el sistema de numeracion de base nxnxn, obtenemos un n&#250;mero cuya suma de cifras es 5 veces la suma anterior. Entonces "n" es:</p>
+            </div>
+            <div class="panel-body">
+            <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 4</p>
+            <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) 5</p>
+            <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 6 </p>
+            <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 3 </p>
+            </div>
+        </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+            <p>2.- ¿Cuantos n&#250;meros del sistema decimal m&#250;ltiplos de 2, se pueden expresar en los sistemas heptario (7); nonario (9) y en el sistema quinario(5) con 4 cifras?</p>
+                    </div>
+                    <div class="panel-body">
+            <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 220 </p>
+            <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 110 </p>
+            <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 109</p>
+            <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 107 </p>
+                    </div>
+                </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+            <p>3.- A es un conjunto que tiene 8n elementos y B un conjunto con 5n elementos y se sabe que los dos tienen (2n-1) elementos en com&#250;n, hallar la suma del n&#250;mero de elementos que tienen cada uno de los siguientes conjuntos</p>
+            <p> I. (A U B) U (A - B)</p>
+            <p> II. (A - B) - (A U B)</p>
+                            </div>
+                            <div class="panel-body">
+            <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 2n + 1 </p>
+            <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) 2n - 1</p>
+            <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) 6n + 1 </p>
+            <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) 3n + 1 </p>
+                            </div>
+                        </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+            <p>4.- Para numerar un libro de 4000 paginas se dispone de 1250 tipos de la cifra 3. Seran suficientes o cuantos sobran o faltan</p>
+                                    </div>
+                                    <div class="panel-body">
+            <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Sobra 850 </p>
+            <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Sobran 950 </p>
+            <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Faltan 850 </p>
+            <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) No sobra ni falta </p>
+                                    </div>
+                                </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+            <p>5.- Un n&#250;mero en base 3 tiene 15 cifras, cuantas tendra si se le convierte a la base quince.</p>
+                                            </div>
+                                            <div class="panel-body">
+            <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 6 cifras </p>
+            <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) 7 cifras </p>
+            <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) 8 cifras</p>
+            <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 9 cifras </p>
+                                            </div>
+                                        </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">
+            <p>6.- Si 5622 se convierte a otros sistemas de numeraci&#243;n en cuantos de ellos termina en 6</p>
+                                                    </div>
+                                                    <div class="panel-body">
+            <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 40 </p>
+            <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) 12</p>
+            <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) 15 </p>
+            <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) Faltan datos </p>
+                                                    </div>
+                                                </div>
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading">
+            <p>7.- Se sabe que el sistema de base "n" existen 28 numerales de 3 cifras consecutivas (sin interesar el orden de sus cifras). Hallar "n"</p>
+                                                            </div>
+                                                            <div class="panel-body">
+            <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 7 </p>
+            <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 9 </p>
+            <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 11 </p>
+            <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) 15 </p>
+                                                            </div>
+                                                        </div>
 
-            <p>Tanto Por Ciento</p>
-            <p>1.- Se vendi&#243; un art&#237;culo que cost&#243; s/360 con una ganancia del 20%  &#191;Por cuantos soles se vendi&#243; dicho producto?</p>
-            <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 462</p>
-            <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) 422</p>
-            <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 432 </p>
-            <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 452 </p>
 
-            <p>2.- Una persona vende una mercader&#237;a en 4200 soles, ganando el 19% del precio de costo, m&#225;s 15% del precio de venta &#191;Cuanto cost&#243; la mercader&#237;a?</p>
-            <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 3700 </p>
-            <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 3500 </p>
-            <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 3000</p>
-            <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 320 </p>
-
-            <p>3.- Dos computadoras se han vendido en $2970 cada una. Si en la primera se gan&#243; el 10% y en la segunda se perdi&#243; el 10% entonces:</p>
-            <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Perdi&#243; s/20 </p>
-            <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Perdi&#243; s/60</p>
-            <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Gan&#243; s/20 </p>
-            <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) Gan&#243; s/60 </p>
-
-            <p>4.- Pregunta 4?</p>
-            <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) respuesta correcta </p>
-            <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) respuesta </p>
-            <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) respuesta </p>
-            <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) respuesta </p>
-
-            <p>5.- Pregunta 5?</p>
-            <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) respuesta </p>
-            <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) respuesta </p>
-            <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) respuesta correcta</p>
-            <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) respuesta </p>
-
-            <p>6.- Pregunta 6?</p>
-            <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) respuesta </p>
-            <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) respuesta correcta</p>
-            <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) respuesta </p>
-            <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) respuesta </p>
-
-            <p>7.- Pregunta 7?</p>
-            <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) respuesta correcta </p>
-            <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) respuesta </p>
-            <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) respuesta </p>
-            <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) respuesta </p>
-
-
-            <input type="button" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
+        <div align="center">
+            <input type="button" class="btn btn-primary" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
 
 
 
@@ -239,6 +284,7 @@
 
 </div>
 <!-- /#page-wrapper -->
+
 
 
 
