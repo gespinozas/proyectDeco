@@ -3,6 +3,8 @@ package pe.edu.utp.deco.services;
 import pe.edu.utp.deco.models.DecoDataStore;
 import pe.edu.utp.deco.models.Matter;
 import pe.edu.utp.deco.models.Topic;
+import pe.edu.utp.deco.models.User;
+import pe.edu.utp.deco.actions.*;
 
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -15,13 +17,13 @@ import java.util.List;
  * Created by otros on 01/07/2017.
  */
 public class DecoService {
-    private Connection connection;
-    private DecoDataStore dataStore;
+    Connection connection;
+    DecoDataStore dataStore;
+    User user;
 
     public DecoService(InitialContext ctx) {
         try {
-            connection = ((DataSource) ctx.lookup("jdbc/MySQLDataSource"))
-                    .getConnection();
+            connection = ((DataSource) ctx.lookup("jdbc/MySQLDataSource")).getConnection();
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (NamingException e) {
@@ -33,16 +35,15 @@ public class DecoService {
     public DecoService() {
         try {
             InitialContext ctx = new InitialContext();
-            connection = ((DataSource) ctx.lookup("jdbc/MySQLDataSource"))
-                    .getConnection();
+            connection = ((DataSource) ctx.lookup("jdbc/MySQLDataSource")).getConnection();
         } catch (NamingException e) {
             e.printStackTrace();
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
     }
-    public Connection getConnection() {
+
+    private Connection getConnection() {
         return connection;
     }
 
@@ -53,21 +54,25 @@ public class DecoService {
         return dataStore;
     }
 
-    public List<Matter> getMatters() {return getDataStore().findAllMatters();
+    //USERS
+    public List<User> getUsers(){
+        return getDataStore().findAllUsers();
     }
 
-    public List<Topic> getTopics() { return getDataStore().findAllTopics(); }
-
-    public List<Topic> getTopicsForMatter(Matter matter) {
-        return getDataStore().findTopicsByMatter(matter);
+    public boolean createUser(User user){
+        return getDataStore().createUser(user);
     }
 
-    public int getTopicsCountForMatter(Matter matter) {
-        return getTopicsForMatter(matter).size();
+    public User getUsersByEmail(String email, String password){
+        return getDataStore().findUsersByEmail(email, password);
     }
 
-    public List<Topic> getTopicOrderByName() {
-        return getDataStore().findAllTopicsOrderByName();
+    public User getUsersById(int id){
+        return getDataStore().findUsersById(id);
     }
+
+    public User getUsersById(String id){
+        return getDataStore().findUsersById(Integer.parseInt(id));
+    }
+
 }
-

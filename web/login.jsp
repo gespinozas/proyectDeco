@@ -79,59 +79,7 @@
                 <li>
                     <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
-                    <ul id="demo" class="collapse">
-                        <li>
-                            <a href="ARITMETICA.jsp">Aritmetica</a>
-                        </li>
-                        <li>
-                            <a href="topicsMatter/RM">Razonamiento Matematico</a>
-                        </li>
-                        <li>
-                            <a href="GEOMETRIA.jsp">Geometr&#237a</a>
-                        </li>
-                        <li>
-                            <a href="TRIGONOMETRIA.jsp">Trigonometr&#237a</a>
-                        </li>
-                        <li>
-                            <a href="ALGEBRA.jsp">Algebra</a>
-                        </li>
-                        <li>
-                            <a href="AV.jsp">Aptitud Verbal</a>
-                        </li>
-                        <li>
-                            <a href="LENGUAJE.jsp">Lenguaje</a>
-                        </li>
-                        <li>
-                            <a href="LITERATURA.jsp">Literatura</a>
-                        </li>
-                        <li>
-                            <a href="BIOLOGIA.jsp">Biolog&#237;a</a>
-                        </li>
-                        <li>
-                            <a href="QUIMICA.jsp">Qu&#237;mica</a>
-                        </li>
-                        <li>
-                            <a href="FISICA.jsp">F&#237;sica</a>
-                        </li>
-                        <li>
-                            <a href="PSICOLOGIA.jsp">Psicolog&#237;a</a>
-                        </li>
-                        <li>
-                            <a href="FILOSOFIA.jsp">Filosof&#237;a</a>
-                        </li>
-                        <li>
-                            <a href="GEOGRAFIA.jsp">Geograf&#237;a</a>
-                        </li>
-                        <li>
-                            <a href="HU.jsp">Historia Universal</a>
-                        </li>
-                        <li>
-                            <a href="topicsMatter/HP">Historia del Per&#250;</a>
-                        </li>
-                    </ul>
-                </li>
+
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -143,34 +91,26 @@
 
             <!-- Page Heading -->
             <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">
-                        LOGIN
-                    </h1>
 
-                </div>
             </div>
             <!-- /.row -->
+<div align="center">
 
-                <h2>Formulario de acceso</h2>
-                <fieldset style="margin-bottom: 120px;">
-                    <s:if test="hasActionErrors()">
-                        <div class="errors">
-                            <s:actionerror/>
-                        </div>
-                    </s:if>
-                    <s:form action="validateUser">
 
-                        <s:textfield placeholder="Usuario" name="user" label="UserName"/>
-                        <s:textfield placeholder="Password" name="password" label="Password"/>
-                        <s:submit value="Iniciar Sesion" cssClass="btn btn-default"/>
+    <div class="panel panel-primary">
+        <div class="panel-heading ">
+            <h2>Ingresar</h2>
+        </div>
+        <div class="panel-body">
+            <s:form action="login">
+                <s:textfield placeholder="Email" name="email" type="email"/>
+                <s:password placeholder="Password" name="password" type="password"/>
+                 <s:submit cssClass="btn btn-primary" value="Login"/>
+            </s:form>
+        </div>
+    </div>
+    </div>
 
-                    </s:form>
-
-                    <footer class="clearfix">
-                        <p><a href="newUser.jsp">Crear cuenta</a></p>
-                    </footer>
-                </fieldset>
             <!-- end log
             <!-- /.row -->
             <div class="panel panel-default">
