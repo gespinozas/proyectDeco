@@ -225,7 +225,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- R(1)=2+1 -1 ; R(2)=6-3*2; R(3)=12*6/3; R(4)=20/10 + 4; R(5)=30 +15 -5.... HALLAR R(20)</p>
+                <p>7.-  R(1)=2+1 -1 ; R(2)=6-3*2; R(3)=12*6/3; R(4)=20/10 + 4; R(5)=30 +15 -5.... HALLAR R(20) </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 20 </p>
@@ -260,9 +260,9 @@
                         </div>
                         <div class="col-md-4">
                             <ul class="list-inline quicklinks">
-                                <li><a href="#">Privacy Policy</a>
+                                <li><a href="#">Privacy Policy </a>
                                 </li>
-                                <li><a href="#">Terms of Use</a>
+                                <li><a href="#">Terms of Use   </a>
                                 </li>
                             </ul>
                         </div>
