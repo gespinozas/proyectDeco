@@ -1,10 +1,11 @@
 <%--
   Created by IntelliJ IDEA.
   User: Walter
-  Date: 28/7/2017
-  Time: 12:45
+  Date: 29/7/2017
+  Time: 00:59
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Teor&#237;a de conjuntos</title>
+    <title>Conteo de numeros II</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -80,13 +81,18 @@
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
-                <li>
-                    <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
-                </li>
                 <li class="active">
-                    <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
+                    <a href="../index.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-
+                <li>
+                    <a href="../about.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
+                </li>
+                <li>
+                    <a href="../login.jsp"><i class="fa fa-fw fa-user"></i>Login</a>
+                </li>
+                <li>
+                    <a href="../newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
+                </li>
                 <li>
                     <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
@@ -140,9 +146,6 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="../index.jsp"><i class="fa fa-fw fa-user"></i>Logout</a>
-                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -154,86 +157,87 @@
 
         <!-- Page Heading -->
 
-        <h3 align="center">Teor&#237;a de conjuntos</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
-
-            <p>1.- Sea M= {r ,s ,t} . D&#237;gase cu&#225;l de las afirmaciones siguientes es la correcta</p>
+                <p>Conteo de numeros II</p>
+                <p>1.- Se tiene una serie de razones geometricas, equivalentes y continuas, donde cada consecuente es el triple de su antecedente, ademas la suma de sus extremos es 488. Dar como respuesta el mayor termino si se sabe que todos son enteros positivos</p>
             </div>
-                <div class="panel-body">
-            <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) a pertenece M</p>
-            <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) r esta incluido M</p>
-            <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) {r} pertenece M </p>
-            <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) {r} esta incluido M </p>
+            <div class="panel-body">
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 486</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) 345</p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 648 </p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 620 </p>
             </div>
         </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-            <p>2.- Sea N={0,1,2,...,n,...} y A={0,1,2,3,4} denotamos por r : N - A la funcion que satisface:</p>
-                    </div>
-                        <div class="panel-body">
-            <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) r(m) = m </p>
-            <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) r(m) = m +5N </p>
-            <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) r(m) = r(m+N)</p>
-            <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) r(m) = 2m </p>
-                    </div>
-                </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-            <p>3.- Un numero es igual a 15 veces su complemento aritmetico y el producto de los dos tienen 72 divisores, hallar cuantos divisores tiene dicho complemento</p>
-                            </div>
-                            <div class="panel-body">
-            <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 14 </p>
-            <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) 28</p>
-            <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) 18 </p>
-            <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) 15 </p>
-                            </div>
-                        </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-            <p>4.- Una maquina  produce helados de vainilla, fresa, chocolate con leche pura. Si para el helado de vainilla utiliza 0,2 del recipiente y se le completa con agua; para el helado de fresa se utiliza 0,333.. de la mezcla y se le completa con agua y en el helado de chocolate se utiliza el 0,8333333.. de la nueva mezcla, entonces que cantidad de leche pura se utilizo en la fabricacion de los helados de chocolate</p>
-                                    </div>
-                                        <div class="panel-body">
-            <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) 5/9 </p>
-            <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) 1/3 </p>
-            <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) 4/15 </p>
-            <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) 8/15 </p>
-                                    </div>
-                                </div>
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading">
-            <p>5.- Cual es el residuo que se obtiene al dividir: 423423423... (230 cifras) entre 8, si esta escrito en base 9</p>
-                                            </div>
-                                                <div class="panel-body">
-            <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 1 </p>
-            <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) 2 </p>
-            <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) 3</p>
-            <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 4 </p>
-                                            </div>
-                                        </div>
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading">
-            <p>6.- Cual sera la utlima cifra del exponente de 11, en la secomposicon canonica de 11 elevado a la 37</p>
-                                                    </div>
-                                                        <div class="panel-body">
-            <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 7 </p>
-            <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) 5</p>
-            <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) 4 </p>
-            <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A.</p>
-                                                    </div>
-                                                </div>
-                                                        <div class="panel panel-default">
-                                                            <div class="panel-heading">
-            <p>7.- Cuantas fracciones propias irreductibles cuyo denominador tiene 4 divisores y que generen un decimal de la forma 0,34343434... existen</p>
-                                                            </div>
-                                                                <div class="panel-body">
-            <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 10 </p>
-            <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 8 </p>
-            <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 11 </p>
-            <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) 15 </p>
-                                                            </div>
-                                                        </div>
-<div align="center">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>2.- Se vende una joya en determinadas condiciones de proporcionalidad; para un peso de 13 gramos, su valor es de 1859 soles, y si el peso fuera de 17 gramos, su valor ascenderia a 3179 soles. A como se debe vender una joya que tiene un peso de 20 gramos</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) S/. 4100 </p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) S/. 4200 </p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) S/. 4300</p>
+                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) S/. 4400 </p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>3.- Hallar la raiz cuadrada de un numero de 4 cifras, sabiendo que la suma de sus cifras es 31. Dar como respuesta la suma de sus cifras.</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 9 </p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) 10</p>
+                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) 11 </p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) 12 </p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>4.- Se tiene una letr donde el valor actual racional es el 95% del valor nominal. Si la diferencia de los descuentos es 400. Hallar el valor efectivo si al final se hizo un descuento interno.</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) 140 000 </p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) 142 000 </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) 152 000 </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) 144 400 </p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>5.- Una maquina completamente instalada costo $3000. Si se toma en cuenta un interes de 5% y una amortizacion del 15%. A cuanto se elevna los intereses y amortizaciones al cabo de 14 meses</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) $7000 </p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) $6000 </p>
+                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) $5250</p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) $7500 </p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>6.- El precio de dos diamantes varia como el cuadrado de su peso, tres anillos de igual peso, que tienen todos un diamante montado en oro, estan evaluados en U; N ; I soles; pesando los diamantes 3, 4, 5 quilates respectivamente. Si el costo del trabajo del joyero es el mismo para cada anillo. Cuanto costara un diamante de 1 quilate de peso?</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) (U+N)/2 </p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) (U+N-1)/2</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) (U+1-N)/2 </p>
+                <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) (U+1)/2 - N </p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>7.- Se sabe que 20 obreros pueden hacer una zanja de 60m longitud en 12 dias, despues de cierto tiempo de trabajo se decide aumentar la longitud en 30m para lo cual contratan 10 obreros mas, acabando la obra a los 15 dias de empezada. A los cuantos dias se aumento el personal?</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 7 </p>
+                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 10 </p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 15 </p>
+                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) 6 </p>
+            </div>
+        </div>
+
+
+        <div align="center">
             <input type="button" class="btn btn-primary" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
 
 

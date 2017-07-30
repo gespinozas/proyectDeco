@@ -39,8 +39,8 @@ function Score() {
             calif++;
         }
     }
-    answertext = answertext+"\nresultado;n: "+calif;
-    answertext = answertext+"\nDiagnostico: ";
+    answertext = answertext+"\nCALIFICACION: "+calif + " de 7";
+    answertext = answertext+"\nDIAGNOSTICO: ";
     if(calif>=0 && calif<=2){
         answertext = answertext + " MALO";
     }

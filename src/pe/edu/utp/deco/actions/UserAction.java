@@ -1,54 +1,39 @@
 package pe.edu.utp.deco.actions;
 
 import com.opensymphony.xwork2.ActionSupport;
-import org.apache.commons.io.FileUtils;
-import org.apache.struts2.dispatcher.SessionMap;
-import org.apache.struts2.interceptor.SessionAware;
-import pe.edu.utp.deco.services.UserService;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.Date;
-import java.util.Map;
-import pe.edu.utp.deco.util.Cast;
+import pe.edu.utp.deco.services.DecoService;
+import pe.edu.utp.deco.models.*;
 
 /**
  * Created by ASUS on 13/07/2017.
  */
-public class UserAction extends ActionSupport implements SessionAware{
+public class UserAction extends ActionSupport{
 
-    private String name;
+    public int id;
+    private String firstname;
     private String lastName;
-    private String user;
+    private String email;
     private String password;
-    private String phone;
-    private String address;
-    private String academy;
-    private Boolean status;
+    private User user;
 
-    private SessionMap<String, Object> sessionMap;
-    public String getName() {
-        return name;
+public int getId(){ return id;}
+
+public void setId(int id){this.id = id;}
+
+public String getFirstname(){return firstname;}
+
+public void setFirstname(String firstname) {this.firstname = firstname;}
+
+public String getLastname() {return lastName;}
+
+public void setLastname(String lastName) {this.lastName = lastName;}
+
+    public String getEmail() {
+        return email;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getUser() {
-        return user;
-    }
-
-    public void setUser(String user) {
-        this.user = user;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getPassword() {
@@ -59,78 +44,36 @@ public class UserAction extends ActionSupport implements SessionAware{
         this.password = password;
     }
 
-    public String getPhone() {
-        return phone;
+    public User getUser() {
+        return user;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setUser(User user) {
+        this.user = user;
     }
 
-    public String getAddress() {
-        return address;
+public String add(){
+    user = new User(id, firstname,lastName, email, password);
+    try {
+        DecoService PSS = new DecoService();
+        PSS.createUser(user);
+        return  SUCCESS;
+    }catch (Exception e){
+        e.printStackTrace();
+        return "input";
     }
+}
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getAcademy() {
-        return academy;
-    }
-
-    public void setAcademy(String academy) {
-        this.academy = academy;
-    }
-
-    public Boolean getStatus() {
-        return status;
-    }
-
-    public void setStatus(Boolean status) {
-        this.status = status;
-    }
-
-    @Override
-    public void setSession(Map map) {
-        sessionMap=(SessionMap)map;
-    }
-
-    public String validateUser() {
-        UserService service = new UserService();
-        String action = service.validateUserLogin(getUser(), getPassword());
-        if (!action.equals("error")) {
-            UserAction userAction = Cast.UserLoginDtoToUserAction(service.findByUsernameLogin(getUser()));
-            sessionMap.put("user", userAction);
-        }
-        else{
-            addActionError("Usuario y/o contraseña inválido.");
-        }
-        return action;
-    }
-
-    public String logout(){
-        sessionMap.invalidate();
+public String login(){
+    try {
+        DecoService PSS = new DecoService();
+        user = PSS.getUsersByEmail(email,password);
+        id = user.getId();
         return SUCCESS;
+    }catch (Exception e){
+        e.printStackTrace();
+        return "input";
     }
-
-
-
-
-    /*
-    public String validateUser() {
-        UserService service = new UserService();
-        String action = service.validateUserLogin(getUsername(), getPassword());
-        if (!action.equals("error")) {
-            UserAction userAction = Cast.UserLoginDtoToUserAction(service.findByUsernameLogin(getUsername()));
-            sessionMap.put("user", userAction);
-        }
-        else{
-            addActionError("Usuario y/o contraseña inválido.");
-        }
-        return action;
-    }*/
-
-
-
+}
+public  String execute(){ return  SUCCESS;}
 }

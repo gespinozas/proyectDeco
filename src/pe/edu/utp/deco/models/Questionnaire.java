@@ -10,11 +10,12 @@ public class Questionnaire extends BaseEntity {
     private User user;
     private int questionQuantity;
     private String description;
+    private Connection connection;
 
-    public Questionnaire(Connection connection, String id) {
+  /*  public Questionnaire(Connection connection, String id) {
         super(connection);
         this.id = id;
-    }
+    }*/
 
     public Questionnaire() {
     }
@@ -33,9 +34,9 @@ public class Questionnaire extends BaseEntity {
         this.id = id;
     }
 
-    public Questionnaire(Connection connection) {
+   /* public Questionnaire(Connection connection) {
         super(connection);
-    }
+    }*/
 
     public String getId() {
         return id;

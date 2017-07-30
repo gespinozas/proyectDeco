@@ -10,6 +10,7 @@ public class DecoDataStore {
 
 
     private Connection connection;
+    private UsersEntity usersEntity;
     private MattersEntity mattersEntity;
     private TopicsEntity topicsEntity;
 
@@ -58,7 +59,6 @@ public class DecoDataStore {
     }
 
 
-
     public List<Topic> findTopicsByMatter(Matter matter) {
         return getTopicsEntity().findByMatter(matter, getMattersEntity());
     }
@@ -66,5 +66,34 @@ public class DecoDataStore {
     public List<Topic> findAllTopicsOrderByName() {
         return getTopicsEntity().findAllOrderByName(getMattersEntity(), true);
     }
+
+
+
+
+//USERS
+
+    private UsersEntity getUsersEntity(){
+        if (usersEntity == null){
+            usersEntity = new UsersEntity(getConnection());
+        }
+        return  usersEntity;
+    }
+
+    public List<User> findAllUsers(){
+        return getUsersEntity().findAll();
+    }
+
+    public User findUsersByEmail(String email, String password){
+        return getUsersEntity().findByEmail(email, password);
+    }
+
+    public User findUsersById(int id){
+        return getUsersEntity().findById(id);
+    }
+
+    public boolean createUser(User user){
+        return getUsersEntity().add(user);
+    }
+
 
 }

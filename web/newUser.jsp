@@ -1,3 +1,4 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -74,59 +75,6 @@
                 <li class="active">
                     <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
                 </li>
-                <li >
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
-                    <ul id="demo" class="collapse">
-                        <li>
-                            <a href="ARITMETICA.jsp">Aritmetica</a>
-                        </li>
-                        <li>
-                            <a href="topicsMatter/RM">Razonamiento Matematico</a>
-                        </li>
-                        <li>
-                            <a href="GEOMETRIA.jsp">Geometr&#237a</a>
-                        </li>
-                        <li>
-                            <a href="TRIGONOMETRIA.jsp">Trigonometr&#237a</a>
-                        </li>
-                        <li>
-                            <a href="ALGEBRA.jsp">Algebra</a>
-                        </li>
-                        <li>
-                            <a href="AV.jsp">Aptitud Verbal</a>
-                        </li>
-                        <li>
-                            <a href="LENGUAJE.jsp">Lenguaje</a>
-                        </li>
-                        <li>
-                            <a href="LITERATURA.jsp">Literatura</a>
-                        </li>
-                        <li>
-                            <a href="BIOLOGIA.jsp">Biolog&#237;a</a>
-                        </li>
-                        <li>
-                            <a href="QUIMICA.jsp">Qu&#237;mica</a>
-                        </li>
-                        <li>
-                            <a href="FISICA.jsp">F&#237;sica</a>
-                        </li>
-                        <li>
-                            <a href="PSICOLOGIA.jsp">Psicolog&#237;a</a>
-                        </li>
-                        <li>
-                            <a href="FILOSOFIA.jsp">Filosof&#237;a</a>
-                        </li>
-                        <li>
-                            <a href="GEOGRAFIA.jsp">Geograf&#237;a</a>
-                        </li>
-                        <li>
-                            <a href="HU.jsp">Historia Universal</a>
-                        </li>
-                        <li>
-                            <a href="topicsMatter/HP">Historia del Per&#250;</a>
-                        </li>
-                    </ul>
-                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -137,28 +85,46 @@
         <div class="container-fluid">
 
             <!-- Page Heading -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">
-                        CREACION DE NUEVO USUARIO
-                    </h1>
 
-                </div>
-            </div>
             <!-- /.row -->
 
-            <h3>Datos a completar</h3>
-            <fieldset style="margin-bottom: 120px;">
-                <s:form action="register">
+            <div align="center">
 
-                    <br> Usuario:             <input type="UserName" name="username" id="UserName">
-                    <br> Contrasena:          <input type="Password" name="password" id="Password">
-                    <br>Telefono Celular:     <input type="Phone" name="phone" id="Phone">
-                    <br>Direccion:            <input type="Address" name="address" id="Address">
-                    <br> Nombre de Academia:  <input type="Academy" name="academy" id="Academy">
-                    <br><s:submit value="Crear usuario" cssClass="btn btn-default"/>
-                    <br><a href="login.jsp"><button>Registrar </button></a>
-                </s:form>
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading ">
+                        <h2>Nuevo Usuario</h2>
+                    </div>
+                    <div class="panel-body">
+
+                        <s:form action="add" id="contact">
+
+
+                            <s:textfield placeholder="Id" name="id"/>
+                            <s:textfield placeholder="Nombre" name="firstname"/>
+                            <s:textfield placeholder="Apellidos" name="lastname"/>
+                            <s:textfield placeholder="Email" name="email" type="email"/>
+                            <s:password placeholder="Password" name="password" type="password"/>
+                            <s:submit cssClass="btn btn-primary" value="Registrarme"/>
+
+                        </s:form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             <!-- end log

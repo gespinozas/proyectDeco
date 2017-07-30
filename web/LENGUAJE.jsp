@@ -74,18 +74,13 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
                 <li>
-                    <a href="index.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
+                    <a href="IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
+                <li class="active">
+                    <a href="aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
+                </li>
+
                 <li>
-                    <a href="about.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
-                </li>
-                <li>
-                    <a href="login.jsp"><i class="fa fa-fw fa-user"></i>Login</a>
-                </li>
-                <li>
-                    <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
-                </li>
-                <li >
                     <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
@@ -137,6 +132,9 @@
                             <a href="HP.jsp">Historia del Per&#250;</a>
                         </li>
                     </ul>
+                </li>
+                <li>
+                    <a href="index.jsp"><i class="fa fa-fw fa-user"></i>Logout</a>
                 </li>
             </ul>
         </div>
