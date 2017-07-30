@@ -80,18 +80,13 @@
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
+                <li>
+                    <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
+                </li>
                 <li class="active">
-                    <a href="../index.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
+                    <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="../about.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
-                </li>
-                <li>
-                    <a href="../login.jsp"><i class="fa fa-fw fa-user"></i>Login</a>
-                </li>
-                <li>
-                    <a href="../newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
-                </li>
+
                 <li>
                     <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
@@ -145,6 +140,9 @@
                         </li>
                     </ul>
                 </li>
+                <li>
+                    <a href="../index.jsp"><i class="fa fa-fw fa-user"></i>Logout</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -156,9 +154,10 @@
 
         <!-- Page Heading -->
 
+        <h3 align="center">Teor&#237;a de conjuntos</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
-            <p>Teor&#237;a de conjuntos</p>
+
             <p>1.- Sea M= {r ,s ,t} . D&#237;gase cu&#225;l de las afirmaciones siguientes es la correcta</p>
             </div>
                 <div class="panel-body">

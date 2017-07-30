@@ -81,18 +81,13 @@
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
+                <li>
+                    <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
+                </li>
                 <li class="active">
-                    <a href="../index.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
+                    <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="../about.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
-                </li>
-                <li>
-                    <a href="../login.jsp"><i class="fa fa-fw fa-user"></i>Login</a>
-                </li>
-                <li>
-                    <a href="../newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
-                </li>
+
                 <li>
                     <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
@@ -146,6 +141,9 @@
                         </li>
                     </ul>
                 </li>
+                <li>
+                    <a href="../index.jsp"><i class="fa fa-fw fa-user"></i>Logout</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -157,9 +155,11 @@
 
         <!-- Page Heading -->
 
+        <h3 align="center">Numeraci&#243;n</h3>
+
         <div class="panel panel-default">
             <div class="panel-heading">
-            <p>Numeraci&#243;n</p>
+
             <p>1.- Si el n&#250;mero: 20041111100000010012(n), se representa en el sistema de numeracion de base nxnxn, obtenemos un n&#250;mero cuya suma de cifras es 5 veces la suma anterior. Entonces "n" es:</p>
             </div>
             <div class="panel-body">
