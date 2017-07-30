@@ -39,7 +39,7 @@ function Score() {
             calif++;
         }
     }
-    answertext = answertext+"\nCalificaci&#243;n: "+calif;
+    answertext = answertext+"\nresultado;n: "+calif;
     answertext = answertext+"\nDiagnostico: ";
     if(calif>=0 && calif<=2){
         answertext = answertext + " MALO";
