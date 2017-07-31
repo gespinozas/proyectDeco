@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Teor&#237;a de conjuntos</title>
+    <title>SERIES NUMERICAS</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -81,17 +81,11 @@
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
+                <li>
+                    <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
+                </li>
                 <li class="active">
-                    <a href="../index.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
-                </li>
-                <li>
-                    <a href="../about.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
-                </li>
-                <li>
-                    <a href="../login.jsp"><i class="fa fa-fw fa-user"></i>Login</a>
-                </li>
-                <li>
-                    <a href="../newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
+                    <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
                 <li>
                     <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
@@ -156,10 +150,10 @@
 
 
         <!-- Page Heading -->
-
+        <h3 align="center">SERIES NUMERICAS</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>SERIES NUMERICAS</p>
+
                 <p>1.- Cuando un omnibus llega al primer paradero, bajan 3 pasajeros y suben 15, al llegar al segundo paradero bajan 6 y suben 20, en el tercer paradero bajan 9 y suben 25; en el cuarto paradero bajan 12 y suben 30, y asi sucesivamente hasta que cierto paradero subieron el doble de los que bajaron.¿Cuantos pasajeros han bajado ese momento?</p>
             </div>
             <div class="panel-body">

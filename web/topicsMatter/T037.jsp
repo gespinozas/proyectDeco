@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Walter
-  Date: 28/7/2017
-  Time: 22:46
+  User: r_jeq
+  Date: 30/07/2017
+  Time: 18:27
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Conteo de numeros I</title>
+    <title>PUNTUACION I (LA COMA)</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -150,89 +150,89 @@
 
 
         <!-- Page Heading -->
-        <h3 align="center">Conteo de numeros I</h3>
+        <h3 align="center">PUNTUACION I (LA COMA)</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Determinar la maxima diferencia de dos numeros de cinco cifras, tal que al ser divididos por 25 dan un resto maximo.</p>
+                <p>1.- Identifique la alternativa en la que se empleo coma eliptica</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 89975</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) 90000</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 86755 </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 88950 </p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Eva participo en un simposio; Liz, en un coloqio</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Ayer, en aquella libreria, promociono sus novelas</p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Roberto, el director del colegio, firmo el convenio </p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Ella no compro el libro, sino que se lo prestaron </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Hallar la suma de todos los numeros capicuas de tres cifras que no tienen las tres cifras iguales</p>
+                <p>2.- Identifique la oracion donde se ha usado la coma apositiva. </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 49500 </p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 48750 </p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 44505</p>
-                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 45505 </p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Vilma estudia Medicina; Nancy, Contabilidad.</p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) En el mes de enero, suele viajar con su familia</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Maribel, la Gitana, vaticino aquellos sucesos.</p>
+                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) Lo preparo con leche, huevo, miel y algarrobina</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- Un numero es igual a 15 veces su complemento aritmetico y el producto de los dos tienen 72 divisores, entonces cuantos divisores tiene dicho complemento?</p>
+                <p>3.-Elija la alternativa donde se ha empleado correctamente la coma</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 14 </p>
-                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) 28</p>
-                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) 12</p>
-                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) 15</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) ¿Prefieres un te, o una manzanilla? </p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Le pidio, que forre sus cuadernos</p>
+                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Estoy feliz, Rodrigo, por tus exitos </p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) ¿Doctor, en que alimentos se encuentra la vitamina E?</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Cuantos numeros enteros exiten tales que al ser divido por 4, 5, 9, 11 y 25 produzca respectivamente los restos 1, 4, 5, 1 y 14. Dar como respuesta la suma de sus cifras</p>
+                <p>4.- Elija la alternativa donde hay uso incorrecto de la coma</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) 12 </p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) 26</p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) 23 </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) 18 </p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Angel es un alumno puntual, responsable, muy disciplinado, y muuy estudioso</p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Augusto Polo Campos, como ya sabemos, es un excelente compositor </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Efectivamente, el arqueologo Julio C.Tello descubrio la cultura Chavin. </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) El director, los profesores, el jefe, etc, les expresaron sus felicitaciones.</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Un estudiante de la academia Pampers decide comprar libros de aritmetica y algebra cuyos precios eran 15 y 9 soles respectivamente, cuantos libros compro como maximo si dicho estudiante tenia 265 soles</p>
-            </div>
-            <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 28</p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) 31 </p>
-                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) 21</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 19 </p>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <p>6.- Hallar el numero que no es multiplo de 3 y que al ser representado en base 14 se escribe como un numero de 5 cifras. Dar como respuesta la suma de cifras del numero en base 10.</p>
-            </div>
-            <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 27 </p>
-                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) 32</p>
-                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) 41 </p>
-                <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) 10 </p>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <p>7.- Un numero es igual a 15 veces su complemento aritmetico y el producto de los dos tienen 72 divisores, Cuantos divisores tiene dicho complemento?</p>
-            </div>
-            <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 14 </p>
-                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 28 </p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 15 </p>
-                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) 20 </p>
-            </div>
-        </div>
+                <p>5.- En el enunciado "Simon Bolivar el Libertador fue un militar venezolano que contribuyo en la independencia de Peru", se ha omitido </p>
 
-
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) coma de vocativo </p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) coma eliptica</p>
+                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) coma hiperbatica</p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) comoa apositiva</p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>6.- En el enunciado "Angelica mi sobrina mayor a quien la apoyaste en sus estudios superiores trabaja en cuba la Llave del Golfo", el numero de comas omitidas es</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) cuatro</p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) uno</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) dos</p>
+                <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) tres</p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>7.-  Marque la opcion en la que se ha empleado coma hiperbatica</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Fabian fotografie paisajes, museos, catedrales...</p>
+                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) El primer dia de clase, amiga, es muy emotivo</p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) En la zona sureña, hubo un movimiento telurico</p>
+                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) Karina publico el texto escolar; Irma, las revistas</p>
+            </div>
+        </div>
         <div align="center">
             <input type="button" class="btn btn-primary" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
+
 
 
 

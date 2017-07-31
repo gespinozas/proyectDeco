@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Walter
-  Date: 28/7/2017
-  Time: 22:46
+  User: r_jeq
+  Date: 30/07/2017
+  Time: 14:20
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Conteo de numeros I</title>
+    <title>ECUACIONES POLINOMICAS</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -150,89 +150,89 @@
 
 
         <!-- Page Heading -->
-        <h3 align="center">Conteo de numeros I</h3>
+        <h3 align="center">ECUACIONES POLINOMICAS</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Determinar la maxima diferencia de dos numeros de cinco cifras, tal que al ser divididos por 25 dan un resto maximo.</p>
+                <p>1.- ¿Para que valor de "m" dos de las raices de la ecuacion:(x+m+2)^4 + (x+m)^4 = 16 son imaginarias y conjugadas?</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 89975</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) 90000</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 86755 </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 88950 </p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Para todo "m" real</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Solo todo "m" mayor que cero</p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Solo para "m" entre -5 y 5 </p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Para ningun valor de "m"</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Hallar la suma de todos los numeros capicuas de tres cifras que no tienen las tres cifras iguales</p>
+                <p>2.- Determine el termino constante de aquel polinomio P(x) de grado minimo y de coeficientes reales que admite como raiz doble a 1; raices simples 5 y 6, ademas como raiz triple a 2+ i</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 49500 </p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 48750 </p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 44505</p>
-                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 45505 </p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 3760</p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 3750</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 3770</p>
+                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 3815</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- Un numero es igual a 15 veces su complemento aritmetico y el producto de los dos tienen 72 divisores, entonces cuantos divisores tiene dicho complemento?</p>
+                <p>3.-Si a y b son dos raices distintas de la ecuacion P(x) =0, donde P(x) es un  polinomio reciproco de quinto grado. Calcular la suma de sus cinco raices, de modo que: a+b=10 y ab=-10</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 14 </p>
-                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) 28</p>
-                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) 12</p>
-                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) 15</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 3 </p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) 8</p>
+                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) -2 </p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) 1</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Cuantos numeros enteros exiten tales que al ser divido por 4, 5, 9, 11 y 25 produzca respectivamente los restos 1, 4, 5, 1 y 14. Dar como respuesta la suma de sus cifras</p>
+                <p>4.- ¿Para que valor del parametro real "m" la ecuacion: x^3 -2x^2 + (m+5)x + m =0 tiene dos raices imaginarias puras?</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) 12 </p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) 26</p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) 23 </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) 18 </p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) -10/3 </p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) 1  </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) -10 </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) 1/3</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Un estudiante de la academia Pampers decide comprar libros de aritmetica y algebra cuyos precios eran 15 y 9 soles respectivamente, cuantos libros compro como maximo si dicho estudiante tenia 265 soles</p>
-            </div>
-            <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 28</p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) 31 </p>
-                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) 21</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 19 </p>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <p>6.- Hallar el numero que no es multiplo de 3 y que al ser representado en base 14 se escribe como un numero de 5 cifras. Dar como respuesta la suma de cifras del numero en base 10.</p>
-            </div>
-            <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 27 </p>
-                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) 32</p>
-                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) 41 </p>
-                <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) 10 </p>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <p>7.- Un numero es igual a 15 veces su complemento aritmetico y el producto de los dos tienen 72 divisores, Cuantos divisores tiene dicho complemento?</p>
-            </div>
-            <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 14 </p>
-                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 28 </p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 15 </p>
-                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) 20 </p>
-            </div>
-        </div>
+                <p>5.-  Determine el valor de "k" si la ecuacion x^4 - (3k-2)x^2 + (k-2)^2 = 0 Tiene dos raices negativas distintas que suman -6</p>
 
-
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 4 </p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) -8</p>
+                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c)34</p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 8,4</p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>6.- Indicar la menor raiz de la ecuacion x^3 - 13x^2 + 15x + 189 = 0</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 9</p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) -3</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) 7</p>
+                <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) 10</p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>7.- Resolver la ecuacion: 12x^4 -4x^3 - 41x^2 -4x +12 = 0 y dar como respuesta la suma de sus dos raices reales positivas</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 7/3</p>
+                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 1/2 </p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 5/2</p>
+                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) 5/3</p>
+            </div>
+        </div>
         <div align="center">
             <input type="button" class="btn btn-primary" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
+
 
 
 

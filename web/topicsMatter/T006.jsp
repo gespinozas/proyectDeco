@@ -81,17 +81,11 @@
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
+                <li>
+                    <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
+                </li>
                 <li class="active">
-                    <a href="../index.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
-                </li>
-                <li>
-                    <a href="../about.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
-                </li>
-                <li>
-                    <a href="../login.jsp"><i class="fa fa-fw fa-user"></i>Login</a>
-                </li>
-                <li>
-                    <a href="../newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
+                    <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
                 <li>
                     <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
@@ -156,10 +150,10 @@
 
 
         <!-- Page Heading -->
-
+        <h3 align="center">Conteo de numeros II</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>Conteo de numeros II</p>
+
                 <p>1.- Se tiene una serie de razones geometricas, equivalentes y continuas, donde cada consecuente es el triple de su antecedente, ademas la suma de sus extremos es 488. Dar como respuesta el mayor termino si se sabe que todos son enteros positivos</p>
             </div>
             <div class="panel-body">

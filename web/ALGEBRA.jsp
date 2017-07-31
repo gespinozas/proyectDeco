@@ -164,11 +164,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>TEORIA DE ECUACIONES</div>
+                                    <div>ECUACIONES DE 2DO GRADO</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T025.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -184,11 +184,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>ECUACIONES DE 2DO GRADO</div>
+                                    <div>ECUACIONES POLINOMICAS</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T026.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -204,11 +204,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>ECUACIONES POLINOMICAS</div>
+                                    <div>FUNCION EXPONENCIAL Y LOGARITMICA</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T027.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -224,11 +224,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>SISTEMA DE ECUACIONES </div>
+                                    <div>CALCULO DE LIMITES </div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T028.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -247,11 +247,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>PLANTEO DE ECUACIONES</div>
+                                    <div>SERIES</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T029.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -267,11 +267,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>DESIGUALDADES</div>
+                                    <div>PLANTEO DE ECUACIONES</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T030.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -299,7 +299,7 @@
     <script src="js/plugins/morris/raphael.min.js"></script>
     <script src="js/plugins/morris/morris.min.js"></script>
     <script src="js/plugins/morris/morris-data.js"></script>
-
+</div>
 </body>
 
 </html>

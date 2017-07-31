@@ -164,11 +164,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>EL VERBO I</div>
+                                    <div>PUNTUACION I (LA COMA)</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T037.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -184,11 +184,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>EL VERBO II</div>
+                                    <div>FONEMAS Y GRAFEMAS</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T038.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -204,11 +204,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>EL VERBO III</div>
+                                    <div>EL SUSTANTIVO</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T039.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -224,11 +224,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>CATEGORIA INVARIABLE</div>
+                                    <div>DETERMINANTES</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T040.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -247,11 +247,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>CATEGORIA SINTACTICA</div>
+                                    <div>CATEGORIAS INVARIABLES</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T041.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -271,7 +271,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T042.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -299,7 +299,7 @@
     <script src="js/plugins/morris/raphael.min.js"></script>
     <script src="js/plugins/morris/morris.min.js"></script>
     <script src="js/plugins/morris/morris-data.js"></script>
-
+</div>
 </body>
 
 </html>

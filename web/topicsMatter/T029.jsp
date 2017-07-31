@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Walter
-  Date: 28/7/2017
-  Time: 22:46
+  User: r_jeq
+  Date: 30/07/2017
+  Time: 15:51
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Conteo de numeros I</title>
+    <title>SERIES</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -150,89 +150,89 @@
 
 
         <!-- Page Heading -->
-        <h3 align="center">Conteo de numeros I</h3>
+        <h3 align="center">SERIES</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Determinar la maxima diferencia de dos numeros de cinco cifras, tal que al ser divididos por 25 dan un resto maximo.</p>
+                <p>1.- Si r  pertenece a <(a); (b)> si y solo si la serie infinita 1 + 3r +2r^2 + 3r^3 + 2r^4 + 3r^5 + 2r^6 + ... converge a m, halle la suma de a,b y m    </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 89975</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) 90000</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 86755 </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 88950 </p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) (r^2 +3r + 1)/(1-r^2)</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) (r^2 +3r )/(1-r^2)</p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) (r^2  + 1)/(1-r^2) </p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) ( 3r + 1)/(1-r^2)</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Hallar la suma de todos los numeros capicuas de tres cifras que no tienen las tres cifras iguales</p>
+                <p>2.- Indique el valor al cual converge la siguiente serie: S = 1/2 + 1/(5^2 * 2^2) + 1/(5^4 * 2^3) + 1/(5^6  * 2^4) + ...</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 49500 </p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 48750 </p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 44505</p>
-                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 45505 </p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 2/3</p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 4</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 25/49</p>
+                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 1/2</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- Un numero es igual a 15 veces su complemento aritmetico y el producto de los dos tienen 72 divisores, entonces cuantos divisores tiene dicho complemento?</p>
+                <p>3.-Indique el valor de: S = 1 + 3/(1!) + 6/(2!) + 9/(3!) + 12/(4!) + ...</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 14 </p>
-                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) 28</p>
-                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) 12</p>
-                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) 15</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 3e </p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) 3e +1</p>
+                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) 2e^2</p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) e^3</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Cuantos numeros enteros exiten tales que al ser divido por 4, 5, 9, 11 y 25 produzca respectivamente los restos 1, 4, 5, 1 y 14. Dar como respuesta la suma de sus cifras</p>
+                <p>4.- Calcule el valor de: M = 1*3 + 3*5  + 5*7 + 7*9 + ... "n" sumandos</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) 12 </p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) 26</p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) 23 </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) 18 </p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) (n/3)(4n^2 + 6n -1) </p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) (n/3)(4n^2 + 6n +1)  </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) (n/5)(4n^2 + 6n -1) </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) n(n^2 - 1)</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Un estudiante de la academia Pampers decide comprar libros de aritmetica y algebra cuyos precios eran 15 y 9 soles respectivamente, cuantos libros compro como maximo si dicho estudiante tenia 265 soles</p>
-            </div>
-            <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 28</p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) 31 </p>
-                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) 21</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 19 </p>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <p>6.- Hallar el numero que no es multiplo de 3 y que al ser representado en base 14 se escribe como un numero de 5 cifras. Dar como respuesta la suma de cifras del numero en base 10.</p>
-            </div>
-            <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 27 </p>
-                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) 32</p>
-                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) 41 </p>
-                <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) 10 </p>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <p>7.- Un numero es igual a 15 veces su complemento aritmetico y el producto de los dos tienen 72 divisores, Cuantos divisores tiene dicho complemento?</p>
-            </div>
-            <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 14 </p>
-                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 28 </p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 15 </p>
-                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) 20 </p>
-            </div>
-        </div>
+                <p>5.- Si se cumple que  1 + 1/(2^2) + 1/(3^2) + 1/(4^2) + ... =P, Determine el valor de 10/((1*3)^2) + 74/((5*7)^2) + 202/((9*11)^2)  + ... en terminos de P </p>
 
-
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) P/2 </p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) P</p>
+                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) P/4</p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 3/4P</p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>6.- Indique lo correcto con respecto a la siguiente serie: 1 + 3x + 6x^2 + 10x^3 + ...; |x| >1</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Converge a 1</p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Converge a (1-x)^-3</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Oscila</p>
+                <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) Diverge</p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>7.- Sea una sucesion de rectangulos R1, R2, R3, ..., RK, donde el K-esimo rectangulo tiene lado 1/k y 1/(k+3); entonces la suma de las areas de todos los rectangulos es igual a:</p>
+            </div>
+            <div class="panel-body">
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 7/16</p>
+                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 1 </p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 11/18</p>
+                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) 3</p>
+            </div>
+        </div>
         <div align="center">
             <input type="button" class="btn btn-primary" name="RESULTADOS" value="RESULTADOS" onclick="Score()";/>
+
 
 
 
