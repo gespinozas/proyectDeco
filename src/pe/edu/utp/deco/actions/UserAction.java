@@ -69,6 +69,7 @@ public String login(){
         DecoService PSS = new DecoService();
         user = PSS.getUsersByEmail(email,password);
         id = user.getId();
+        firstname=user.getFirstname();
         return SUCCESS;
     }catch (Exception e){
         e.printStackTrace();
