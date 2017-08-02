@@ -53,7 +53,7 @@ public void setLastname(String lastName) {this.lastName = lastName;}
     }
 
 public String add(){
-    user = new User(id, firstname,lastName, email, password);
+    user = new User(id,firstname,lastName, email, password);
     try {
         DecoService PSS = new DecoService();
         PSS.createUser(user);

@@ -97,10 +97,8 @@
                     </div>
                     <div class="panel-body">
 
-                        <s:form action="add" id="contact">
+                        <s:form action="addUser" >
 
-
-                            <s:textfield placeholder="Id" name="id"/>
                             <s:textfield placeholder="Nombre" name="firstname"/>
                             <s:textfield placeholder="Apellidos" name="lastname"/>
                             <s:textfield placeholder="Email" name="email" type="email"/>

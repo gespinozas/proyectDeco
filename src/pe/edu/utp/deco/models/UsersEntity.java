@@ -29,25 +29,25 @@ public class UsersEntity extends BaseEntity {
 
     public User findById(int id) {
         String criteria = "id = " + String.valueOf(id);
-        return findByCriteria(null).get(0);
+        return findByCriteria(criteria).get(0);
     }
 
     public User findByFirstName(String firstname) {
         String criteria = " firstName = '" +
                 firstname + "'";
-        return findByCriteria(null).get(0);
+        return findByCriteria(criteria).get(0);
     }
 
 
     public User findByLastName(String lastName) {
         String criteria = " lastName = '" +
                 lastName+ "'";
-        return findByCriteria(null).get(0);
+        return findByCriteria(criteria).get(0);
     }
 
     public User findByEmail(String email){
         String criteria = " email = '" + email + "' ";
-        return findByCriteria(null).get(0);
+        return findByCriteria(criteria).get(0);
     }
 
 
@@ -76,16 +76,17 @@ public class UsersEntity extends BaseEntity {
 
 
     public boolean add(User user) {
-        String sql = "INSERT INTO users(id,firstName, lastName, email, password)" +
+        String sql = "INSERT INTO users(firstName,lastName,email,password)" +
                 "VALUES (" +
-                user.getIdAsValue() + ", " +
                 user.getFirstNameAsValue() + ", " +
                 user.getLastNameAsValue() + ", " +
                 user.getEmailAsValue() + ", " +
-                user.getPasswordAsValue() + ", " ;
+                user.getPasswordAsValue() + ")";
         return change(sql);
 
     }
+
+
 
 }
 
