@@ -168,7 +168,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T073.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -184,11 +184,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>FILOSOFIA MEDIEVAL</div>
+                                    <div>ANTROPOLOGIA FILOSOFICA</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T074.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -204,11 +204,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>FILOSOFIA MODERNA I</div>
+                                    <div>GNOSEOLOGIA</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T075.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -224,11 +224,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>FILOSOFIA MODERNA II</div>
+                                    <div>EPISTEMOLOGIA</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T076.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -247,11 +247,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>FILOSOFIA CONTEMPORANEA I</div>
+                                    <div>AXIOLOGIA</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T077.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -267,11 +267,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>FILOSOFIA CONTEMPORANEA II</div>
+                                    <div>ETICA</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T078.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -299,7 +299,7 @@
     <script src="js/plugins/morris/raphael.min.js"></script>
     <script src="js/plugins/morris/morris.min.js"></script>
     <script src="js/plugins/morris/morris-data.js"></script>
-
+</div>
 </body>
 
 </html>

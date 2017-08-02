@@ -164,11 +164,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>ELIMINACION DE ORACIONES</div>
+                                    <div>SINONIMOS</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T013.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -184,11 +184,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>SERIES VERBALES I</div>
+                                    <div>ANTONIMOS</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T014.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -204,11 +204,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>SERIES VERBALES II</div>
+                                    <div>CONECTORES LOGICOS I</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T015.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -224,11 +224,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>TEXTO NARRATIVO</div>
+                                    <div>CONECTORES LOGICOS II</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T016.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -299,7 +299,7 @@
     <script src="js/plugins/morris/raphael.min.js"></script>
     <script src="js/plugins/morris/morris.min.js"></script>
     <script src="js/plugins/morris/morris-data.js"></script>
-
+</div>
 </body>
 
 </html>

@@ -164,11 +164,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>GENERACION DE 98 - 27</div>
+                                    <div>CLASICISMO</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T043.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -184,11 +184,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>HISPANOAMERICANA I</div>
+                                    <div>RENACIMIENTO</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T044.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -204,11 +204,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>HISPANOAMERICANA II</div>
+                                    <div>HISPANOAMERICANA </div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T045.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -224,11 +224,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>LITERATURA PREHISPANICA</div>
+                                    <div>BOOM LATINOAMERICANO</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T046.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -247,11 +247,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>LITERATURA COLONIAL</div>
+                                    <div>MODERNISMO Y POSTMODERNISMO</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T047.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -267,11 +267,11 @@
                                 <div class="col-xs-3">
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div>COSTUMBRISMO</div>
+                                    <div>LITERATURA PERUANO PREHISPANICA Y CONQUISTA</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="topicsMatter/T048.jsp">
                             <div class="panel-footer">
                                 <span class="pull-left">Comenzar!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -299,7 +299,7 @@
     <script src="js/plugins/morris/raphael.min.js"></script>
     <script src="js/plugins/morris/morris.min.js"></script>
     <script src="js/plugins/morris/morris-data.js"></script>
-
+</div>
 </body>
 
 </html>
