@@ -154,7 +154,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Cuando un omnibus llega al primer paradero, bajan 3 pasajeros y suben 15, al llegar al segundo paradero bajan 6 y suben 20, en el tercer paradero bajan 9 y suben 25; en el cuarto paradero bajan 12 y suben 30, y asi sucesivamente hasta que cierto paradero subieron el doble de los que bajaron.¿Cuantos pasajeros han bajado ese momento?</p>
+                <p>1.- Cuando un omnibus llega al primer paradero, bajan 3 pasajeros y suben 15, al llegar al segundo paradero bajan 6 y suben 20, en el tercer paradero bajan 9 y suben 25; en el cuarto paradero bajan 12 y suben 30, y así sucesivamente hasta que cierto paradero subieron el doble de los que bajaron.¿Cuántos pasajeros han bajado ese momento?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 165</p>
@@ -176,7 +176,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.-Hallar el valor de "n" si se sabe que la suma de los terminos de la siguiente sucesion es 720. n; n+4; n+8; ... ; 5n</p>
+                <p>3.-Hallar el valor de "n" si se sabe que la suma de los términos de la siguiente sucesión es 720. n; n+4; n+8; ... ; 5n</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 20 </p>
@@ -187,7 +187,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.-En una canasta hay 60 duraznos; Maria las va colocando por filas de la siguiente manera: en la primera fila pone un durazno, en la segunda fila pone dos duraznos, coge tres duraznos de la canasta y los pone ne la tercera fila y asi sucesivamente ¿Cuantos duraznos quedaran en la canasta? </p>
+                <p>4.-En una canasta hay 60 duraznos; María las va colocando por filas de la siguiente manera: en la primera fila pone un durazno, en la segunda fila pone dos duraznos, coge tres duraznos de la canasta y los pone ne la tercera fila y así sucesivamente ¿Cuántos duraznos quedarán en la canasta? </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) 5 </p>
@@ -210,7 +210,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Calcular el valor de  "M", sabiendo que es una serie de (2n+1) terminos comunes de las sucesiones: m = 1 - 4 +9 -16 + 25 -36 + ...</p>
+                <p>6.- Calcular el valor de  "M", sabiendo que es una serie de (2n+1) términos comunes de las sucesiones: m = 1 - 4 +9 -16 + 25 -36 + ...</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) (2n)(n+1} </p>

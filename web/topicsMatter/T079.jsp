@@ -154,10 +154,10 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- La costa peruana esta limitada al este por el mar y al Este por una linea de altitud que varia entre los 0 y 500 msnm, de acuerdo a las condiciones topografica teniendo su mayor y menor ancho, respectivamente, en las localidades de:</p>
+                <p>1.- La costa peruana esta limitada al este por el mar y al Este por una línea de altitud que varía entre los 0 y 500 msnm, de acuerdo a las condiciones topografica teniendo su mayor y menor ancho, respectivamente, en las localidades de:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Morropon-Punta Lobos</p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Morropón-Punta Lobos</p>
                 <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Chiclayo-Nazca</p>
                 <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Talara-Tacana </p>
                 <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Palpa-Ica </p>
@@ -165,7 +165,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Constituyen en las areas mas desarrolladas y productivas de la costa </p>
+                <p>2.- Constituyen en las áreas más desarrolladas y productivas de la costa </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Pampas</p>
@@ -187,7 +187,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Indique dos caracteristicas saltantes con las cuales se relaciona estrechamente el valle de Jequetepeque</p>
+                <p>4.- Indique dos características saltantes con las cuales se relaciona estrechamente el valle de Jequetepeque</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Cultivo de arroz-represa de Gallito Ciego</p>
@@ -198,7 +198,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  Las colinas que conforman la continuidad de la cordillera de los Andes se denominan</p>
+                <p>5.-  Las colinas que conforman la continuidad de la cordillera de los Ándes se denominan</p>
 
             </div>
             <div class="panel-body">
@@ -210,7 +210,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- La estribacion andina mas alta de la costa es ... y se ubica en el departamemto de:</p>
+                <p>6.- La estribación andina más alta de la costa es ... y se ubica en el departamemto de:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) San Cristobal-Lima</p>
@@ -221,7 +221,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Los accidentes morfologicos que se forman en el curso inferior de los rios de la costa se denominan:</p>
+                <p>7.- Los accidentes morfológicos que se forman en el curso inferior de los ríos de la costa se denominan:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Cochas</p>

@@ -154,10 +154,10 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- El clima de la region Puna es:</p>
+                <p>1.- El clima de la región Puna es:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Frio</p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Frío</p>
                 <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Templado</p>
                 <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Tropical </p>
                 <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Subtropical </p>
@@ -165,7 +165,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- ¿Cual de los siguientes geoformas corresponde a la region Yunga? </p>
+                <p>2.- ¿Cuál de los siguientes geoformas corresponde a la región Yunga? </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Quebradas-Pongos</p>
@@ -176,7 +176,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- ¿Cual de las siguientes ciudades no se encuentra dentro de la region Quechua?</p>
+                <p>3.- ¿Cuál de las siguientes ciudades no se encuentra dentro de la región Quechua?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Cajamarca</p>
@@ -187,7 +187,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- ¿Cual es el clima que posee el sector boreal de la region Chala?</p>
+                <p>4.- ¿Cuál es el clima que posee el sector boreal de la región Chala?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Semitropical</p>
@@ -198,7 +198,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  De acuerdo a su toponimia, es la region de los peces de agua dulce:</p>
+                <p>5.-  De acuerdo a su toponímia, es la región de los peces de agua dulce:</p>
 
             </div>
             <div class="panel-body">
@@ -210,7 +210,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Señale la alternativa que no correponde en la siguiente relacion: Region-fauna</p>
+                <p>6.- Señale la alternativa que no correponde en la siguiente relación: Region-fauna</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Puna- alpaca</p>
@@ -221,7 +221,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- No forma parte del relieve de la region Omagua:</p>
+                <p>7.- No forma parte del relieve de la región Omagua:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Restingas</p>

@@ -187,7 +187,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Calcule el limite de (1+ senx)^(1/x), cuando x tiende a 0</p>
+                <p>4.- Calcule el límite de (1+ senx)^(1/x), cuando x tiende a 0</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) e </p>
@@ -198,7 +198,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Calcular el limite de  (1+ (1/x))^x , cuando x tienda al infinito </p>
+                <p>5.- Calcular el límite  de  (1+ (1/x))^x , cuando x tienda al infinito </p>
 
             </div>
             <div class="panel-body">
@@ -210,7 +210,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.-  Calcular el limite de  (x-1 / (x+1))^x , cuando x tienda al infinito</p>
+                <p>6.-  Calcular el límite  de  (x-1 / (x+1))^x , cuando x tienda al infinito</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) e^-3</p>
@@ -221,7 +221,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Calcular el limite de  (x-1 / (x+3))^(x+3) , cuando x tienda al infinito</p>
+                <p>7.- Calcular el límite  de  (x-1 / (x+3))^(x+3) , cuando x tienda al infinito</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) e</p>

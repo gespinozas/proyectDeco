@@ -157,10 +157,10 @@
                 <p>1.- Marca la alternativa en la que dos grafemas distintos representan el mismo fonema</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Maquiavelico</p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Maquiavélico</p>
                 <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) absorber</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c)cientifico </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) ginecologo </p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c)científico </p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) ginecólogo </p>
             </div>
         </div>
         <div class="panel panel-default">
@@ -179,7 +179,7 @@
                 <p>3.-Marca la alternativa que contenga una palabra que este formada por seis fonemas diferentes</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Callate</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Cállate</p>
                 <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Chalinas</p>
                 <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Chivos </p>
                 <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) Casita</p>
@@ -190,10 +190,10 @@
                 <p>4.- Marca la alternativa en la que dos grafemas distintos representan al mismo fonema</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Geologia</p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Caotico </p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Geología</p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Caótico </p>
                 <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c)  Viabilidad </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Matematica</p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Matemática</p>
             </div>
         </div>
         <div class="panel panel-default">
@@ -202,15 +202,15 @@
 
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) fonetica </p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) acustica</p>
-                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) semantica</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) fonologia</p>
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) fonética </p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) acústica</p>
+                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) semántica</p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) fonología</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- ¿Cuantos grafemas hay en la palabra GUIJARRO?</p>
+                <p>6.- ¿Cuántos grafemas hay en la palabra GUIJARRO?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 9</p>
@@ -221,7 +221,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- ¿Cuantos fonemas diferentes hay en "Tu sonrisa me regocija"?</p>
+                <p>7.- ¿Cuántos fonemas diferentes hay en "Tu sonrisa me regocija"?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 9</p>

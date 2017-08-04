@@ -154,7 +154,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.-  Entre Peru y Ecuador se encuentra la cordillera ... que sirve de linea divisoria.</p>
+                <p>1.-  Entre Perú y Ecuador se encuentra la cordillera ... que sirve de línea divisoria.</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Del condor</p>
@@ -165,7 +165,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- El segundo pico mas alto del Peru, el Yerupaja, se encuentra ubicado en la cadena: </p>
+                <p>2.- El segundo pico más alto del Peru, el Yerupaja, se encuentra ubicado en la cadena: </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Central del norte</p>
@@ -176,18 +176,18 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- Nevado peruano, considerado uno de los mas bellos del mundo, por su forma piramidal:</p>
+                <p>3.- Nevado peruano, considerado uno de los más bellos del mundo, por su forma piramidal:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Huandoy</p>
                 <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Alpamayo</p>
-                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Huascaran </p>
-                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) Yerupaja</p>
+                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Huascarán </p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) Yerupajá</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Indique la alternativa correcta en la siguiente proposicion. En la selva los lugares mas apropiados para la agricultura son:</p>
+                <p>4.- Indique la alternativa correcta en la siguiente proposicóon. En la selva los lugares más apropiados para la agricultura son:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Restingas</p>
@@ -198,7 +198,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- El cañon del Colca se encuentra en el departamento de </p>
+                <p>5.- El cañón del Colca se encuentra en el departamento de </p>
 
             </div>
             <div class="panel-body">
@@ -210,7 +210,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Las areas ubicadas en zonas mas altas que las areas urbanizadas en la llanura amazonica se denominan:</p>
+                <p>6.- Las áreas ubicadas en zonas más altas que las areas urbanizadas en la llanura amazonica se denominan:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Tahuampas</p>
@@ -221,7 +221,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Son geoformas de relieve que se presentan en la region Rupa Rupa:</p>
+                <p>7.- Son geoformas de relieve que se presentan en la región Rupa Rupa:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Tahuampas</p>

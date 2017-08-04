@@ -5,6 +5,7 @@
   Time: 22:46
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>METODO IDUCTIVO</title>
+    <title>MÉTODO IDUCTIVO</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -153,7 +154,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Calcular la suma de cifras del resultado de "A" si se sabe que es un numero de 101 cifras:   A=(999...995)^2</p>
+                <p>1.- Calcular la suma de cifras del resultado de "A" si se sabe que es un número de 101 cifras:   A=(999...995)^2</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 907</p>
@@ -164,7 +165,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- ¿Cual seria la cantidad de triangulos que se podrian contar si por el vertice inferior izquierdo se trazan "m" lineas y por el vertice inferior derecho "n" lineas?</p>
+                <p>2.- ¿Cuál sería la cantidad de triángulos que se podrían contar si por el vértice inferior izquierdo se trazan "m" lineas y por el vértice inferior derecho "n" líneas?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 12167(n^2)(m+n+2)m(n/2)</p>
@@ -175,7 +176,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.-¿Cual es el maximo numero de puntos de interseccion de 25 triangulos que tienen un vertice en comun?</p>
+                <p>3.-¿Cuál es el máximo número de puntos de intersección de 25 triángulos que tienen un vértice en común?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 900 </p>
@@ -186,7 +187,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Sobre una circunferencia se ubican "m" puntos distintos.¿Cual es la cantidad de arcos que se pueden formar con dichos puntos?</p>
+                <p>4.- Sobre una circunferencia se ubican "m" puntos distintos.¿Cuál es la cantidad de arcos que se pueden formar con dichos puntos?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) m(m+1) </p>
@@ -208,7 +209,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Cuantos partidos deben programarse en un campeonato de futbol de dos ruedas en el que intervienen 12 equipos</p>
+                <p>6.- Cuántos partidos deben programarse en un campeonato de futbol de dos ruedas en el que intervienen 12 equipos</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 142 </p>

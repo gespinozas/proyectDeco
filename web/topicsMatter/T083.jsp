@@ -154,18 +154,18 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Es el rio de mayor uso poblacional de la hoya del Titicaca:</p>
+                <p>1.- Es el río de mayor uso poblacional de la hoya del Titicaca:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Rio Coata</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Rio Grande</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Rio Azangaro</p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Rio Ramis </p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Río Coata</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Río Grande</p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Río Azángaro</p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Río Ramis </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Los rios de la veriente del Pacifico son de regimen irregular debido a: </p>
+                <p>2.- Los ríos de la veriente del Pacifico son de régimen irregular debido a: </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) La fuerte pendiente</p>
@@ -176,10 +176,10 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- Los principales rios que conforman la cuenca endorreica o cerrada del Peru son:</p>
+                <p>3.- Los principales ríos que conforman la cuenca endorreica o cerrada del Perú son:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Ucayali y Marañon</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Ucayali y Marañón</p>
                 <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Ramis y Coata</p>
                 <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Urubuamba y Huancane </p>
                 <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) Majes y Tambo</p>
@@ -187,18 +187,18 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Es una caracteristica de los rios de la hoya hidrografica del Titicaca:</p>
+                <p>4.- Es una característica de los ríos de la hoya hidrográfica del Titicaca:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) No son caudalosos</p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Son de regimen regular </p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Son de régimen regular </p>
                 <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Tienen cursos de extensa longitud </p>
                 <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Forman una cuenca exorreica</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  ¿Cual de los sigientes reservorios hidraulicos esta localizado en el departamento de Arequipa?</p>
+                <p>5.-  ¿Cuál de los sigientes reservorios hidráulicos está localizado en el departamento de Arequipa?</p>
 
             </div>
             <div class="panel-body">
@@ -210,10 +210,10 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Señale la alternativa que no corresponda a una caracteristica de los rios de la vertiente hidrografica del Pacifico</p>
+                <p>6.- Señale la alternativa que no corresponda a una característica de los ríos de la vertiente hidrográfica del Pacífico</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Son de regimen irregular</p>
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Son de régimen irregular</p>
                 <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) No son torrentosos</p>
                 <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Algunos son arreicos</p>
                 <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A</p>
@@ -221,7 +221,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- En la orilla del rio ____ se encuentra la ciudad de:</p>
+                <p>7.- En la orilla del río ____ se encuentra la ciudad de:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Locumba-Tacna</p>

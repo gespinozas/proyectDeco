@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ETICA</title>
+    <title>ÉTICA</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -150,7 +150,7 @@
 
 
         <!-- Page Heading -->
-        <h3 align="center">ETICA</h3>
+        <h3 align="center">ÉTICA</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
 

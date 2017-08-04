@@ -154,7 +154,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- No posee variacion generica</p>
+                <p>1.- No posee variación genérica</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Diploma</p>
@@ -168,9 +168,9 @@
                 <p>2.- Es incorrecto </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) El pus</p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) El pús</p>
                 <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) La atenuante</p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) La caparazon</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) La caparazón</p>
                 <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) El agua</p>
             </div>
         </div>
@@ -179,8 +179,8 @@
                 <p>3.-Presenta adecuada concordancia:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) El azucar rubia</p>
-                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) El aguila blanca</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) El azúcar rubia</p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) El águila blanca</p>
                 <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) El agua cristalino </p>
                 <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) El hambre canino</p>
             </div>
@@ -190,15 +190,15 @@
                 <p>4.- Presenta concordancia incorrecta:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Radio gemetrica</p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Dinamo nueva </p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c)  Pus amarillento </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Tension necesario</p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Radio geométrica</p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Dínamo nueva </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c)  Pús amarillento </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Tensión necesario</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  Su MAJESTAD se cayó y se sintio muy molesta. El sustantivo en mayuscula esta en genero ... </p>
+                <p>5.-  Su MAJESTAD se cayó y se sintio muy molesta. El sustantivo en mayúscula está en genero ... </p>
 
             </div>
             <div class="panel-body">
@@ -210,12 +210,12 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Marque la pluralizacion INCORRECTA</p>
+                <p>6.- Marque la pluralización INCORRECTA</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Los lunes</p>
-                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Albunmes</p>
-                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Superavits</p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Álbunmes</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Superávits</p>
                 <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) Los fax</p>
             </div>
         </div>
@@ -224,7 +224,7 @@
                 <p>7.- Marque la alternativa que admita uso del singular</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Viveres</p>
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Víveres</p>
                 <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) Anales</p>
                 <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Paraguas</p>
                 <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) Añicos</p>

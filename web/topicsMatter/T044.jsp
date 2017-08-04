@@ -158,14 +158,14 @@
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Mercurio</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Fortimbras</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Fortimbrás</p>
                 <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Rosencrantz </p>
                 <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Laerte </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Seudonimo de Shakespeare </p>
+                <p>2.- Seudónimo de Shakespeare </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Cisne de Mantua</p>
@@ -176,7 +176,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- ¿Cual es el nombre del teatro construido en Londres por la compañia teatral que creo Shakespeare?</p>
+                <p>3.- ¿Cual es el nombre del teatro construido en Londres por la compañía teatral que creó Shakespeare?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) London</p>
@@ -198,7 +198,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Obra de Shakespeare que tiene como tema central la ambicion:</p>
+                <p>5.- Obra de Shakespeare que tiene como tema central la ambición:</p>
 
             </div>
             <div class="panel-body">
@@ -226,7 +226,7 @@
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Romeo</p>
                 <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) Mercurio</p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Fortimbras</p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Fortimbrás</p>
                 <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) N.A</p>
             </div>
         </div>

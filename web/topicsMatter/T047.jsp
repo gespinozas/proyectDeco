@@ -154,7 +154,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- No fue un miembro de la Generacion Colonida</p>
+                <p>1.- No fue un miembro de la Generación Colonida</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Cesar Vallejo</p>
@@ -165,10 +165,10 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- La Generacion Colonida tomo el nombre de:</p>
+                <p>2.- La Generación Colonida tomó el nombre de:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Un cafe</p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Un café</p>
                 <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Una calle de Lima</p>
                 <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Una revista</p>
                 <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) N.A</p>
@@ -176,7 +176,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- Llamado el Conde de Lemos, dirigio la Revista Colonida</p>
+                <p>3.- Llamado el Conde de Lemos, dirigió la Revista Colonida</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Alberto Hidalgo</p>
@@ -190,7 +190,7 @@
                 <p>4.- No es un cuento de Valdelomar:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) La venganza del condor</p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) La venganza del cóndor</p>
                 <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Los ojos de Judas </p>
                 <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) El hipocampo de oro</p>
                 <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) El caballero Carmelo</p>
@@ -214,19 +214,19 @@
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Las torres</p>
-                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Blazon</p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Blazón</p>
                 <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) El duque</p>
                 <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- El primer numero de la revista Colonida tuvo un amplio estudio sobre el poeta:</p>
+                <p>7.- El primer número de la revista Colonida tuvo un amplio estudio sobre el poeta:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Percu Gibson</p>
                 <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) Cesar Vallejo</p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Jose Maria Eguren</p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Jose María Eguren</p>
                 <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) N.A</p>
             </div>
         </div>

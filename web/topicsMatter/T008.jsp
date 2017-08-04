@@ -5,6 +5,7 @@
   Time: 00:02
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -153,7 +154,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Camilo dice:"yo tengo tantas hermanas como hermanos, pero mi hermana tiene el doble de hermanos que de hermanas ¿Cuantos somos?</p>
+                <p>1.- Camilo dice:"yo tengo tantas hermanas como hermanos, pero mi hermana tiene el doble de hermanos que de hermanas ¿Cuántos somos?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 6</p>
@@ -164,7 +165,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Al vender un articulo pense ganar la mitad de loq ue me costo, pero al momento de vender tuve que rebajar la mitad de lo que pense ganar, por lo que gane 6 soles menos de lo que me costo ¿Cuanto me costo?</p>
+                <p>2.- Al vender un artículo pensé ganar la mitad de lo que me costó, pero al momento de vender tuve que rebajar la mitad de lo que pensé ganar, por lo que gané 6 soles menos de lo que me costó ¿Cuanto me costó?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 9</p>
@@ -175,7 +176,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.-Un caballero da a un mendigo tantas veces 15 centavos como soles llevaba en el bolsillo.Si aun  le quedan 170 soles.¿Cuanto llevaba en el bolsillo?</p>
+                <p>3.-Un caballero da a un mendigo tantas veces 15 centavos como soles llevaba en el bolsillo. Si aún  le quedan 170 soles.¿Cuánto llevaba en el bolsillo?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 180 </p>
@@ -186,7 +187,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Un anciano deja al morir una herencia de 2mn soles a un cierto numero de parientes.Sin embargo m de estos renuncian a su parte y entonces cada uno de los restantes se beneficia en n soles ¿Cuantos son los parientes?</p>
+                <p>4.- Un anciano deja al morir una herencia de 2mn soles a un cierto número de parientes.Sin embargo m de estos renuncian a su parte y entonces cada uno de los restantes se beneficia en n soles ¿Cuántos son los parientes?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) m </p>
@@ -197,7 +198,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- El doble de lo que me faltaria para tener lo que tu tendrias, si es que yo te diese 5 soles seria igual a 6 veces mas de lo que tengo ¿Cuanto tengo, si tu tienes 3 veces mas de lo que yo tengo?</p>
+                <p>5.- El doble de lo que me faltaría para tener lo que tu tendrías, si es que yo te diese 5 soles sería igual a 6 veces más de lo que tengo ¿Cuánto tengo, si tu tienes 3 veces más de lo que yo tengo?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 10 </p>
@@ -208,7 +209,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- El costo de almacenaje diario en una aduana es 1/10 del valor de la mercaderia. Un comerciante retira al final de cada dia 1/5 de la mercaderia almacenada inicialmente.¿Cual es el valor total de almacenaje si la mercaderia cuesta 200 soles?</p>
+                <p>6.- El costo de almacenaje diario en una aduana es 1/10 del valor de la mercaderia. Un comerciante retira al final de cada dáa 1/5 de la mercaderáa almacenada inicialmente.¿Cuál es el valor total de almacenaje si la mercadería cuesta 200 soles?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 70 </p>
@@ -219,7 +220,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Un cubo que tiene "y"m de arista se sumerge en brea y luego se divide en cubitos de 9m de arista.Si al final se obtuvieron 84 cubitos con las 2 caras pintadas.¿Cual sera el valor de "Y"?</p>
+                <p>7.- Un cubo que tiene "y"m de arísta se sumerge en brea y luego se divide en cubitos de 9m de arista.Si al final se obtuvieron 84 cubitos con las 2 caras pintadas.¿Cuál sera el valor de "Y"?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 81 </p>

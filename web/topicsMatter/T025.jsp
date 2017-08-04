@@ -154,7 +154,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Si m,n son las dos raices de la ecuacion x^2 + 2 = 2x Calcular E=(m^(m+n))n^(mn)</p>
+                <p>1.- Si m,n son las dos raíces de la ecuación x^2 + 2 = 2x Calcular E=(m^(m+n))n^(mn)</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 4</p>
@@ -165,7 +165,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Si X1 & X2 son las raices de la ecuacion x^2 - 8x + m =0, tal que 3(X1) - 4(X2) = 3 ¿Cual es el valor de m?</p>
+                <p>2.- Si X1 & X2 son las raíces de la ecuación x^2 - 8x + m =0, tal que 3(X1) - 4(X2) = 3 ¿Cual es el valor de m?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 16</p>
@@ -176,7 +176,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.-Calcular el valor del parametro "P" de modo que en la cuadratica en x: (P-1)x^2 + Px - 2 =, la suma y el producto de raicen sean iguales</p>
+                <p>3.-Calcular el valor del parámetro "P" de modo que en la cuadrática en x: (P-1)x^2 + Px - 2 =, la suma y el producto de raíces sean iguales</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) -2 </p>
@@ -187,7 +187,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Si el conjunto solucion de la ecuacion x^2 - (3n-2)x + n^2 -1 =0, es {m,3m}. Determinar el valor de n.</p>
+                <p>4.- Si el conjunto solución de la ecuación x^2 - (3n-2)x + n^2 -1 =0, es {m,3m}. Determinar el valor de n.</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) 2 </p>
@@ -198,7 +198,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Dada la ecuacion cuadratica en x, x^2 + (m-2)x - (m+3) = 0 Determinar el menor valor que asume la suma de los cuadrados de sus raices.</p>
+                <p>5.- Dada la ecuación cuadrática en x, x^2 + (m-2)x - (m+3) = 0 Determinar el menor valor que asume la suma de los cuadrados de sus raíces.</p>
 
             </div>
             <div class="panel-body">
@@ -210,7 +210,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- En la ecuacion 2x^2 - (m-1)x +m +1 =0 ¿Que valor positivo debe asumir "m" para que las raices difieran en uno?</p>
+                <p>6.- En la ecuación 2x^2 - (m-1)x +m +1 =0 ¿Qué valor positivo debe asumir "m" para que las raíces difieran en uno?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 8</p>
@@ -221,7 +221,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- ¿Cuantos valores enteros enteros y positivos asume "m" de modo que las raices de la cuadratica en x: x^2 - (m-3)x +mm =0, esten comprendidas entre 1,5 y 6?</p>
+                <p>7.- ¿Cuántos valores enteros enteros  positivos asume "m" de modo que las raíces de la cuadrática en x: x^2 - (m-3)x +mm =0, esten comprendidas entre 1,5 y 6?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 4</p>

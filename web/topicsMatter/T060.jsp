@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: r_jeq
-  Date: 30/07/2017
-  Time: 21:04
+  Date: 4/08/2017
+  Time: 14:13
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>EL SUJETO</title>
+    <title>REPASO</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -150,84 +150,83 @@
 
 
         <!-- Page Heading -->
-        <h3 align="center">EL SUJETO</h3>
+        <h3 align="center">REPASO</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- ¿Cual es el núcleo del SUJETO en la oración: "La procesión del señor de los Milagros avanzaba en medio de mucho fervor"?</p>
+                <p>1.-  Si: & pertenece al segundo cuadrante, señale la extensión de: T =3|cos&| + cos&  </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Procesión</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Señor</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Fervor </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) N.A </p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) <1 ; 3></p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) <0 ; 3></p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) <-1 ; 3></p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) <2 ; 3> </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- ¿Cual es el SUJETO de la oración: "Micaela, creo que no comprendes al profesor de Química"?</p>
+                <p>2.- Si: <-45°: 45°]; señale la extensión de: L = 2tan& + 3 </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Micaela</p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Profesor</p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) El profesor de Química</p>
-                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) Tácito</p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a)<1 ; 5></p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) <2 ; 5]</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) <1 ; 5]</p>
+                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) <0 ; 5]</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- "A las mujeres de mi familia les gusta el cau cau". El sujeto es::</p>
+                <p>3.- Si: & pertenece al segundo cuadrante, señale la extensión de: T =3|cos&| + cos& </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a)Mi familia/p>
-                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) A las mujeres de mi familia</p>
-                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) El cau cau </p>
-                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) N.A</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) <0 ; 3></p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b)<1 ; 3></p>
+                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) <-1 ; 3> </p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) <1 ; 2>)</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- "Rápida y sorprendentemente, el astuto muchacho salto la valla protectora sin que la policia lo notara" El sujeto es</p>
+                <p>4.- Si: <-45°: 45°]; señale la extensión de: L = 2tan& + 3</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) El astuto muchacho</p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) La valla protectora </p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c)  La policía </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) N.A</p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a)  <1 ; 5]</p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b)  <0 ; 5] </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c)  <1 ; 4] </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d)  <2 ; 5]</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  ¿Que oración  tiene como parte del sujeto la expresión"AUTO DEL AÑO"? </p>
-
+                <p>5.- Si el punto P(16;30) pertenece al lado final de un angulo canónico "&"; calcular: S= Csc& - Cot&;</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a)En un sorteo gané un auto del año </p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) Al auto del año lo llevaron a reparar </p>
-                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) Pusieron la bomba en un auto del año</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Nos gusta mucho ese auto del año.</p>
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 0,5</p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) -0,3</p>
+                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) -0,6 </p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 0,6</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- El sujeto de la oración :"Por esos años maravillosos, te doy gracias desde ahora" presenta</p>
+                <p>6.-Siendo: sen 220°=n Hallar: E= Cos320°Cot140°</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) MD, NS</p>
-                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) MD, NS,MD/p>
-                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) MD</p>
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) n+ (1/n)</p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) n- (1/n)</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) -n- (1/n)</p>
                 <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.-"Su rostro de niña de provincia iluminaba el ambiente" El núcleo del sujeto es</p>
+                <p>7.- Si: & pertenece al segundo cuadrante, señale la extensión de: T =3|cos&| + cos&</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Niña</p>
-                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) Provincia</p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Rostro</p>
-                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) Iluminaba</p>
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) <1 ; 2></p>
+                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) <-1 ; 3></p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) <1 ; 3></p>
+                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) N.A</p>
             </div>
         </div>
         <div align="center">
@@ -299,5 +298,3 @@
 </body>
 
 </html>
-
-

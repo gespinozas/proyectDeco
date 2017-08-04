@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -167,7 +168,7 @@
 
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <p>2.- Una persona vende una mercader&#237;a en 4200 soles, ganando el 19% del precio de costo, m&#225;s 15% del precio de venta &#191;Cuanto cost&#243; la mercader&#237;a?</p>
+                    <p>2.- Una persona vende una mercadería;a en 4200 soles, ganando el 19% del precio de costo, más 15% del precio de venta &#191;Cuanto costó; la mercadería?</p>
                 </div>
                 <div class="panel-body">
                     <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 3700 </p>

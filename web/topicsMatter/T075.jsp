@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>GNOSEOLOGIA</title>
+    <title>GNOSEOLOGÍA</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -150,7 +150,7 @@
 
 
         <!-- Page Heading -->
-        <h3 align="center">GNOSEOLOGIA</h3>
+        <h3 align="center">GNOSEOLOGÍA</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
 

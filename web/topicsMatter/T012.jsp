@@ -154,7 +154,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Hallar la suma de cifras del numero que continua 2;3;10;61;611;...</p>
+                <p>1.- Hallar la suma de cifras del número que continúa 2;3;10;61;611;...</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 22</p>
@@ -165,7 +165,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- ¿Que numero no pertenece en la sucesion?  1;1;4;9;25;81;169;441;...</p>
+                <p>2.- ¿Qué número no pertenece en la sucesión?  1;1;4;9;25;81;169;441;...</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 25</p>
@@ -176,7 +176,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.-¿Que numero ocupa el lugar 10 en la siguiente sucesion? 2;10;15;3;-2;-10:-5</p>
+                <p>3.-¿Qué número ocupa el lugar 10 en la siguiente sucesión? 2;10;15;3;-2;-10:-5</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) -25 </p>
@@ -187,7 +187,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- ¿Cual de ñas alternativas no guarda concordancia con las demas?</p>
+                <p>4.- ¿Cuál de las alternativas no guarda concordancia con las demás?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) 415060 </p>
@@ -198,7 +198,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- ¿Que numero continua? 3;5;13;49;...</p>
+                <p>5.- ¿Qué número continúa? 3;5;13;49;...</p>
 
             </div>
             <div class="panel-body">
@@ -210,7 +210,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- ¿Que numero completa coherentemente la sucesion? 74;93;43;...;01;16;80</p>
+                <p>6.- ¿Qué número completa coherentemente la sucesión? 74;93;43;...;01;16;80</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 25 </p>
@@ -221,7 +221,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- En la sucesion: E;T;H;Q;K;N;N;L;... Las dos letras que continuan son:</p>
+                <p>7.- En la sucesión: E;T;H;Q;K;N;N;L;... Las dos letras que continúan son:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Q-E</p>

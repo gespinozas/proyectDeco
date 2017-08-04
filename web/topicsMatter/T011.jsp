@@ -199,7 +199,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Si: F(n+2) = nF(n); n es entero, Ademas F(2)= 2, Calcular S=F(8) - F(4)</p>
+                <p>5.- Si: F(n+2) = nF(n); n es entero, Además F(2)= 2, Calcular S=F(8) - F(4)</p>
 
             </div>
             <div class="panel-body">

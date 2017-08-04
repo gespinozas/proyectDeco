@@ -154,24 +154,24 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Identifique la alternativa en la que se empleo coma eliptica</p>
+                <p>1.- Identifique la alternativa en la que se empleo coma elíptica</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Eva participo en un simposio; Liz, en un coloqio</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Ayer, en aquella libreria, promociono sus novelas</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Roberto, el director del colegio, firmo el convenio </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Ella no compro el libro, sino que se lo prestaron </p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Eva participó en un simposio; Liz, en un coloqio</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Ayer, en aquella librería, promocionó sus novelas</p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Roberto, el director del colegio, firmó el convenio </p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Ella no compró el libro, sinó que se lo prestaron </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Identifique la oracion donde se ha usado la coma apositiva. </p>
+                <p>2.- Identifique la oración donde se ha usado la coma apositiva. </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Vilma estudia Medicina; Nancy, Contabilidad.</p>
                 <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) En el mes de enero, suele viajar con su familia</p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Maribel, la Gitana, vaticino aquellos sucesos.</p>
-                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) Lo preparo con leche, huevo, miel y algarrobina</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Maribel, la Gitana, vaticinó aquellos sucesos.</p>
+                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) Lo preparó con leche, huevo, miel y algarrobina</p>
             </div>
         </div>
         <div class="panel panel-default">
@@ -179,10 +179,10 @@
                 <p>3.-Elija la alternativa donde se ha empleado correctamente la coma</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) ¿Prefieres un te, o una manzanilla? </p>
-                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Le pidio, que forre sus cuadernos</p>
-                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Estoy feliz, Rodrigo, por tus exitos </p>
-                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) ¿Doctor, en que alimentos se encuentra la vitamina E?</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) ¿Prefieres un té, o una manzanilla? </p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Le pidió, que forré sus cuadernos</p>
+                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Estoy feliz, Rodrigo, por tus éxitos </p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) ¿Doctor, en qué alimentos se encuentra la vitamina E?</p>
             </div>
         </div>
         <div class="panel panel-default">
@@ -190,9 +190,9 @@
                 <p>4.- Elija la alternativa donde hay uso incorrecto de la coma</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Angel es un alumno puntual, responsable, muy disciplinado, y muuy estudioso</p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Ángel es un alumno puntual, responsable, muy disciplinado, y muuy estudioso</p>
                 <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Augusto Polo Campos, como ya sabemos, es un excelente compositor </p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Efectivamente, el arqueologo Julio C.Tello descubrio la cultura Chavin. </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Efectívamente, el arqueólogo Julio C.Tello descubrió la cultura Chavín. </p>
                 <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) El director, los profesores, el jefe, etc, les expresaron sus felicitaciones.</p>
             </div>
         </div>
@@ -210,7 +210,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- En el enunciado "Angelica mi sobrina mayor a quien la apoyaste en sus estudios superiores trabaja en cuba la Llave del Golfo", el numero de comas omitidas es</p>
+                <p>6.- En el enunciado "Angélica mi sobrina mayor a quien la apoyaste en sus estudios superiores trabaja en cuba la Llave del Golfo", el número de comas omitidas es</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) cuatro</p>
@@ -221,13 +221,13 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.-  Marque la opcion en la que se ha empleado coma hiperbatica</p>
+                <p>7.-  Marque la opción en la que se ha empleado coma hiperbática</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Fabian fotografie paisajes, museos, catedrales...</p>
-                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) El primer dia de clase, amiga, es muy emotivo</p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) En la zona sureña, hubo un movimiento telurico</p>
-                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) Karina publico el texto escolar; Irma, las revistas</p>
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Fabián fotografá paisajes, museos, catedrales...</p>
+                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) El primer día de clase, amiga, es muy emotivo</p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) En la zona sureña, hubo un movimiento telúrico</p>
+                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) Karina publicó el texto escolar; Irma, las revistas</p>
             </div>
         </div>
         <div align="center">

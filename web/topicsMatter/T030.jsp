@@ -221,7 +221,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.-  Resolver el sistema homogeneo: 2x^2 +3xy + y^2 =70; 6x^2 +xy - y^2 =50 Indicar "x"</p>
+                <p>7.-  Resolver el sistema homogéneo: 2x^2 +3xy + y^2 =70; 6x^2 +xy - y^2 =50 Indicar "x"</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) -4</p>

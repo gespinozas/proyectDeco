@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: r_jeq
-  Date: 1/08/2017
-  Time: 21:59
+  Date: 4/08/2017
+  Time: 00:03
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ANTONIMOS</title>
+    <title>RELACION METRICA I</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -150,83 +150,82 @@
 
 
         <!-- Page Heading -->
-        <h3 align="center">ANTONIMOS</h3>
+        <h3 align="center">RELACION METRICA I</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Verbosidad, persuasive y gracia en el hablar</p>
+                <p>1.- En una semicircunferencia de diámetro AB se ubica el punto P cuya proyección en AB es Q, en QB se ubica el punto T y en el triángulo PTB se traza la altura TL de modo que: QA=QT, PT + TL = 6 y (PQ//PB))=24, calcular: AB</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Laconismo</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Mutismo</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Mudez </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Silencio </p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 6</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) 4</p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 5</p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 12 </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Descuidado. Falto de aplicación</p>
+                <p>2.- En una circunferencia de diámetro AB se ubican los puntos P y Q ( P pertenece a la curva AQ) con diámetro PQ se trazan una semicircunferencia tangente a AB en T, si: PQ=6 y BT-TA=04, calcular: AB</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Probo</p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Cauto</p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Diligente</p>
-                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) N.A</p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a)(11)^0.5</p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) 4(11)^0.5</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) 2(11)^0.5</p>
+                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) 2(22)^0.5</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- Soliloquio. Especie de obra dramática en que habla un solo personaje.</p>
+                <p>3.- En un triángulo ABC se traza exteriormente una semicircunferencia de diámetro BX, donde la altura AH la intersecta en el punto "Q". Hallar: CQ, si : AB=BC y AC=(4)^0.5</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Mutismo</p>
-                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Coloquio</p>
-                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Laconismo </p>
-                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) Ambiguedad</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 3</p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) 4</p>
+                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) 6 </p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) 7</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Raro, extraño, desacostumbrado</p>
+                <p>4.-  En una circunferencia de diámetro AB se ubican los puntos P y Q ( P pertenece a la curva AQ) con diámetro PQ se trazan una semicircunferencia tangente a AB en T, si: PQ=7 y BT-TA=5, calcular: AB</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Habitual</p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Sabido </p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Ducho </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Conocido</p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) (35)^0.5</p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) 3(22)^0.5</p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) (44)^0.5 </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  Falto de sabiduría o ciencia</p>
-
+                <p>5.- En una semicircunferencia de diámetro AB se ubica el punto P cuya proyección en AB es Q, en QB se ubica el punto T y en el triángulo PTB se traza la altura TL de modo que: QA=QT, PT + TL = 12 y (PQ//PB))=60, calcular: AB</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) Ducho </p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) Capaz</p>
-                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) N.A</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Erudito</p>
-            </div>
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 15</p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b)32</p>
+                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) 23 </p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 19</p>
+            </div>23
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Olor desagradable y penetrante</p>
+                <p>6.- En una semicircunferencia de diámetro AB se ubica el punto P cuya proyección en AB es Q, en QB se ubica el punto T y en el triángulo PTB se traza la altura TL de modo que: QA=QT, PT + TL = 10 y (PQ//PB))=30, calcular: AB</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Insípido</p>
-                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Odorífero</p>
-                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Acuoso</p>
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 15</p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) 24</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) 51</p>
                 <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Sumamente atractivo</p>
+                <p>7.- En un triángulo ABC se traza exteriormente una semicircunferencia de diámetro BX, donde la altura AH la intersecta en el punto "Q". Hallar: CQ, si : AB=BC y AC=(7)^0.5</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Fétido</p>
-                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) Indeseable</p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Repugnante</p>
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 6</p>
+                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) 5</p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) 7</p>
                 <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) N.A</p>
             </div>
         </div>
@@ -299,4 +298,7 @@
 </body>
 
 </html>
+
+
+
 

@@ -154,29 +154,29 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- No es una caracteristica de Homero</p>
+                <p>1.- No es una característica de Homero</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Temas religiosos</p>
                 <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Personajes heroicos</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Recogio antiguos mitos griegos </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Escribio la Tebaida </p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Recogió antiguos mitos griegos </p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Escribió la Tebaida </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- No es una caracteristica de la literatura griega </p>
+                <p>2.- No es una característica de la literatura griega </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) El racionalismo</p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Mitologia</p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Mitología</p>
                 <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Misticismo</p>
                 <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- El primer capitulo de La Iliada, llamado canto primero, se tilda:</p>
+                <p>3.- El primer capítulo de La Iliada, llamado canto primero, se tilda:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Lluvia y fuego</p>
@@ -187,7 +187,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Representante de la epica didactica griega, escribio El escudo de Heracles</p>
+                <p>4.- Representante de la épica did´dctica griega, escribió El escudo de Heracles</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Hesiodo</p>
@@ -198,14 +198,14 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  Seria el verdadero nombre de Homero</p>
+                <p>5.-  Sería el verdadero nombre de Homero</p>
 
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) Tespis </p>
                 <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) Neoptolemo</p>
                 <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) N.A</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Melesigenes</p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) MelesÍgenes</p>
             </div>
         </div>
         <div class="panel panel-default">
@@ -213,15 +213,15 @@
                 <p>6.- No es un periodo de la literatura griega</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Atico</p>
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Ático</p>
                 <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Metales</p>
-                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Jonico</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Jónico</p>
                 <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- No es una caracteristica del periodo atico griego</p>
+                <p>7.- No es una característica del periodo ático griego</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Fatalismo</p>
