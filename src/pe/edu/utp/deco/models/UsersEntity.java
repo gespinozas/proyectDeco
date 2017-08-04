@@ -24,30 +24,30 @@ public class UsersEntity extends BaseEntity {
     }
 
     List<User> findAll(){
-        return findByCriteria(null);
+        return findByCriteria("");
     }
 
     public User findById(int id) {
         String criteria = "id = " + String.valueOf(id);
-        return findByCriteria(null).get(0);
+        return findByCriteria(criteria).get(0);
     }
 
     public User findByFirstName(String firstname) {
         String criteria = " firstName = '" +
                 firstname + "'";
-        return findByCriteria(null).get(0);
+        return findByCriteria(criteria).get(0);
     }
 
 
     public User findByLastName(String lastName) {
         String criteria = " lastName = '" +
                 lastName+ "'";
-        return findByCriteria(null).get(0);
+        return findByCriteria(criteria).get(0);
     }
 
     public User findByEmail(String email){
         String criteria = " email = '" + email + "' ";
-        return findByCriteria(null).get(0);
+        return findByCriteria(criteria).get(0);
     }
 
 
@@ -57,17 +57,26 @@ public class UsersEntity extends BaseEntity {
     }
 
 
-    public List<User> findByCriteria(String criteria){
-        String sql = getDefaultQuery() + (criteria.isEmpty() ? "" : " WHERE " + criteria);
+
+    public List<User> findByCriteria(String criteria) {
+        String sql = getDefaultQuery() +
+                (criteria.equalsIgnoreCase("") ? "" : " WHERE " + criteria);
         List<User> users = new ArrayList<>();
         try {
-            ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
-            if (resultSet == null) return null;
-            while (resultSet.next()){
-                users.add(User.build(resultSet));
+            ResultSet resultSet = getConnection()
+                    .createStatement()
+                    .executeQuery(sql);
+            if(resultSet == null) return null;
+            while(resultSet.next()) {
+                users.add((new User())
+                        .setID(resultSet.getInt("id"))
+                        .setFirstname(resultSet.getString("firstName"))
+                        .setLastName(resultSet.getString("lastName"))
+                        .setEmail(resultSet.getString("email"))
+                        .setPassword(resultSet.getString("password")));
             }
             return users;
-        } catch (SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
@@ -76,16 +85,17 @@ public class UsersEntity extends BaseEntity {
 
 
     public boolean add(User user) {
-        String sql = "INSERT INTO users(id,firstName, lastName, email, password)" +
+        String sql = "INSERT INTO users(firstName,lastName,email,password)" +
                 "VALUES (" +
-                user.getIdAsValue() + ", " +
                 user.getFirstNameAsValue() + ", " +
                 user.getLastNameAsValue() + ", " +
                 user.getEmailAsValue() + ", " +
-                user.getPasswordAsValue() + ", " ;
+                user.getPasswordAsValue() + ")";
         return change(sql);
 
     }
+
+
 
 }
 

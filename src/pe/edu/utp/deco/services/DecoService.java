@@ -19,7 +19,7 @@ import java.util.List;
 public class DecoService {
     Connection connection;
     DecoDataStore dataStore;
-    User user;
+
 
     public DecoService(InitialContext ctx) {
         try {

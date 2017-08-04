@@ -16,8 +16,7 @@ public class User {
     private String password;
 
 
-    public User(){
-
+    public User() {
     }
 
     public User(int id, String firstname, String lastName, String email, String password) {
@@ -27,8 +26,6 @@ public class User {
         this.email = email;
         this.password = password;
     }
-
-
 
     public int getId(){
         return id;
