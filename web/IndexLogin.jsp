@@ -57,12 +57,8 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <p><c:out value="${firstname}"/> </p><b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
                     <li>
                         <a href="index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
@@ -80,7 +76,7 @@
                 </li>
 
                 <li>
-                    <a href="javascript:" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                    <a href="javascript:" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="ARITMETICA.jsp">Aritmetica</a>
@@ -131,9 +127,6 @@
                             <a href="HP.jsp">Historia del Per&#250;</a>
                         </li>
                     </ul>
-                </li>
-                <li>
-                    <a href="index.jsp"><i class="fa fa-fw fa-user"></i>Logout</a>
                 </li>
             </ul>
         </div>

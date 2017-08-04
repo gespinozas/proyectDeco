@@ -55,14 +55,14 @@
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Usuario <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                            <a href="login.jsp"><i class="fa fa-fw fa-user"></i>Iniciar Sesion</a>
                         </li>
                        <li class="divider"></li>
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                            <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Registarse</a>
                         </li>
                     </ul>
                 </li>
@@ -75,12 +75,6 @@
                     </li>
                     <li>
                         <a href="about.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
-                    </li>
-                 <li>
-                        <a href="login.jsp"><i class="fa fa-fw fa-user"></i>Login</a>
-                    </li>
-                    <li>
-                        <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
                     </li>
                 </ul>
             </div>
@@ -127,14 +121,15 @@
                     </a>
                 </div>
                 <br>
-                <div class="alert alert-warning" role="alert"><h4 align="center">Este producto servir&#225; para dinamizar el proceso de aprendizaje de los estudiantes que aspiran ingresar a la universidad por medio de sus multiples preguntas, basadas por temas y cursos
-                </h4></div>
+                <div class="alert alert-info" role="alert"><h4 align="center">Este producto servir&#225; para dinamizar el proceso de aprendizaje de los estudiantes que aspiran ingresar a la universidad por medio de sus multiples preguntas, basadas por temas y cursos
+                </h4>
+
 
                 </div>
 
 
 
-               <div align="center" class="panel panel-warning">
+        <!--    <div align="center" class="panel panel-warning">
                     <div class="panel-body">
                         <h3 class="panel-title"><i class="fa fa-fw fa-comment"></i>CARACTER&#205;STICAS</h3>
                     </div>
@@ -163,6 +158,8 @@
                         <i class="fa fa-fw fa-check"></i>Preguntas para marcar
                     </div>
                 </div>
+
+                -->
 
 
 
@@ -255,7 +252,6 @@
 
         </div>
         <!-- /#page-wrapper -->
-
 
 
 
