@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -154,10 +150,10 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- La costa peruana esta limitada al este por el mar y al Este por una linea de altitud que varia entre los 0 y 500 msnm, de acuerdo a las condiciones topografica teniendo su mayor y menor ancho, respectivamente, en las localidades de:</p>
+                <p>1.- La costa peruana esta limitada al este por el mar y al Este por una línea de altitud que varía entre los 0 y 500 msnm, de acuerdo a las condiciones topografica teniendo su mayor y menor ancho, respectivamente, en las localidades de:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Morropon-Punta Lobos</p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Morropón-Punta Lobos</p>
                 <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Chiclayo-Nazca</p>
                 <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Talara-Tacana </p>
                 <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Palpa-Ica </p>
@@ -165,7 +161,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Constituyen en las areas mas desarrolladas y productivas de la costa </p>
+                <p>2.- Constituyen en las áreas más desarrolladas y productivas de la costa </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Pampas</p>
@@ -187,7 +183,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Indique dos caracteristicas saltantes con las cuales se relaciona estrechamente el valle de Jequetepeque</p>
+                <p>4.- Indique dos características saltantes con las cuales se relaciona estrechamente el valle de Jequetepeque</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Cultivo de arroz-represa de Gallito Ciego</p>
@@ -198,7 +194,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  Las colinas que conforman la continuidad de la cordillera de los Andes se denominan</p>
+                <p>5.-  Las colinas que conforman la continuidad de la cordillera de los Ándes se denominan</p>
 
             </div>
             <div class="panel-body">
@@ -210,7 +206,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- La estribacion andina mas alta de la costa es ... y se ubica en el departamemto de:</p>
+                <p>6.- La estribación andina más alta de la costa es ... y se ubica en el departamemto de:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) San Cristobal-Lima</p>
@@ -221,7 +217,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Los accidentes morfologicos que se forman en el curso inferior de los rios de la costa se denominan:</p>
+                <p>7.- Los accidentes morfológicos que se forman en el curso inferior de los ríos de la costa se denominan:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Cochas</p>

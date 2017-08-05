@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -221,7 +217,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.-  Resolver el sistema homogeneo: 2x^2 +3xy + y^2 =70; 6x^2 +xy - y^2 =50 Indicar "x"</p>
+                <p>7.-  Resolver el sistema homogéneo: 2x^2 +3xy + y^2 =70; 6x^2 +xy - y^2 =50 Indicar "x"</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) -4</p>

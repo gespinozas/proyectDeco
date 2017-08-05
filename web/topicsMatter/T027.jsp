@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -165,7 +161,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Hallar el dominio de la funcion logaritmo en base x de (1 + (2-x)^(1/2))</p>
+                <p>2.- Hallar el dominio de la función logaritmo en base x de (1 + (2-x)^(1/2))</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) <0;2> -{1}</p>
@@ -176,7 +172,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.-Sea f(x) = (1/9)^((|x|+1)/2) una funcion cuyo dominio es <-3;1], hallar su rango</p>
+                <p>3.-Sea f(x) = (1/9)^((|x|+1)/2) una función cuyo dominio es <-3;1], hallar su rango</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) <3^-4 ; 3^-2] </p>
@@ -187,7 +183,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Hallar el rango de la funcion: f(x)  = ((3^x) -2) / ((3^x) + 1) </p>
+                <p>4.- Hallar el rango de la función: f(x)  = ((3^x) -2) / ((3^x) + 1) </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) <-2;1> </p>
@@ -198,7 +194,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Indicar un intervalo solucion de la inecuacion: 2^x >= 2x +1 </p>
+                <p>5.- Indicar un intervalo solución de la inecuación: 2^x >= 2x +1 </p>
 
             </div>
             <div class="panel-body">
@@ -210,7 +206,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.-Hallar el rango de la funcion: f(x) = 3^((1 -|x|)^(1/2))</p>
+                <p>6.-Hallar el rango de la función: f(x) = 3^((1 -|x|)^(1/2))</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) <0;1]</p>

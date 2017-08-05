@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: r_jeq
-  Date: 30/07/2017
-  Time: 18:27
+  Date: 4/08/2017
+  Time: 14:13
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>PUNTUACION I (LA COMA)</title>
+    <title>REPASO</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -66,10 +66,14 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -80,11 +84,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li class="active">
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
+                <li>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -146,84 +150,83 @@
 
 
         <!-- Page Heading -->
-        <h3 align="center">PUNTUACION I (LA COMA)</h3>
+        <h3 align="center">REPASO</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Identifique la alternativa en la que se empleo coma elíptica</p>
+                <p>1.-  Si: & pertenece al segundo cuadrante, señale la extensión de: T =3|cos&| + cos&  </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Eva participó en un simposio; Liz, en un coloqio</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Ayer, en aquella librería, promocionó sus novelas</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Roberto, el director del colegio, firmó el convenio </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Ella no compró el libro, sinó que se lo prestaron </p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) <1 ; 3></p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) <0 ; 3></p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) <-1 ; 3></p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) <2 ; 3> </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Identifique la oración donde se ha usado la coma apositiva. </p>
+                <p>2.- Si: <-45°: 45°]; señale la extensión de: L = 2tan& + 3 </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Vilma estudia Medicina; Nancy, Contabilidad.</p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) En el mes de enero, suele viajar con su familia</p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Maribel, la Gitana, vaticinó aquellos sucesos.</p>
-                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) Lo preparó con leche, huevo, miel y algarrobina</p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a)<1 ; 5></p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) <2 ; 5]</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) <1 ; 5]</p>
+                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) <0 ; 5]</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.-Elija la alternativa donde se ha empleado correctamente la coma</p>
+                <p>3.- Si: & pertenece al segundo cuadrante, señale la extensión de: T =3|cos&| + cos& </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) ¿Prefieres un té, o una manzanilla? </p>
-                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Le pidió, que forré sus cuadernos</p>
-                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Estoy feliz, Rodrigo, por tus éxitos </p>
-                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) ¿Doctor, en qué alimentos se encuentra la vitamina E?</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) <0 ; 3></p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b)<1 ; 3></p>
+                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) <-1 ; 3> </p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) <1 ; 2>)</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Elija la alternativa donde hay uso incorrecto de la coma</p>
+                <p>4.- Si: <-45°: 45°]; señale la extensión de: L = 2tan& + 3</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Ángel es un alumno puntual, responsable, muy disciplinado, y muuy estudioso</p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Augusto Polo Campos, como ya sabemos, es un excelente compositor </p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Efectívamente, el arqueólogo Julio C.Tello descubrió la cultura Chavín. </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) El director, los profesores, el jefe, etc, les expresaron sus felicitaciones.</p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a)  <1 ; 5]</p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b)  <0 ; 5] </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c)  <1 ; 4] </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d)  <2 ; 5]</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- En el enunciado "Simon Bolivar el Libertador fue un militar venezolano que contribuyo en la independencia de Peru", se ha omitido </p>
-
+                <p>5.- Si el punto P(16;30) pertenece al lado final de un angulo canónico "&"; calcular: S= Csc& - Cot&;</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) coma de vocativo </p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) coma eliptica</p>
-                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) coma hiperbatica</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) comoa apositiva</p>
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 0,5</p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) -0,3</p>
+                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) -0,6 </p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 0,6</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- En el enunciado "Angélica mi sobrina mayor a quien la apoyaste en sus estudios superiores trabaja en cuba la Llave del Golfo", el número de comas omitidas es</p>
+                <p>6.-Siendo: sen 220°=n Hallar: E= Cos320°Cot140°</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) cuatro</p>
-                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) uno</p>
-                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) dos</p>
-                <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) tres</p>
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) n+ (1/n)</p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) n- (1/n)</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) -n- (1/n)</p>
+                <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.-  Marque la opción en la que se ha empleado coma hiperbática</p>
+                <p>7.- Si: & pertenece al segundo cuadrante, señale la extensión de: T =3|cos&| + cos&</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Fabián fotografá paisajes, museos, catedrales...</p>
-                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) El primer día de clase, amiga, es muy emotivo</p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) En la zona sureña, hubo un movimiento telúrico</p>
-                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) Karina publicó el texto escolar; Irma, las revistas</p>
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) <1 ; 2></p>
+                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) <-1 ; 3></p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) <1 ; 3></p>
+                <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) N.A</p>
             </div>
         </div>
         <div align="center">

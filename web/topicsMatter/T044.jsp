@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -158,14 +154,14 @@
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Mercurio</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Fortimbras</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Fortimbrás</p>
                 <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Rosencrantz </p>
                 <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Laerte </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Seudonimo de Shakespeare </p>
+                <p>2.- Seudónimo de Shakespeare </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Cisne de Mantua</p>
@@ -176,7 +172,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- ¿Cual es el nombre del teatro construido en Londres por la compañia teatral que creo Shakespeare?</p>
+                <p>3.- ¿Cual es el nombre del teatro construido en Londres por la compañía teatral que creó Shakespeare?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) London</p>
@@ -198,7 +194,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Obra de Shakespeare que tiene como tema central la ambicion:</p>
+                <p>5.- Obra de Shakespeare que tiene como tema central la ambición:</p>
 
             </div>
             <div class="panel-body">
@@ -226,7 +222,7 @@
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Romeo</p>
                 <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) Mercurio</p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Fortimbras</p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Fortimbrás</p>
                 <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) N.A</p>
             </div>
         </div>

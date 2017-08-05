@@ -16,6 +16,9 @@ public class BaseEntity{
     private static String BASE_QUERY = "SELECT * FROM ";
     private String tableName;
 
+    public BaseEntity(Connection connection) {
+        this.connection = connection;
+    }
 
     public BaseEntity(Connection connection, String tableName) {
         this.connection = connection;
@@ -24,6 +27,7 @@ public class BaseEntity{
 
     public BaseEntity() {
     }
+
 
     public Connection getConnection() {
         return connection;

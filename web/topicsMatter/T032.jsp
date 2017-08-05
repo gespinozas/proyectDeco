@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: r_jeq
   Date: 1/08/2017
-  Time: 22:21
+  Time: 21:59
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CONECTORES LOGICOS II</title>
+    <title>ANTONIMOS</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -150,83 +150,83 @@
 
 
         <!-- Page Heading -->
-        <h3 align="center"> CONECTORES LOGICOS II </h3>
+        <h3 align="center">ANTONIMOS</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Se retire indignados … no entendiieron su reclamo; .., prometió volver pronto … conversar con el gerente.</p>
+                <p>1.- Verbosidad, persuasive y gracia en el hablar</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) puesto que –sin embargo - para </p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) y – pero -a</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) aunque – por ello - para </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) mas – y- para </p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Laconismo</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Mutismo</p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Mudez </p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Silencio </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Esa mañana el despertador no sonó; … llegué … de las nueve a la oficina</p>
+                <p>2.- Descuidado. Falto de aplicación</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) pues - alrededor</p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) debido a esto - después</p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) en tanto - pasada</p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Probo</p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Cauto</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Diligente</p>
                 <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.-El sol entraba tímidamente … costado, … la abertura de la puerta.</p>
+                <p>3.- Soliloquio. Especie de obra dramática en que habla un solo personaje.</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) entre - mediante</p>
-                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) por el – gracias a</p>
-                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) a pesar - entre contrario </p>
-                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) aunque - además</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Mutismo</p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Coloquio</p>
+                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Laconismo </p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) Ambiguedad</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- …  su impertinencia, ella se molestó … era un asunto muy íntimo.</p>
+                <p>4.- Raro, extraño, desacostumbrado</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) A causa de  - ya que </p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Debido a – es decir</p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Por - no </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Dada- por lo que</p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Habitual</p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Sabido </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Ducho </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Conocido</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  El niño quiso estudiar … enfermó, ahora tendrá que ponerse al día. </p>
+                <p>5.-  Falto de sabiduría o ciencia </p>
 
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) y </p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) también</p>
-                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) N.A</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) pero </p>
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) Ducho </p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) Capaz</p>
+                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) na</p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Erudito</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Si hicieron todos lo preparativos, se invirtió mucho dinero, … los resultados fueron funestos, … ya nadie quiere realizer un Proyecto similar.</p>
+                <p>6.- Olor desagradable y penetrante </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) pero -aunque</p>
-                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) por eso- de modo que</p>
-                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) es decir - de</p>
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Insípido</p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Odorífero</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Acuoso</p>
                 <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- La sacarina posee un gran poder endulzante, unas quinientas veces más que el azúcar común, … no es alimenticia</p>
+                <p>7.- Sumamente atractivo</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) quizás</p>
-                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) sólo </p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) sin embargo</p>
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Fétido</p>
+                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) Indeseable</p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Repugnante</p>
                 <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) N.A</p>
             </div>
         </div>

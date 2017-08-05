@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -154,18 +150,18 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- No es una caracteristica del fenomeno de afloramiento:</p>
+                <p>1.- No es una característica del fenómeno de afloramiento:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Consiste en un reflujo del mar</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Su duracion es variable</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Determina las aguas frias de nuestro mar </p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Su duración es variable</p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Determina las aguas frías de nuestro mar </p>
                 <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) N.A </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- El Peru declara las 200 millas de mar territorial durante el gobierno de Jose Luis Bustamante y Rivero, un : </p>
+                <p>2.- El Perú declara las 200 millas de mar territorial durante el gobierno de Jose Luis Bustamante y Rivero, un : </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 13 de abril de 1939</p>
@@ -190,7 +186,7 @@
                 <p>4.-  Por el Norte, el mar peruano esta limitado por el paralelo que pasa por:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) La peninsula de Illescas</p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) La península de Illescas</p>
                 <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) El litoral peruano </p>
                 <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) La Boca de Capones </p>
                 <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Las 200 millas</p>
@@ -215,7 +211,7 @@
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Tropical</p>
                 <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Subtropical</p>
-                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Frio</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Frío</p>
                 <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A</p>
             </div>
         </div>

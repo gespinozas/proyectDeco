@@ -94,22 +94,22 @@
 
             </div>
             <!-- /.row -->
-<div align="center">
+            <div align="center">
 
 
-    <div class="panel panel-primary">
-        <div class="panel-heading ">
-            <h2>Ingresar</h2>
-        </div>
-        <div class="panel-body">
-            <s:form action="login">
-                <s:textfield placeholder="Email" name="email" type="email"/>
-                <s:password placeholder="Password" name="password" type="password"/>
-                 <s:submit cssClass="btn btn-primary" value="Login"/>
-            </s:form>
-        </div>
-    </div>
-    </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading ">
+                        <h2>Ingresar</h2>
+                    </div>
+                    <div class="panel-body">
+                        <s:form action="login">
+                            <s:textfield placeholder="Email" name="email" type="email"/>
+                            <s:password placeholder="Password" name="password" type="password"/>
+                            <s:submit cssClass="btn btn-primary" value="Login"/>
+                        </s:form>
+                    </div>
+                </div>
+            </div>
 
             <!-- end log
             <!-- /.row -->

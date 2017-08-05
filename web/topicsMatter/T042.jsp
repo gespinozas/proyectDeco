@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -154,10 +150,10 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- ¿Cual es el nucleo del SUJETO en la oracion: "La procesion del señor de los Milagros avanzaba en medio de mucho fervor"?</p>
+                <p>1.- ¿Cual es el núcleo del SUJETO en la oración: "La procesión del señor de los Milagros avanzaba en medio de mucho fervor"?</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Procesion</p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Procesión</p>
                 <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Señor</p>
                 <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Fervor </p>
                 <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) N.A </p>
@@ -165,13 +161,13 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- ¿Cual es el SUJETO de la oracion: "Micaela, creo que no comprendes al profesor de Quimica"?</p>
+                <p>2.- ¿Cual es el SUJETO de la oración: "Micaela, creo que no comprendes al profesor de Química"?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Micaela</p>
                 <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Profesor</p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) El profesor de Quimica</p>
-                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) Tacito</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) El profesor de Química</p>
+                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) Tácito</p>
             </div>
         </div>
         <div class="panel panel-default">
@@ -187,22 +183,22 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- "Rapida y sorprendentemente, el astuto muchacho salto la valla protectora sin que la policia lo notara" El sujeto es</p>
+                <p>4.- "Rápida y sorprendentemente, el astuto muchacho salto la valla protectora sin que la policia lo notara" El sujeto es</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) El astuto muchacho</p>
                 <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) La valla protectora </p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c)  La policia </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c)  La policía </p>
                 <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  ¿Que oracion  tiene como parte del sujete la expresion"AUTO DEL AÑO"? </p>
+                <p>5.-  ¿Que oración  tiene como parte del sujeto la expresión"AUTO DEL AÑO"? </p>
 
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a)En un sorteo gane un auto del año </p>
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a)En un sorteo gané un auto del año </p>
                 <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) Al auto del año lo llevaron a reparar </p>
                 <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) Pusieron la bomba en un auto del año</p>
                 <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Nos gusta mucho ese auto del año.</p>
@@ -210,7 +206,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- El sujeto de la oracion :"Por esos años maravillosos, te doy gracias desde ahora" presenta</p>
+                <p>6.- El sujeto de la oración :"Por esos años maravillosos, te doy gracias desde ahora" presenta</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) MD, NS</p>
@@ -221,7 +217,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.-"Su rostro de niña de provincia iluminaba el ambiente" El nucleo del sujeto es</p>
+                <p>7.-"Su rostro de niña de provincia iluminaba el ambiente" El núcleo del sujeto es</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Niña</p>

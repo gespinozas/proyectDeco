@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -154,7 +150,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- El vanguardismo surge en America en la decada del:</p>
+                <p>1.- El vanguardismo surge en América en la década del:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 20</p>
@@ -169,14 +165,14 @@
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Nicolas Guillen</p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Ruben Darios</p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Ruben Darío</p>
                 <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Pablo Neruda</p>
                 <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- La primera obra publicada por Neftali Reyes es:</p>
+                <p>3.- La primera obra publicada por Neftalí Reyes es:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) "Crepusculario"</p>
@@ -198,14 +194,14 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- El mas representativo autor del regionalismo es:</p>
+                <p>5.- El más representativo autor del regionalismo es:</p>
 
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) Mariano Azuela </p>
                 <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) Eustacio Rivera</p>
                 <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) N.A</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Romulo Gallegos</p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Rómulo Gallegos</p>
             </div>
         </div>
         <div class="panel panel-default">
@@ -221,7 +217,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- No es personaje de Doña Barbara</p>
+                <p>7.- No es personaje de Doña Bárbara</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Marisela</p>

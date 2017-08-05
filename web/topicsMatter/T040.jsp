@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -157,26 +153,26 @@
                 <p>1.-Marque la alternativa en donde LO no actue como articulo</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) La verdad lo hara libre</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Lo dicho por ti me asusta</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Todo lo que aprendi es bueno </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Lo vivido jamas contado </p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) La verdad lo hará libre</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Lo dicho por tí me asusta</p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Todo lo que aprendí es bueno </p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Lo vivido jamás contado </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- En: "(Lo) digo en serio, (lo) bueno de este producto es el precio", Las palabras encerradas entre parentesis, respectivamente son: </p>
+                <p>2.- En: "(Lo) digo en serio, (lo) bueno de este producto es el precio", Las palabras encerradas entre paréntesis, respectivamente son: </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Articulo-articulo/p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Articulo-pronombre</p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Pronombre -articulo</p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Artículo-artículo/p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Artículo-pronombre</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Pronombre -artículo</p>
                 <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.-¿Cuanto articulos hay en : "Buscaba algo, aunque no sabia lo que era. Un dia llego una gitana quien lo volvio loco, Se fueron para siempre pues no los volvimos a ver"</p>
+                <p>3.-¿Cuanto artículos hay en : "Buscaba algo, aunque no sabía lo que era. Un día llegó una gitana quien lo volvió loco, Se fueron para siempre pues no los volvimos a ver"</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 4</p>
@@ -187,30 +183,30 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- ¿Cual representa uso incorrecto del articulo?</p>
+                <p>4.- ¿Cual representa uso incorrecto del artículo?</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Lo lei en el Comercio</p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Lo leí en el Comercio</p>
                 <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Nos visitaron los Vargas </p>
-                    <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c)  Tengo una tia que vive en los Olivos </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Lo increible del producto era su precio</p>
+                    <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c)  Tengo una tía que vive en los Olivos </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Lo increíble del producto era su precio</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  ¿Donde encontramos determinante demostrativo?</p>
+                <p>5.-  ¿Dónde encontramos determinante demostrativo?</p>
 
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) No hablemos mas sobre eso </p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) Al final, me quede con ese</p>
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) No hablemos más sobre eso </p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) Al final, me quedé con ese</p>
                 <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) N.A</p>
                 <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Me desespera la actitud de esa señorita</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- "Pense mucho sobre ese asunto. Despes de varias horas saque la conclusion: ningun pago se habia realizado pues ninguno de los cheques tenia fondo". ¿Cuantos determinantes hay?</p>
+                <p>6.- "Pensé mucho sobre ese asunto. Después de varias horas saque la conclusión: ningún pago se había realizado pues ninguno de los cheques tenía fondo". ¿Cuántos determinantes hay?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 3</p>
@@ -221,12 +217,12 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Alternativa con mas determinantes:</p>
+                <p>7.- Alternativa con más determinantes:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Nunca, vida mia, pienses eso</p>
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Nunca, vida máa, pienses eso</p>
                 <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) Aquel viejo motel, de todos el peor</p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Lo mas interesante de esa cancion son sus letras</p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Lo mas interesante de esa canción son sus letras</p>
                 <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) Esta alternativa es la que tiene mas determinantes</p>
             </div>
         </div>

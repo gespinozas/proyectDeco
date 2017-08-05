@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -187,7 +183,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Calcule el limite de (1+ senx)^(1/x), cuando x tiende a 0</p>
+                <p>4.- Calcule el límite de (1+ senx)^(1/x), cuando x tiende a 0</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) e </p>
@@ -198,7 +194,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Calcular el limite de  (1+ (1/x))^x , cuando x tienda al infinito </p>
+                <p>5.- Calcular el límite  de  (1+ (1/x))^x , cuando x tienda al infinito </p>
 
             </div>
             <div class="panel-body">
@@ -210,7 +206,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.-  Calcular el limite de  (x-1 / (x+1))^x , cuando x tienda al infinito</p>
+                <p>6.-  Calcular el límite  de  (x-1 / (x+1))^x , cuando x tienda al infinito</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) e^-3</p>
@@ -221,7 +217,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Calcular el limite de  (x-1 / (x+3))^(x+3) , cuando x tienda al infinito</p>
+                <p>7.- Calcular el límite  de  (x-1 / (x+3))^(x+3) , cuando x tienda al infinito</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) e</p>

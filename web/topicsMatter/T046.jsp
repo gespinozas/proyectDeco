@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -154,18 +150,18 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- La voragine es una novela escrita por</p>
+                <p>1.- La vorágine es una novela escrita por</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Ricardo Guiraldes</p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Romulo Gallegos</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Rómulo Gallegos</p>
                 <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Lolita Duran </p>
                 <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Eustacio Rivera </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Obtuvo el premio Nobel de Literatura en 1945 uno de sus temas recurrentes es su amor por los niños </p>
+                <p>2.- Obtuvo el premio Nóbel de Literatura en 1945 uno de sus temas recurrentes es su amor por los niños </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Martha Lynch</p>
@@ -176,23 +172,23 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- "Doña Barbara"</p>
+                <p>3.- Escribió "Doña Barbara"</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Pablo Gallegos</p>
-                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Romulo Gallegos</p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) Rómulo Gallegos</p>
                 <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) Gabriela Mistral </p>
                 <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) Jorge Luis Borges</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Escritor que se escribe en el prologo de su novela "El reino de este mundo" las caracteristicas de Realismo magico.</p>
+                <p>4.- Escritor que se escribe en el prólogo de su novela "El reino de este mundo" las características de Realismo mágico.</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Alejo Carpentier</p>
                 <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Miguel Asturias </p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Jose Donoso </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) José Donoso </p>
                 <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Juan Rulfo</p>
             </div>
         </div>
@@ -202,8 +198,8 @@
 
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) Transculturacion narrativa</p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) Realismo magico</p>
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) Transculturación narrativa</p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) Realismo mágico</p>
                 <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) N.A</p>
                 <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Uso de caligramas</p>
             </div>

@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -154,18 +150,18 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- ¿Para que valor de "m" dos de las raices de la ecuacion:(x+m+2)^4 + (x+m)^4 = 16 son imaginarias y conjugadas?</p>
+                <p>1.- ¿Para qué valor de "m" dos de las raíces de la ecuación:(x+m+2)^4 + (x+m)^4 = 16 son imaginarias y conjugadas?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Para todo "m" real</p>
                 <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) Solo todo "m" mayor que cero</p>
                 <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) Solo para "m" entre -5 y 5 </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Para ningun valor de "m"</p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) Para ningún valor de "m"</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Determine el termino constante de aquel polinomio P(x) de grado minimo y de coeficientes reales que admite como raiz doble a 1; raices simples 5 y 6, ademas como raiz triple a 2+ i</p>
+                <p>2.- Determine el término constante de aquel polinomio P(x) de grado mínimo y de coeficientes reales que admite como raiz doble a 1; raíces simples 5 y 6, además como raiz triple a 2+ i</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 3760</p>
@@ -176,7 +172,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.-Si a y b son dos raices distintas de la ecuacion P(x) =0, donde P(x) es un  polinomio reciproco de quinto grado. Calcular la suma de sus cinco raices, de modo que: a+b=10 y ab=-10</p>
+                <p>3.-Si a y b son dos raíces distintas de la ecuación P(x) =0, donde P(x) es un  polinomio recíproco de quinto grado. Calcular la suma de sus cinco raíces, de modo que: a+b=10 y ab=-10</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 3 </p>
@@ -187,7 +183,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- ¿Para que valor del parametro real "m" la ecuacion: x^3 -2x^2 + (m+5)x + m =0 tiene dos raices imaginarias puras?</p>
+                <p>4.- ¿Para qué valor del parámetro real "m" la ecuacion: x^3 -2x^2 + (m+5)x + m =0 tiene dos raíces imaginarias puras?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) -10/3 </p>
@@ -198,7 +194,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  Determine el valor de "k" si la ecuacion x^4 - (3k-2)x^2 + (k-2)^2 = 0 Tiene dos raices negativas distintas que suman -6</p>
+                <p>5.-  Determine el valor de "k" si la ecuación x^4 - (3k-2)x^2 + (k-2)^2 = 0 Tiene dos raíces negativas distintas que suman -6</p>
 
             </div>
             <div class="panel-body">
@@ -210,7 +206,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Indicar la menor raiz de la ecuacion x^3 - 13x^2 + 15x + 189 = 0</p>
+                <p>6.- Indicar la menor raiz de la ecuación x^3 - 13x^2 + 15x + 189 = 0</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 9</p>
@@ -221,7 +217,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Resolver la ecuacion: 12x^4 -4x^3 - 41x^2 -4x +12 = 0 y dar como respuesta la suma de sus dos raices reales positivas</p>
+                <p>7.- Resolver la ecuación: 12x^4 -4x^3 - 41x^2 -4x +12 = 0 y dar como respuesta la suma de sus dos raíces reales positivas</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 7/3</p>

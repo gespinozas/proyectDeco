@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>REGION HIDROGRAFICA II</title>
+    <title>REGIÓN HIDROGRÁFICA II</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -150,11 +146,11 @@
 
 
         <!-- Page Heading -->
-        <h3 align="center">REGION HIDROGRAFICA II</h3>
+        <h3 align="center">REGIÓN HIDROGRÁFICA II</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Es el rio que establece limites entre Peru y Bolivia</p>
+                <p>1.- Es el río que establece límites entre Perú y Bolivia</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Heath</p>
@@ -165,18 +161,18 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- No es una caracteristica de los rios de la subcuenca del Madre de Dios </p>
+                <p>2.- No es una característica de los ríos de la subcuenca del Madre de Dios </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Son torrentososo en curso superior</p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Tienen regimenes regulares</p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Tienen regímenes regulares</p>
                 <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) No son caudalosos</p>
                 <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- Es el afluente mas extenso del rio Madre de Dios</p>
+                <p>3.- Es el afluente más extenso del rio Madre de Dios</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Manu</p>
@@ -187,46 +183,46 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Señale la alternativa incorrecta sobre el rio Amazonas</p>
+                <p>4.- Señale la alternativa incorrecta sobre el río Amazonas</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Es el rio de mayor longitud en el Peru.</p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Se forma de la confluencia del rio Marañon y Ucayali </p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Es el río de mayor longitud en el Perú.</p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Se forma de la confluencia del rio Marañón y Ucayali </p>
                 <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Nace cerca del puerto fluvial de Nauta</p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Su origen mas remoto se encuentra en el nevado Quehuisha</p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Su origen más remoto se encuentra en el nevado Quehuisha</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  Que departamento no atraviesa el rio Mantaro</p>
+                <p>5.-  Qué departamento no atraviesa el río Mantaro</p>
 
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) Junin </p>
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) Junín </p>
                 <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) Pasco</p>
                 <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) N.A</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Apurimac</p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Apurímac</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Los rios que señalan fronteras con Brasil y Colombia, respectivamente son: </p>
+                <p>6.- Los ríos que señalan fronteras con Brasil y Colombia, respectivamente son: </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Putumayo y Yavari</p>
-                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Yavari y Putumayo</p>
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Putumayo y Yavarí</p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Yavarí y Putumayo</p>
                 <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Pastaza y Tigre</p>
                 <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- El caudal del rio Ene se debe a la confluencia de los rios:</p>
+                <p>7.- El caudal del río Ene se debe a la confluencia de los ríos:</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Marañon y Ucayali</p>
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Marañón y Ucayali</p>
                 <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) Tambo y Urubamba</p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Apurimac y Mantaro</p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) Apurímac y Mantaro</p>
                 <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) N.A</p>
             </div>
         </div>

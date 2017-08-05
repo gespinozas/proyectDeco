@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -154,7 +150,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                    <p>1.- Al explicar la alegoria de la linea (simil de la linea) Platon llamo a las sombras de las cossas concretas:</p>
+                    <p>1.- Al explicar la alegoría de la línea (simil de la linea) Platón llamó a las sombras de las cossas concretas:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Eikasia</p>
@@ -165,24 +161,24 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Filosofo griego que penso que el mundo material es copia de las ideas </p>
+                <p>2.- Filósofo griego que pensó que el mundo material es copia de las ideas </p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Thales</p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Socrates</p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Platon</p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Sócrates</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Platón</p>
                 <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- En el plano ontologico, conforme a Aristóteles lo esencial es:</p>
+                <p>3.- En el plano ontológico, conforme a Aristóteles lo esencial es:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) La forma</p>
                 <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) La materia</p>
                 <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) El conocimiento </p>
-                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) La episteme</p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) La epísteme</p>
             </div>
         </div>
         <div class="panel panel-default">

@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,14 +59,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -76,12 +73,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -133,9 +129,6 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="../index.jsp"><i class="fa fa-fw fa-user"></i>Logout</a>
-                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -167,7 +160,7 @@
 
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <p>2.- Una persona vende una mercader&#237;a en 4200 soles, ganando el 19% del precio de costo, m&#225;s 15% del precio de venta &#191;Cuanto cost&#243; la mercader&#237;a?</p>
+                    <p>2.- Una persona vende una mercadería;a en 4200 soles, ganando el 19% del precio de costo, más 15% del precio de venta &#191;Cuanto costó; la mercadería?</p>
                 </div>
                 <div class="panel-body">
                     <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) 3700 </p>

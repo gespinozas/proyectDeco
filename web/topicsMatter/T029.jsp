@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -198,7 +194,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Si se cumple que  1 + 1/(2^2) + 1/(3^2) + 1/(4^2) + ... =P, Determine el valor de 10/((1*3)^2) + 74/((5*7)^2) + 202/((9*11)^2)  + ... en terminos de P </p>
+                <p>5.- Si se cumple que  1 + 1/(2^2) + 1/(3^2) + 1/(4^2) + ... =P, Determine el valor de 10/((1*3)^2) + 74/((5*7)^2) + 202/((9*11)^2)  + ... en términos de P </p>
 
             </div>
             <div class="panel-body">
@@ -221,7 +217,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Sea una sucesion de rectangulos R1, R2, R3, ..., RK, donde el K-esimo rectangulo tiene lado 1/k y 1/(k+3); entonces la suma de las areas de todos los rectangulos es igual a:</p>
+                <p>7.- Sea una sucesión de rectángulos R1, R2, R3, ..., RK, donde el K-ésimo rectángulo tiene lado 1/k y 1/(k+3); entonces la suma de las áreas de todos los rectángulos es igual a:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) 7/16</p>

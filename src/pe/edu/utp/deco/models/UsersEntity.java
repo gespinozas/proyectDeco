@@ -24,7 +24,7 @@ public class UsersEntity extends BaseEntity {
     }
 
     List<User> findAll(){
-        return findByCriteria(null);
+        return findByCriteria("");
     }
 
     public User findById(int id) {
@@ -57,17 +57,26 @@ public class UsersEntity extends BaseEntity {
     }
 
 
-    public List<User> findByCriteria(String criteria){
-        String sql = getDefaultQuery() + (criteria.isEmpty() ? "" : " WHERE " + criteria);
+
+    public List<User> findByCriteria(String criteria) {
+        String sql = getDefaultQuery() +
+                (criteria.equalsIgnoreCase("") ? "" : " WHERE " + criteria);
         List<User> users = new ArrayList<>();
         try {
-            ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
-            if (resultSet == null) return null;
-            while (resultSet.next()){
-                users.add(User.build(resultSet));
+            ResultSet resultSet = getConnection()
+                    .createStatement()
+                    .executeQuery(sql);
+            if(resultSet == null) return null;
+            while(resultSet.next()) {
+                users.add((new User())
+                        .setID(resultSet.getInt("id"))
+                        .setFirstname(resultSet.getString("firstName"))
+                        .setLastName(resultSet.getString("lastName"))
+                        .setEmail(resultSet.getString("email"))
+                        .setPassword(resultSet.getString("password")));
             }
             return users;
-        } catch (SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;

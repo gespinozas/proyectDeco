@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -154,7 +150,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- En una fiesta de cumpleaños hay tantas parejas bailando como hombres parados que estan conversando y 30 mujeres no bailan.Si las personas que no bailan son el triple de las mujeres que bailan y ademas hay 10 hombres mas bailando que sentados.¿Cuantos hombres bailan?</p>
+                <p>1.- En una fiesta de cumpleaños hay tantas parejas bailando como hombres parados que estan conversando y 30 mujeres no bailan.Si las personas que no bailan son el triple de las mujeres que bailan y además hay 10 hombres más bailando que sentados.¿Cuántos hombres bailan?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 10</p>
@@ -165,7 +161,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- La lavanderia cobra "x" soles por lavar una camisa 0 "y" soles por un saco.Si en total gaste "z" soles y mande "t" camisas.¿Cuantos sacos mande?/p>
+                <p>2.- La lavandería cobra "x" soles por lavar una camisa 0 "y" soles por un saco.Si en total gaste "z" soles y mande "t" camisas.¿Cuántos sacos mandé?/p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) (z-t)/(x+y)</p>
@@ -176,7 +172,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.-En dos salones hay igual numero de personas por cada 5 personas que salen del primero; del segundo salon salen 3 para entrar al primero y uno se retira a su casa. Cuando hay 50 personas en el primero, resulta que en el segundo hay 20.¿Cuantos habia inicialmente en cada salon?</p>
+                <p>3.-En dos salones hay igual número de personas por cada 5 personas que salen del primero; del segundo salón salen 3 para entrar al primero y uno se retira a su casa. Cuando hay 50 personas en el primero, resulta que en el segundo hay 20.¿Cuantos había inicialmente en cada salón?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) 90 </p>
@@ -198,7 +194,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Aun tengo tanto como la mitad de lo que he perdido.De no haber perdido, me hubiera sobrado tanto como el triple de lo que me falta hoy para comprar una casaca de 50 soles ¿Cuanto tenia inicialmente?</p>
+                <p>5.- Aún tengo tanto como la mitad de lo que he perdido.De no haber perdido, me hubiera sobrado tanto como el triple de lo que me falta hoy para comprar una casaca de 50 soles ¿Cuanto tenía inicialmente?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 80 </p>
@@ -209,7 +205,7 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Un cilindro de 1,8 de altura pesa vacio 15kg. y lleno de petroleo 95 g. ¿A que altura debera llenarse para que su peso sea exactamente igual a su altura a nivel del agua expresada en centimetros?</p>
+                <p>6.- Un cilindro de 1,8 de altura pesa vacio 15kg. y lleno de petroleo 95 g. ¿A qué altura debera llenarse para que su peso sea exactamente igual a su altura a nivel del agua expresada en centímetros?</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) 25cm </p>

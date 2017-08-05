@@ -66,14 +66,10 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Bienvenido(a) <c:out value="${firstname}"/><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="../index.jsp"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +80,11 @@
                 <li>
                     <a href="../IndexLogin.jsp"><i class="fa fa-fw fa-sign-in"></i>Inicio</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="../aboutLogin.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias Prueba <i class="fa fa-fw fa-caret-down"></i></a>
+                <li class="active">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Materias <i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="../ARITMETICA.jsp">Aritmetica</a>
@@ -154,7 +150,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Se caracterizo por relacionar su obra con dibujos:</p>
+                <p>1.- Se caracterizó por relacionar su obra con dibujos:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) Guaman Poma de Ayala</p>
@@ -168,15 +164,15 @@
                 <p>2.- No corresponde al Inca Garcilaso de la Vega </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Escribio La Florida del Inca</p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) Escribió La Florida del Inca</p>
                 <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) Ser el primer peruano espiritual</p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Pertenecio a los cronistas indigenas</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) Perteneció a los cronistas indígenas</p>
                 <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- El orden cronologico del autor mas antiguo al moderno es:</p>
+                <p>3.- El orden cronológico del autor más antiguo al moderno es:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) Guaman Poma-Caviedes-Amarilis</p>
@@ -187,33 +183,33 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- Como objetivo imporante, en la segunda parte de Comentarios realos de los incas, Garcilaso:</p>
+                <p>4.- Como objetivo importante, en la segunda parte de Comentarios reales de los incas, Garcilaso:</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Trato sobre las guerras civiles</p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Se intereso en la cultura andina </p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Hizo relacion de sus ancestros incas </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Busco rehabilitar a su padre</p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Se interesó en la cultura andina </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) Hizo relación de sus ancestros incas </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Buscó rehabilitar a su padre</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.- Origen de la cronica como especie narrativa</p>
+                <p>5.- Origen de la crónica como especie narrativa</p>
 
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) Los cantares de gesta </p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) El interes de los conquistadores</p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) El interés de los conquistadores</p>
                 <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) N.A</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Las cronicas del medioevo</p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) Las crónicas del medioevo</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- ¿Que pretendio Garcilaso con sus Comentarios Reales, respecto a la cultura indigena y el imperio español?</p>
+                <p>6.- ¿Qué pretendió Garcilaso con sus Comentarios Reales, respecto a la cultura indígena y el imperio español?</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Apoyar la mision evangelizadora</p>
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) Apoyar la misión evangelizadora</p>
                 <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) Ensalzar a la cultura inca</p>
                 <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) Negar influenca negativa de los indios</p>
                 <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A</p>
@@ -221,11 +217,11 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Obra del Inca Garcilaso donde realiza una relacion historica novelesca de la expedicion de Hernando de Soto</p>
+                <p>7.- Obra del Inca Garcilaso donde realiza una relación histórica novelesca de la expedición de Hernando de Soto</p>
             </div>
             <div class="panel-body">
                 <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) Comentarios Reales</p>
-                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) Dialogos de Amor</p>
+                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) Diálogos de Amor</p>
                 <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) La Florida del Inca</p>
                 <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) N.A</p>
             </div>

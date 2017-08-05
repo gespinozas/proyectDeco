@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: r_jeq
-  Date: 1/08/2017
-  Time: 22:16
+  Date: 4/08/2017
+  Time: 01:48
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CONECTORES LOGICOS I</title>
+    <title>RAZON TRIGONOMETRICA</title>
 
     <!-- TUTORIALLLLLLLLLLLLLLLLLLLLLL -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -150,83 +150,82 @@
 
 
         <!-- Page Heading -->
-        <h3 align="center"> CONECTORES LOGICOS I </h3>
+        <h3 align="center">RAZON TRIGONOMETRICA</h3>
         <div class="panel panel-default">
             <div class="panel-heading">
 
-                <p>1.- Lograron trazarse un objetivo común… las opinioes divergentes que surgieron en la discusión</p>
+                <p>1.- Si el punto P(8;15) pertenece al lado final de un angulo canónico "&"; calcular: S= Csc& - Cot&; </p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) a pesar de </p>
-                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) a través de</p>
-                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) con que </p>
-                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) en consecuencia </p>
+                <p><input type="radio" name="R1" value="a" onclick="Engine(1,value)"/>a) 0,6</p>
+                <p><input type="radio" name="R1" value="b" onclick="Engine(1,value)"/>b) -0,4</p>
+                <p><input type="radio" name="R1" value="c" onclick="Engine(1,value)"/>c) 0,4</p>
+                <p><input type="radio" name="R1" value="d" onclick="Engine(1,value)"/>d) 0,3 </p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>2.- Las ideas pueden lograr crédito, … todos los miembros del grupo las acepten.</p>
+                <p>2.- Señale el valor de: S= (Sen150°Sec225°Tan300°)/sen240°</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a) porque</p>
-                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) aunque</p>
-                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) siempre que</p>
-                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) N.A</p>
+                <p><input type="radio" name="R2" value="a" onclick="Engine(2,value)"/>a)(2)^0.5</p>
+                <p><input type="radio" name="R2" value="b" onclick="Engine(2,value)"/>b) -(2)^0.5</p>
+                <p><input type="radio" name="R2" value="c" onclick="Engine(2,value)"/>c) (0.5)^0.5</p>
+                <p><input type="radio" name="R2" value="d" onclick="Engine(2,value)"/>d) -(0,5)^0.5</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>3.- Se le acusó del homicidio de su esposa; … no se pudieron probar los cargos … fue liberado.</p>
+                <p>3.- Siendo: sen 220°=n Hallar: E= Cos320°Cot140°</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) antes bien – en consecuencia</p>
-                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) sin embargo – por ello</p>
-                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) luego – por el contrario </p>
-                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) aunque - además</p>
+                <p><input type="radio" name="R3" value="a" onclick="Engine(3,value)"/>a) n</p>
+                <p><input type="radio" name="R3" value="b" onclick="Engine(3,value)"/>b) n- (1/n)</p>
+                <p><input type="radio" name="R3" value="c" onclick="Engine(3,value)"/>c) -n +(1/n) </p>
+                <p><input type="radio" name="R3" value="d" onclick="Engine(3,value)"/>d) n- (1/2n)</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>4.- …  inquieto, levantaba la cabeza para atisbar si yo seguía ahí; … gracias al sedante que le aplicó el medico pudo descansar tranquilo.</p>
+                <p>4.- Siendo: sen 220°=n Hallar: E= Cos320°Cot140°</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a) Aveces - sólo</p>
-                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b) Aunque – por eso </p>
-                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c) No solo – sino tambien </p>
-                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d) Todavía - porque</p>
+                <p><input type="radio" name="R4" value="a" onclick="Engine(4,value)"/>a)  n- (1/n)</p>
+                <p><input type="radio" name="R4" value="b" onclick="Engine(4,value)"/>b)  n+ (1/n) </p>
+                <p><input type="radio" name="R4" value="c" onclick="Engine(4,value)"/>c)  -n- (1/n) </p>
+                <p><input type="radio" name="R4" value="d" onclick="Engine(4,value)"/>d)  n+ (1/n)</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>5.-  Un laberinto … una construcción dotada de multiples galerías, resulta un lugar confuse donde encontrar la salida es difícil.</p>
-
+                <p>5.- Si el punto P(16;30) pertenece al lado final de un angulo canónico "&"; calcular: S= Csc& - Cot&;</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) más aún </p>
-                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) es decir</p>
-                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) N.A</p>
-                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) por ello </p>
+                <p><input type="radio" name="R5" value="a" onclick="Engine(5,value)"/>a) 0,5</p>
+                <p><input type="radio" name="R5" value="b" onclick="Engine(5,value)"/>b) -0,3</p>
+                <p><input type="radio" name="R5" value="c" onclick="Engine(5,value)"/>c) -0,6 </p>
+                <p><input type="radio" name="R5" value="d" onclick="Engine(5,value)"/>d) 0,6</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>6.- Dotado de gran talent, Lope de Vega podia cavar con prontitud y facilidad; … su denominación … el “Príncipe de los ingenios”.</p>
+                <p>6.-Siendo: sen 220°=n Hallar: E= Cos320°Cot140°</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) por ende - en</p>
-                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) de allí - como</p>
-                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) es decir - de</p>
+                <p><input type="radio" name="R6" value="a" onclick="Engine(6,value)"/>a) n+ (1/n)</p>
+                <p><input type="radio" name="R6" value="b" onclick="Engine(6,value)"/>b) n- (1/n)</p>
+                <p><input type="radio" name="R6" value="c" onclick="Engine(6,value)"/>c) -n- (1/n)</p>
                 <p><input type="radio" name="R6" value="d" onclick="Engine(6,value)"/>d) N.A</p>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <p>7.- Los balances no se ajustaban a la productividad de la empresa, … alguien descubrió el error en los datos proporcionados al computador</p>
+                <p>7.- Señale el valor de: S= (Sen150°Sec225°Tan300°)/sen240°</p>
             </div>
             <div class="panel-body">
-                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) pero</p>
-                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) sólo que</p>
-                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) hasta que</p>
+                <p><input type="radio" name="R7" value="a" onclick="Engine(7,value)"/>a) -(0.5)^0.5</p>
+                <p><input type="radio" name="R7" value="b" onclick="Engine(7,value)"/>b) (0.5)^0.5</p>
+                <p><input type="radio" name="R7" value="c" onclick="Engine(7,value)"/>c) (2)^0.5</p>
                 <p><input type="radio" name="R7" value="d" onclick="Engine(7,value)"/>d) N.A</p>
             </div>
         </div>
