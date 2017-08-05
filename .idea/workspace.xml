@@ -2,103 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843c3aa0-4fcf-474f-b358-57ebabe943b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Alternative.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Alternative.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/BaseEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/BaseEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/DecoDataStore.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/DecoDataStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Matter.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Matter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Question.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Topic.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/Topic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/TopicsEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/TopicsEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/User.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/UsersEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/models/UsersEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/services/DecoService.class" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/WEB-INF/classes/pe/edu/utp/deco/services/DecoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Alternative.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Alternative.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/BaseEntity.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/BaseEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/DecoDataStore.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/DecoDataStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Matter.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Matter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Question.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Topic.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/Topic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/TopicsEntity.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/TopicsEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/User.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/UsersEntity.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/models/UsersEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/services/DecoService.class" afterPath="$PROJECT_DIR$/out/production/proyectDeco/pe/edu/utp/deco/services/DecoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/26f47fa9-8cdb-487c-b581-139d51044f5a.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/26f47fa9-8cdb-487c-b581-139d51044f5a.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ALGEBRA.jsp" afterPath="$PROJECT_DIR$/web/ALGEBRA.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ARITMETICA.jsp" afterPath="$PROJECT_DIR$/web/ARITMETICA.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AV.jsp" afterPath="$PROJECT_DIR$/web/AV.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/BIOLOGIA.jsp" afterPath="$PROJECT_DIR$/web/BIOLOGIA.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/FILOSOFIA.jsp" afterPath="$PROJECT_DIR$/web/FILOSOFIA.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/FISICA.jsp" afterPath="$PROJECT_DIR$/web/FISICA.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/GEOGRAFIA.jsp" afterPath="$PROJECT_DIR$/web/GEOGRAFIA.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/GEOMETRIA.jsp" afterPath="$PROJECT_DIR$/web/GEOMETRIA.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/HP.jsp" afterPath="$PROJECT_DIR$/web/HP.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/HU.jsp" afterPath="$PROJECT_DIR$/web/HU.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/IndexLogin.jsp" afterPath="$PROJECT_DIR$/web/IndexLogin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/LENGUAJE.jsp" afterPath="$PROJECT_DIR$/web/LENGUAJE.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/LITERATURA.jsp" afterPath="$PROJECT_DIR$/web/LITERATURA.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/PSICOLOGIA.jsp" afterPath="$PROJECT_DIR$/web/PSICOLOGIA.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/QUIMICA.jsp" afterPath="$PROJECT_DIR$/web/QUIMICA.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/RM.jsp" afterPath="$PROJECT_DIR$/web/RM.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/TRIGONOMETRIA.jsp" afterPath="$PROJECT_DIR$/web/TRIGONOMETRIA.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/about.jsp" afterPath="$PROJECT_DIR$/web/about.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/aboutLogin.jsp" afterPath="$PROJECT_DIR$/web/aboutLogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/proyectDeco_war_exploded/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/indexError.jsp" afterPath="$PROJECT_DIR$/web/indexError.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/newUser.jsp" afterPath="$PROJECT_DIR$/web/newUser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T001.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T001.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T002.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T002.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T003.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T003.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T004.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T004.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T005.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T005.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T006.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T006.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T007.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T007.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T008.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T008.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T009.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T009.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T010.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T010.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T011.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T011.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T012.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T012.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T013.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T013.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T014.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T014.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T015.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T015.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T016.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T016.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T025.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T025.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T026.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T026.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T027.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T027.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T028.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T028.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T029.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T029.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T030.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T030.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T037.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T037.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T038.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T038.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T039.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T039.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T040.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T040.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T041.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T041.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T042.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T042.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T043.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T043.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T044.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T044.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T045.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T045.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T046.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T046.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T047.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T047.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T048.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T048.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T061.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T061.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T062.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T062.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T063.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T063.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T064.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T064.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T065.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T065.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T066.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T066.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T073.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T073.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T074.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T074.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T075.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T075.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T076.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T076.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T077.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T077.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T078.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T078.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T079.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T079.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T080.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T080.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T081.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T081.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T082.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T082.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T083.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T083.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/topicsMatter/T084.jsp" afterPath="$PROJECT_DIR$/web/topicsMatter/T084.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,11 +72,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="123" column="44" lean-forward="false" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+            <state relative-caret-position="273">
+              <caret line="67" column="17" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="67" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/about.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="67" column="21" lean-forward="true" selection-start-line="56" selection-start-column="15" selection-end-line="67" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -207,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/topicsMatter/T003.jsp" />
         <option value="$PROJECT_DIR$/web/topicsMatter/T004.jsp" />
         <option value="$PROJECT_DIR$/web/topicsMatter/T005.jsp" />
         <option value="$PROJECT_DIR$/web/topicsMatter/T006.jsp" />
@@ -258,6 +184,7 @@
         <option value="$PROJECT_DIR$/web/topicsMatter/T083.jsp" />
         <option value="$PROJECT_DIR$/web/topicsMatter/T084.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
       </list>
     </option>
   </component>
@@ -295,8 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -873,6 +800,7 @@
       <workItem from="1501636121097" duration="9316000" />
       <workItem from="1501766307606" duration="2432000" />
       <workItem from="1501806684356" duration="9851000" />
+      <workItem from="1501919510520" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="Se actualizaron vistas">
       <created>1499840909767</created>
@@ -1018,7 +946,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178070000" />
+    <option name="totallyTimeSpent" value="178388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1055,7 +983,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22239748" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15959005" sideWeight="0.8248848" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20278184" sideWeight="0.8248848" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1104,27 +1032,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/T003.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="70" column="45" lean-forward="false" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/T004.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="71" column="45" lean-forward="false" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/topicsMatter/T005.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="74" column="17" lean-forward="true" selection-start-line="67" selection-start-column="12" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,7 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,7 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,7 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,31 +1099,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/T015.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/topicsMatter/T016.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/topicsMatter/T015.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/topicsMatter/T016.jsp" />
     <entry file="file://$PROJECT_DIR$/web/topicsMatter/T025.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,7 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,7 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,7 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1252,7 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1260,7 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,7 +1150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,7 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1284,7 +1164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1292,7 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,7 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1308,7 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,7 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1324,7 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1332,7 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,7 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1348,7 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,7 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,7 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,7 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1380,7 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,7 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,7 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,7 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1412,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1420,7 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1428,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1436,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1444,7 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1452,7 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1460,7 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1468,7 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1476,7 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,7 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="68" column="41" lean-forward="false" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1492,7 +1346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1500,14 +1353,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="67" column="21" lean-forward="true" selection-start-line="56" selection-start-column="15" selection-end-line="67" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="123" column="44" lean-forward="false" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+        <state relative-caret-position="273">
+          <caret line="67" column="17" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="67" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
           <folding />
         </state>
       </provider>
