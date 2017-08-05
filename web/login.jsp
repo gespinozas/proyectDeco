@@ -52,14 +52,14 @@
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Usuario<b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Inicie Sesion <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="login.jsp"><i class="fa fa-fw fa-user"></i>Iniciar Sesion</a>
+                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
                     </li>
                     <li class="divider"></li>
                     <li>
-                        <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Registarse</a>
+                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
@@ -73,6 +73,13 @@
                 <li>
                     <a href="about.jsp"><i class="fa fa-fw fa-archive"></i>Nosotros</a>
                 </li>
+                <li class="active">
+                    <a href="login.jsp"><i class="fa fa-fw fa-user"></i>Login</a>
+                </li>
+                <li>
+                    <a href="newUser.jsp"><i class="fa fa-fw fa-edit"></i>Nuevo Usuario</a>
+                </li>
+
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -87,22 +94,22 @@
 
             </div>
             <!-- /.row -->
-<div align="center">
+            <div align="center">
 
 
-    <div class="panel panel-primary">
-        <div class="panel-heading ">
-            <h2>Ingresar</h2>
-        </div>
-        <div class="panel-body">
-            <s:form action="login">
-                <s:textfield placeholder="Email" name="email" type="email"/>
-                <s:password placeholder="Password" name="password" type="password"/>
-                 <s:submit cssClass="btn btn-primary" value="Login"/>
-            </s:form>
-        </div>
-    </div>
-    </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading ">
+                        <h2>Ingresar</h2>
+                    </div>
+                    <div class="panel-body">
+                        <s:form action="login">
+                            <s:textfield placeholder="Email" name="email" type="email"/>
+                            <s:password placeholder="Password" name="password" type="password"/>
+                            <s:submit cssClass="btn btn-primary" value="Login"/>
+                        </s:form>
+                    </div>
+                </div>
+            </div>
 
             <!-- end log
             <!-- /.row -->
